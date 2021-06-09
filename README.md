@@ -6,9 +6,11 @@ In het project Publieke Controle op Algoritmes werkt [een consortium van Nederla
 
 In deze code base leggen we de metadata standaard vast: wat leggen we vast over de algoritmes die gebruikt worden, waarom, en hoe.
 
-## Codebase
+## Live
 
-De code kun je momenteel vinden op [de github van Tiltshift](https://github.com/tiltshiftnl/algoritmeregister-metadata-standaard).
+Bekijk het overzicht van eigenschappen op http://www.tiltshift.nl/algoritmeregister-metadata-standaard/
+
+Bekijk het automatisch gegenereerde testformulier op http://www.tiltshift.nl/algoritmeregister-metadata-standaard/form
 
 ## Contributing
 
