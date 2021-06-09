@@ -1,0 +1,46 @@
+ALGEMENE INFORMATIE:
+  - eigenschap: versie
+  - eigenschap: naam
+  - eigenschap: suite
+  - eigenschap: suite_versie
+  - eigenschap: algoritme_versie
+  - eigenschap: uitgifte_datum
+  - eigenschap: url_bron
+  - eigenschap: url_code
+  - eigenschap: website
+  - eigenschap: is_based_on
+  - eigenschap: categorie
+  - eigenschap: status
+  - eigenschap: type
+  - eigenschap: programmeertaal
+BESCHRIJVING:
+  - eigenschap: naam_kort
+  - eigenschap: beschrijving_kort
+  - eigenschap: beschrijving
+  - eigenschap: functies
+  - eigenschap: doel
+  - eigenschap: proces
+  - eigenschap: impact
+  - eigenschap: documentatie
+TOEZICHT:
+  - eigenschap: prestatienorm
+  - eigenschap: monitoring
+  - eigenschap: methodes_en_modellen
+  - eigenschap: risicos
+  - eigenschap: menselijke_tussenkomst
+  - eigenschap: menselijke_tussenkomst_beschrijving
+  - eigenschap: koppeling_naar_basisregistraties
+  - eigenschap: brondata
+  - eigenschap: proportionaliteit
+JURIDISCH:
+  - eigenschap: licentie
+  - eigenschap: persoonsgegevens_naw
+  - eigenschap: persoonsgegevens_beschrijving
+  - eigenschap: verwerkingsverantwoordelijke
+  - eigenschap: rechtmatige_grondslag
+  - eigenschap: informatieplicht
+  - eigenschap: bezwaarprocedure
+ONDERHOUD:
+  - eigenschap: onderhoudsmodel
+  - eigenschap: onderhoudspartijen
+  - eigenschap: contract
