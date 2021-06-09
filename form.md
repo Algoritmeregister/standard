@@ -39,7 +39,8 @@ form {
 <form>
 {% for item in site.data.algoritmeregister-metadata-standaard %}
     <div class="eigenschap">
-        <h2>{{ item.naam }} (<code>{{ item.eigenschap }}</code>) <span class="label">{{ item.categorie }}</span></h2>
+        <h2>{{ item.naam }} (<code>{{ item.eigenschap }}</code>)<br>
+            <span class="label">{{ item.categorie }}</span></h2>
         <p>{{ item.omschrijving }}</p>
         <div class="{{ item.type }}-invoer"></div>
     </div>
