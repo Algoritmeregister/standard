@@ -31,6 +31,11 @@ form {
     border: 1px solid #000;
     height: 2em;
 }
+.bool-invoer {
+    border: 1px solid #000;
+    height: 2em;
+    width: 2em;
+}
 </style>
 <br>
 <h1>Formulier Inzet van Algoritme</h1>
