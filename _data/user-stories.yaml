@@ -3,348 +3,347 @@
     ID: AR001
     Story: Als team, wil ik algoritmes direct open kunnen delen, zodat er snel vanuit de samenleving meegekeken en meegedacht kan worden.
     Doelgroep: team
-    Bruikbaar (stoplicht): Oranje
+    Bruikbaar: Oranje
     Opmerkingen: "Direct betekend wanneer of de manier waarop? \n\nStory vraagt meerdere functionaliteiten; delen, meekijken en meedenken. Voor de bouw van register deze verdeling ook gebruiken? "
 -
     ID: AR002
     Story: Als eindverantwoordelijke, wil ik de mogelijke impact en implicaties van een algoritme begrijpen, zodat ik de samenhang met andere interventies blijf overzien.
     Doelgroep: eindverantwoordelijke
-    Bruikbaar (stoplicht): Oranje
+    Bruikbaar: Oranje
     Opmerkingen: "Iedereen begrijpt dingen anders dus dit zou per persoon maatwerk kunnen betekenen.\n\nDefinitie van implicaties en impact? \n\nHet omdraaien, ik wil de samenhang zien zodat ik de mogelijke impact en implicaties kan begrijpen?\n\nDefinitie eindverantwoordelijke?"
 -
     ID: AR003
     Story: Als inkoper, wil inzage in risicovolle algoritmes en hun leveranciers, zodat ik teams kan adviseren tijdens het inkoopproces.
     Doelgroep: inkoper
-    Bruikbaar (stoplicht): Rood
+    Bruikbaar: Rood
     Opmerkingen: "Heeft inkoper nog specifieke informatie nodig die een \\"normale\\" burger niet nodig heeft?\n\nWil de inkoper dat alle algoritmes die bestaan in het register komen, die het IP zijn van bedrijven? Juridisch wordt dit onmogelijk.\n\nIs dit specifiek als een algoritme ingekocht wordt?"
 -
     ID: AR004
     Story: Als eindverantwoordelijke, wil ik niet afhankelijk zijn van de uitkomsten/adviezen van een algoritme, zodat ik een brede afweging kan maken die juridisch overeind blijft
     Doelgroep: eindverantwoordelijke
-    Bruikbaar (stoplicht): Rood
+    Bruikbaar: Rood
     Opmerkingen: Dit is geen functionaliteit. Dit is een doel of uitgangspunt bij het opstellen van de besluitprocessen.
 -
     ID: AR005
     Story: 'Als uitvoerder, wil ik ''samenwerken'' met het algoritme, zodat mijn prestatie in het veld beter wordt.'
     Doelgroep: uitvoerder
-    Bruikbaar (stoplicht): Rood
+    Bruikbaar: Rood
     Opmerkingen: Dit heeft betrekking op het algoritme zelf; niet een register of registratie ervan.
 -
     ID: AR006
     Story: 'Als directielid, wil ik in eenvoudig te begrijpen rapportage zien welke risico''s we lopen, zodat ik kan bijsturen waar nodig.'
     Doelgroep: directielid
-    Bruikbaar (stoplicht): Oranje
+    Bruikbaar: Oranje
     Opmerkingen: 'Opnemen van risico''s die een algoritme heeft. Dus risico-analyse is nodig en deel van de meta-data standaard voor het register?'
 -
     ID: AR007
     Story: 'Als ontwikkelaar/datascientist, wil ik onderscheid maken tussen algoritmes voor automatisering en voor advisering, zodat we alleen risico''s in kaart brengen waar nodig.'
     Doelgroep: ontwikkelaar/datascientist
-    Bruikbaar (stoplicht): Oranje
+    Bruikbaar: Oranje
     Opmerkingen: 'Waarom is dit nodig? Risico''s moeten voor alle algoritmes in kaart gebracht worden. Wel goed om te kijken naar soorten algoritmes.'
 -
     ID: AR008
     Story: 'Als datascientist, wil ik dat de rest van de organisatie begrijp dat een algoritme niet ''de waarheid'' levert, zodat ik onderdeel ben van een multidisciplinair gesprek (ipv leverancier van feiten).'
     Doelgroep: datascientist,
-    Bruikbaar (stoplicht): Oranje
+    Bruikbaar: Oranje
     Opmerkingen: Deel van het proces ipv het register zelf. Belangrijk wel om dit gesprek breder te voeren in alle organisaties. Heeft te maken met verantwoording. 
 -
     ID: AR009
     Story: Als team, wil ik een duidelijk kader voor risico-analyse, zodat ik weet wanneer welke procedurele stappen gezet moeten worden.
     Doelgroep: team
-    Bruikbaar (stoplicht): Oranje
+    Bruikbaar: Oranje
     Opmerkingen: 'Processtap. Deze stap fascilliteren kan je eventueel in het register; hoe worden risico''s opgenomen daarin? Gaan het ontwikkelproces informatie toevoegen volgens processtappen?'
 -
     ID: AR010
     Story: 'Als belangenorganisatie, wil ik kunnen zien hoe vaak een algoritme ''herijkt'' wordt, zodat ik kan de betrouwbaarheid van het algoritme kan inschatten.'
     Doelgroep: belangenorganisatie
-    Bruikbaar (stoplicht): Oranje
+    Bruikbaar: Oranje
     Opmerkingen: Herijken betekend niet meer betrouwbaarheid. Wel dat je kan zien wanneer een algoritme gewijzigd is.
 -
     ID: AR011
     Story: Als raadslid, wil ik kunnen begrijpen welke inhoudelijke keuzes ten grondslag liggen aan het algoritme, zodat ik kan inschatten of er politieke afwegingen gemaakt moeten worden.
     Doelgroep: raadslid
-    Bruikbaar (stoplicht): Oranje
+    Bruikbaar: Oranje
     Opmerkingen: Definitie van inhoudelijke keuzes? En "inschatting maken" is ook subjectief. 
 -
     ID: AR012
     Story: Als datascientist, wil ik onnodige data en detailniveau in het algoritme vermijden, zodat ik mogelijke bias en beinvloeding in het proces voorkom.
     Doelgroep: datascientist
-    Bruikbaar (stoplicht): Rood
+    Bruikbaar: Rood
     Opmerkingen: "Dit is het ontwerp en bouwen van algoritme. Niet het opnemen van een algoritme in een register. \n\nIs er ambitie om vanuit het register eisen te stellen aan hoe een algoritme gemaakt wordt?"
 -
     ID: AR013
     Story: Als burger, wil ik begrijpen hoe (de uitkomst van) een algoritme samenhangt met besluiten, processen en data, zodat ik snel rondom een onderwerp alle relevante informatie kan vinden.
     Doelgroep: burger
-    Bruikbaar (stoplicht): Groen
+    Bruikbaar: Groen
     Opmerkingen: Verder uitwerken hoe dan die samenhang zichtbaar gemaakt kan worden voor de burger.
 -
     ID: AR014
     Story: Als beleidsadviseur, wil ik de vrijheid hebben op een brede manier belangen te wegen, zodat ik niet automatisch gebonden ben aan de uitkomsten van een algoritme.
     Doelgroep: beleidsadviseur
-    Bruikbaar (stoplicht): Rood
+    Bruikbaar: Rood
     Opmerkingen: Is een besluitproces; niet een register en het onsluiten van informatie daarin.
 -
     ID: AR015
     Story: Als raadslid, wil ik weten en snappen welke algoritmes worden gebruikt, zodat ik kan er vragen over kan stellen in het kader van mijn democratische functie
     Doelgroep: raadslid
-    Bruikbaar (stoplicht): Groen
+    Bruikbaar: Groen
     Opmerkingen: 
 -
     ID: AR016
     Story: Als handhaver, wil ik begrijpen hoe een algoritme tot een aanbeveling of analyse komt, zodat ik zelf kan inschatten in hoeverre dit juist is
     Doelgroep: handhaver
-    Bruikbaar (stoplicht): Groen
+    Bruikbaar: Groen
     Opmerkingen: 
 -
     ID: AR017
     Story: Als handhaver, wil ik weten welke data in het algoritme gebruikt wordt, zodat ik snap vanuit welke bronnen bepaalde aanbevelingen en analyses tot stand komen
     Doelgroep: handhaver
-    Bruikbaar (stoplicht): Groen
+    Bruikbaar: Groen
     Opmerkingen: 
 -
     ID: AR018
     Story: Als burger, wil ik zien welke algoritmes (en data) er worden gebruikt bij besluiten, zodat ik kan controleren of dit volledig en correct is
     Doelgroep: burger
-    Bruikbaar (stoplicht): Groen
+    Bruikbaar: Groen
     Opmerkingen: 
 -
     ID: AR019
     Story: Als burger, wil ik bij een interactie met de overheid geïnformeerd worden of er een algoritme onderdeel was van het proces, zodat ik kan inschatten of er mogelijk redenen zijn voor bezwaar.
     Doelgroep: burger
-    Bruikbaar (stoplicht): Oranje
+    Bruikbaar: Oranje
     Opmerkingen: Dit is een ander proces dan ontsluiten van informatie via een register. Dat proces zou wel gebruik kunnen maken van de data in het register.
 -
     ID: AR020
     Story: Als burger, wil ik vooral resultaten zien en daarover in gesprek kunnen, zodat ik niet wordt lastig gevallen met algoritmes en data die zaken onnodig complex maken.
     Doelgroep: burger
-    Bruikbaar (stoplicht): Rood
+    Bruikbaar: Rood
     Opmerkingen: Ander proces. Als je geen interesse hebt dan ga je het register ook niet opzoeken. Is meer een discussie item dan een user story.
 -
     ID: AR021
     Story: Als raadslid wil ik weten, als een algoritme niet transparant mag zijn, waarom niet (wat de wettelijke grondslag is daarvan)
     Doelgroep: raadslid 
-    Bruikbaar (stoplicht): Groen
+    Bruikbaar: Groen
     Opmerkingen: Opnemen in register
 -
     ID: AR022
     Story: Als burger wil ik weten in welke processen organisaties algoritmes inzetten
     Doelgroep: burger
-    Bruikbaar (stoplicht): Groen
+    Bruikbaar: Groen
     Opmerkingen: Opnemen in register
 -
     ID: AR023
     Story: Als raadslid/TKlid wil ik weten welk politiek besluit ten grondslag ligt aan het gebruik van t algoritme of beleid waar het onderdeel van is
     Doelgroep: raadslid/TKlid
-    Bruikbaar (stoplicht): Groen
+    Bruikbaar: Groen
     Opmerkingen: Opnemen in register
 -
     ID: AR024
     Story: Als burger wil ik alleen informatie die mij raakt. Maar ik als ik info tekort kom wil ik direct kunnen bellen/mailen naar de juiste persoon
     Doelgroep: burger
-    Bruikbaar (stoplicht): Oranje
+    Bruikbaar: Oranje
     Opmerkingen: Zijn twee stories. Het eerste heeft veel refinement nodig; zijn dit beperkingen op wat ontsloten wordt of betekend dit de burger mogelijkheden geven om informatie te filteren? Tweede is story voor contact kunnen opnemen.
 -
     ID: AR025
     Story: Als interne medewerker wil ik weten waar mijn organisatie intern algoritmes op inzet zodat ik weet waar mij dit mogelijk raakt
     Doelgroep: interne medewerker
-    Bruikbaar (stoplicht): Oranje
+    Bruikbaar: Oranje
     Opmerkingen: "Hoe wil je dit weten? Wat wil je weten? Wat is jouw raken, raakt het jouw werk of jou prive? \n\nKomt er dan een splitsing tussen interne en externe algoritmes die gedeeld worden?"
 -
     ID: AR026
     Story: (Als burger) Het maakt niet uit of een computer of een persoon een beslissing heeft gemaakt, zolang de beslissing maar uitlegbaar is.
     Doelgroep: burger
-    Bruikbaar (stoplicht): Rood
+    Bruikbaar: Rood
     Opmerkingen: Deel van een besluitenproces? Moet per algoritme opgenomen welke besluiten ermee zijn genomen? Hoe is dan de scope; algoritmes of besluiten?
 -
     ID: AR027
     Story: Als belastingebetaler wil ik dat alle algoritmes openbaar zijn, ook ingekochte, zodat ik ze zelf ook kan gebruiken.
     Doelgroep: belastingebetaler
-    Bruikbaar (stoplicht): Rood
+    Bruikbaar: Rood
     Opmerkingen: Geen functionaliteit maar meer het proces. Als overheid algoritmes open-source maken. Dit heeft te maken met de aanbesteding van algoritmes en/of ze zelf ontwikkelen.
 -
     ID: AR028
     Story: Als burger wil ik niet weten of een algoritme is gebruikt bij besluit, zodat ik niet zelf op zoek moet gaan naar informati maar uitleg krijg
     Doelgroep: burger 
-    Bruikbaar (stoplicht): Rood
+    Bruikbaar: Rood
     Opmerkingen: Ander proces, een besluitenproces. Als je als burger dan niets wil weten hoef je ook niet naar het register te gaan.
 -
     ID: AR029
     Story: Als burger wil ik weten welke instanties gebruik maken van deze algoritmes zodat ik weet of andere bedrijven/overheden hun keuzes baseren...
     Doelgroep: burger
-    Bruikbaar (stoplicht): Oranje
+    Bruikbaar: Oranje
     Opmerkingen: Bepalen of dit mag als het algoritme is ingekocht. Kunnen we dan erbij vermelden wie het verder allemaal in gebruik heeft; ook als het private bedrijven zijn? Hier komt ook het IP van een algoritme bij kijken. 
 -
     ID: AR030
     Story: 'Als ''burger van een democratie'' wil ik dat de overheid verantwoording aflegt, ook als niemand daar specifiek op zit te wachten'
     Doelgroep: burger
-    Bruikbaar (stoplicht): Rood
+    Bruikbaar: Rood
     Opmerkingen: Doelstelling. Openbaar maken middels register. Maar verder geen specifieke functionaliteit.
 -
     ID: AR031
     Story: als ik als burger hulp wil krijgen van een derde over algoritmes, waar kan ik dan terecht?
     Doelgroep: burger
-    Bruikbaar (stoplicht): Rood
+    Bruikbaar: Rood
     Opmerkingen: Algorime registerdoelstelling. Of wat wordt bedoeld met derde partij? 
 -
     ID: AR032
     Story: Als verantwoordelijke van het algoritme register wil ik per algoritme bepalen welke info open gemaakt kan worden, zodat het maatwerk wordt
     Doelgroep: verantwoordelijke
-    Bruikbaar (stoplicht): Groen
+    Bruikbaar: Groen
     Opmerkingen: Bepalen wat minimaal verplicht openbaar gemaakt moet worden. Deel van de standaard die ontwikkeld wordt. Voorkomen dat teveel verschil zit per algoritme omdat dat raar staat naar burgers die informatie willen opzoeken en zien dat het inconsistent is.
 -
     ID: AR033
     Story: Als ambtenaar wil ik zo min mogelijk administratieve last, zodat ik kan focussen op mijn hoofdtaken
     Doelgroep: ambtenaar
-    Bruikbaar (stoplicht): Oranje
+    Bruikbaar: Oranje
     Opmerkingen: Goed uitgangspunt. Het is vooral goed als een acceptatiecriteria voor andere stories. Dan moet dit specifiek gemaakt worden.
 -
     ID: AR034
     Story: Als burger wil ik duidelijk onderscheid hebben tussen het gebruik van de data en de werking van het algoritme zodat ik inzichtelijk heb hoe de keuzes worden gemaakt en wat er met deze data gebeurt.
     Doelgroep: burger
-    Bruikbaar (stoplicht): Groen
+    Bruikbaar: Groen
     Opmerkingen: 
 -
     ID: AR035
     Story: Als burger wil ik zelf de datasets en code in kunnen duiken, ook al snap ik het niet, zodat ik bewijs heb dat het geen mooiweerpraatje is
     Doelgroep: burger
-    Bruikbaar (stoplicht): Oranje
+    Bruikbaar: Oranje
     Opmerkingen: Als je het niet snapt dan is het voor jou niet bewezen. Wel toegangkelijk voor wie bewijs wil opzoeken. Wel te maken met vertrouwelijkheid en eigendom van data/code. 
 -
     ID: AR036
     Story: Als burger wil ik dat anderen (journalisten, belangenorgs) voor mij kunnen uitzoeken of me onrecht aangedaan wordt
     Doelgroep: burger
-    Bruikbaar (stoplicht): Rood
+    Bruikbaar: Rood
     Opmerkingen: Geen functionaliteit maar principe of doelstelling. Wordt bereikt door het algehele register.
 -
     ID: AR037
     Story: Als journalist wil ik direct contact op kunnen nemen met de mensen die er echt iets van af weten om door te kunnen vragen
     Doelgroep: journalist
-    Bruikbaar (stoplicht): Oranje
+    Bruikbaar: Oranje
     Opmerkingen: Refinement nodig. Gaat er specifiek voor journalisten extra informatie komen? Hoe moet dat werken? Of krijgen journalisten zelfde informatie als burgers via register en moeten ze zelf verder informatie ophalen via dat kanaal. 
 -
     ID: AR038
     Story: Als burger, wil ik in begrijpelijk taal uitgelegd krijgen wat een algoritme doet, zodat ik de potentiële impact op mijn eigen leven kan begrijpen.
     Doelgroep: burger
-    Bruikbaar (stoplicht): Oranje
+    Bruikbaar: Oranje
     Opmerkingen: "Dit als acceptatie-criteria gebruiken bij stories. Kijken naar niveau's en standaarden die hiervoor zijn. \n\nWet Digitoegangkelijk?"
 -
     ID: AR039
     Story: Als burger, wil ik kunnen zien welke algoritmes door de overheid worden gebruik voor de besturing van mijn stad, zodat ik de proportionaliteit ervan kan blijven overzien.
     Doelgroep: burger
-    Bruikbaar (stoplicht): Oranje
+    Bruikbaar: Oranje
     Opmerkingen: "Definieer proportionaliteit? Vervangen door processen waarin algoritme gebruikt wordt?\n\nOverheid en stad; andere lagen. Dit scherp definieëren"
 -
     ID: AR040
     Story: Als burger, wil ik kunnen zien welke afdeling binnen de gemeente verantwoordelijk is voor het inzetten van een algoritme, zodat ik weet wie ik kan aanspreken.
     Doelgroep: burger
-    Bruikbaar (stoplicht): Groen
+    Bruikbaar: Groen
     Opmerkingen: 
 -
     ID: AR041
     Story: Als burger, wil ik de personalia kunnen inzien van de eindverantwoordelijke voor een algoritme, zodat ik direct contact op kan nemen.
     Doelgroep: burger
-    Bruikbaar (stoplicht): Oranje
+    Bruikbaar: Oranje
     Opmerkingen: AVG?? Het idee ligt voor de hand maar de vraag is of dit mag. 
 -
     ID: AR042
     Story: Als burger, wil ik de keten van verantwoordelijkheid rondom een algoritme kunnen inzien, zodat ik kan zien wie er betrokken is bij de ontwikkeling en implementatie.
     Doelgroep: burger
-    Bruikbaar (stoplicht): Groen
+    Bruikbaar: Groen
     Opmerkingen: 
 -
     ID: AR043
     Story: Als burger, wil ik zowel weten wie inhoudelijk als wie technisch verantwoordelijk is voor een algoritme, zodat ik contact op kan nemen met de juiste persoon.
     Doelgroep: burger
-    Bruikbaar (stoplicht): Oranje
+    Bruikbaar: Oranje
     Opmerkingen: AVG?? Het idee ligt voor de hand maar de vraag is of dit mag. 
 -
     ID: AR044
     Story: Als burger, wil ik weten wie het algoritme officieel gecontroleerd heeft (audit), zodat ik meer vertrouwen krijg in het gebruik.
     Doelgroep: burger
-    Bruikbaar (stoplicht): Groen
+    Bruikbaar: Groen
     Opmerkingen: 
 -
     ID: AR045
     Story: Als burger, wil ik weten wie de leverancier is van een algoritme, zodat ik kan inschatten welke belangen mogelijk meespelen.
     Doelgroep: burger
-    Bruikbaar (stoplicht): Groen
+    Bruikbaar: Groen
     Opmerkingen: 
 -
     ID: AR046
     Story: Als burger, wil ik een overzicht hebben van databronnen die gebruikt worden in het algoritme, zodat ik kan inschatten of er bronnen missen.
     Doelgroep: burger
-    Bruikbaar (stoplicht): Groen
+    Bruikbaar: Groen
     Opmerkingen: 
 -
     ID: AR047
     Story: Als burger, wil ik toegang tot de data die gebruikt wordt in een algoritme, zodat ik volledigheid en actualiteit ervan kan nalopen.
     Doelgroep: burger
-    Bruikbaar (stoplicht): Oranje
+    Bruikbaar: Oranje
     Opmerkingen: Scope van register is niet ook de data zelf opnemen. Ook zal per databron verschillen of deze openbaar mag worden of niet? Er zullen vertrouwelijke tussen zitten ondanks WOB / Open Overheid
 -
     ID: AR048
     Story: Als burger, wil ik weten wie de data heeft verzameld die gebruikt wordt in een algoritme, zodat ik snap wie/wat de bron is.
     Doelgroep: burger
-    Bruikbaar (stoplicht): Groen
+    Bruikbaar: Groen
     Opmerkingen: Goed onderscheid om bron en eigenaar van data in te brengen in het register. 
 -
     ID: AR049
     Story: Als burger, wil ik zien of (en welke) persoonsgegevens worden verwerkt in een algoritme, zodat ik kan zien of er privacy problemen zich voor kunnen doen.
     Doelgroep: burger
-    Bruikbaar (stoplicht): Groen
+    Bruikbaar: Groen
     Opmerkingen: 
 -
     ID: AR050
     Story: Als burger, wil ik (op hoofdlijnen) de architectuur van het model van het algoritme in kunnen zien, zodat ik kan inschatten hoe complex (en daarmee foutgevoelig) het model is.
     Doelgroep: burger
-    Bruikbaar (stoplicht): Oranje
+    Bruikbaar: Oranje
     Opmerkingen: "Nadenken over security issues als mensen de architectuur kunnen zien en daarme evt zwakheden.\n\nKijken naar wat waarde heeft om te ontsluiten en wat niet. Niet iedere burger is een ITer."
 -
     ID: AR051
     Story: Als burger, wil ik een overzicht van de prestatie van het algoritme (bijv. foutmarge), zodat ik beter in kan schatten hoe en waarom het algoritme gebruikt wordt.
     Doelgroep: burger
-    Bruikbaar (stoplicht): Groen
+    Bruikbaar: Groen
     Opmerkingen: 
 -
     ID: AR052
     Story: Als burger, wil ik de broncode van het algoritme kunnen bekijken, zodat ik de werking en kwaliteit eigenhandig kan controleren (en verbeteren).
     Doelgroep: burger
-    Bruikbaar (stoplicht): Oranje
+    Bruikbaar: Oranje
     Opmerkingen: Nakijken of dit mag als het algoritme ingekocht is en IP is van een bedrijf. Zou betekenen dat elk algoritme open-source beschikbaar moet zijn. 
 -
     ID: AR053
     Story: 'Als burger, wil ik per ''bijzonder persoonsgegeven'' zien waarom het wordt gebruikt in het algoritme, zodat ik kan controleren of er niet onnodig veel persoonsgegevens worden gebruikt voor het beoogde doel.'
     Doelgroep: burger
-    Bruikbaar (stoplicht): Oranje
+    Bruikbaar: Oranje
     Opmerkingen: Dit vraagt wel heel veel van de burger. Gaat die dit controleren, kan die dit controleren? Gaat de burger over het beoogde doel van een algoritme. Dit is allemaal interpretatie gevoelig.
 -
     ID: AR054
     Story: 'Als burger, wil ik weten welke vorm van menselijk toezicht en controle er in het proces rondom het algoritme plaatsvindt, zodat ik zeker weet dat er ruimte is voor ''de menselijke maat''.'
     Doelgroep: burger
-    Bruikbaar (stoplicht): Groen
+    Bruikbaar: Groen
     Opmerkingen: 
 -
     ID: AR055
     Story: Als burger, wil ik weten in het kader van welke taak het algoritme wordt gebruikt, zodat ik snap wat de noodzaak ervan is.
     Doelgroep: burger
-    Bruikbaar (stoplicht): Groen
+    Bruikbaar: Groen
     Opmerkingen: 
 -
     ID: AR056
     Story: Als burger, wil ik toegang tot de uitgevoerde DPIA gegevens, zodat ik kan controleren welke privacy afwegingen er zijn gemaakt.
     Doelgroep: burger
-    Bruikbaar (stoplicht): Oranje
+    Bruikbaar: Oranje
     Opmerkingen: Kijken of dit juridisch mag? Wordt dit dan een bijlage? 
 -
     ID: AR057
     Story: Als burger, wil ik kunnen begrijpen of een algoritme mogelijk risicovol is, zodat ik de volksvertegenwoordiging kan aanspreken dit te monitoren.
     Doelgroep: burger
-    Bruikbaar (stoplicht): Oranje
+    Bruikbaar: Oranje
     Opmerkingen: "Is een doel, geen functionaliteit. \\"kunnen begrijpen\\" is per persoon verschillend. \n\nRefinen naar risico's kunnen inzien. En dan voor de risico's een standaard defineren in de acceptatie criteria. "
 -
     ID: AR058
     Story: Als burger wil ik van een algoritme kunnen inzien hoe ik bezwaar kan maken op de uitkomsten ervan.
     Doelgroep: burger
-    Bruikbaar (stoplicht): Groen
+    Bruikbaar: Groen
     Opmerkingen: 
-
