@@ -12,6 +12,8 @@ Bekijk het overzicht van eigenschappen op http://www.tiltshift.nl/algoritmeregis
 
 Bekijk het automatisch gegenereerde testformulier op http://www.tiltshift.nl/algoritmeregister-metadata-standaard/form
 
+Bekijk het overzicht van user stories op https://www.tiltshift.nl/algoritmeregister-metadata-standaard/user-stories
+
 ## Contributing
 
 Bijdragen kunnen worden geleverd tijdens werkgroepbijeenkomsten en online via de [Code for NL slack omgeving](https://praatmee.codefor.nl) op kanaal #algoritmeregister.
