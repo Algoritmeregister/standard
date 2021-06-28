@@ -6,6 +6,25 @@ In het project Publieke Controle op Algoritmes werkt [een consortium van Nederla
 
 In deze code base leggen we de metadata standaard vast: wat leggen we vast over de algoritmes die gebruikt worden, waarom, en hoe.
 
+## Inventarisaties
+
+Alle organisaties binnen het consortium werken momenteel aan een inventarisatie van de algoritmes die ze willen ontsluiten middels het algoritmeregister. Hieronder een overzicht van voorlopige inventarisaties per organisatie (links volgen):
+
+- Rotterdam
+- Amsterdam
+- Utrecht
+- Den Haag
+- Haarlemmermeer
+- Zuid-Holland
+- Noord-Brabant
+- Limburg
+- Kadaster
+- Politie
+- Rijkswaterstaat
+- VNG
+- UWV
+- Ministerie van BZK
+
 ## Live
 
 Bekijk het overzicht van eigenschappen op http://www.tiltshift.nl/algoritmeregister-metadata-standaard/
