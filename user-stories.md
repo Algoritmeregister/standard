@@ -1,6 +1,9 @@
 ---
 ---
+Dit zijn de user stories die zijn opgehaald tijdens de verschillende inventarisatiesessies met consortiumpartners en genodigden.
+
 <a href="https://github.com/tiltshiftnl/algoritmeregister-metadata-standaard">Bekijk de code op Github</a>
+
 <br>
 <table>
     <tr>
