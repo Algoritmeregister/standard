@@ -27,11 +27,11 @@ Alle organisaties binnen het consortium werken momenteel aan een inventarisatie 
 
 ## Live
 
-Bekijk het overzicht van eigenschappen op http://www.tiltshift.nl/algoritmeregister-metadata-standaard/
+Bekijk het overzicht van eigenschappen op http://algoritmeregister.github.io/algoritmeregister-metadata-standaard/
 
-Bekijk het automatisch gegenereerde testformulier op http://www.tiltshift.nl/algoritmeregister-metadata-standaard/form
+Bekijk het automatisch gegenereerde testformulier op http://algoritmeregister.github.io/algoritmeregister-metadata-standaard/form
 
-Bekijk het overzicht van user stories op https://www.tiltshift.nl/algoritmeregister-metadata-standaard/user-stories
+Bekijk het overzicht van user stories op http://algoritmeregister.github.io/algoritmeregister-metadata-standaard/user-stories
 
 ## Contributing
 
