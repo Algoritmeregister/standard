@@ -151,10 +151,10 @@ Status | Requirement | links and notes
 . |The documentation of the codebase MUST contain:
   - a description of how to install and run the source code,
   - examples demonstrating the key functionality. |
-. |The documentation of the codebase SHOULD contain:
-  - a high level description that is clearly understandable for a wide audience of stakeholders, like the general public and journalists,
-  - a section describing how to install and run a standalone version of the source code, including, if necessary, a test dataset,
-  - examples for all functionality. |
+. |The documentation of the codebase SHOULD contain:<ul>
+  <li>a high level description that is clearly understandable for a wide audience of stakeholders, like the general public and journalists,</li>
+  <li>a section describing how to install and run a standalone version of the source code, including, if necessary, a test dataset,</li>
+  <li>examples for all functionality.</li></ul> |
 . |There SHOULD be continuous integration tests for the quality of your documentation. |
 . |The documentation of the codebase MAY contain examples that make users want to immediately start using the codebase. |
 . |You MAY use the examples in your documentation to test the code. |
