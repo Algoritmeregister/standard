@@ -53,19 +53,23 @@ Deze code base is in de prototype (pre-alfa) fase, dat wil zeggen dat alles nog 
 
 We are planning on following https://standard.publiccode.net/ more and more over time:
 
-Nomenclature
-white_check_mark - Complies
-x - Does not comply
-no_entry_sign - Does not apply
-question - Not sure how to apply
+### Nomenclature
+
+✔️ - Complies
+
+❌ - Does not comply
+
+🚫 - Does not apply
+
+❓ - Not sure how to apply
 
 ### Code in the open
 Status | Requirement | links and notes
 -----|-----|-----
-[ ] | All source code for any policy and software in use (unless used for fraud detection) MUST be published and publicly accessible. |
-[ ] | Contributors MUST NOT upload sensitive information regarding users, their organization or third parties to the repository. |
-[ ] | Any source code not currently in use (such as new versions, proposals or older versions) SHOULD be published. |
-[ ] | The source code MAY provide the general public with insight into which source code or policy underpins any specific interaction they have with your organization. |
+✔️⬜ | All source code for any policy and software in use (unless used for fraud detection) MUST be published and publicly accessible. |
+⬜ | Contributors MUST NOT upload sensitive information regarding users, their organization or third parties to the repository. |
+⬜ | Any source code not currently in use (such as new versions, proposals or older versions) SHOULD be published. |
+⬜ | The source code MAY provide the general public with insight into which source code or policy underpins any specific interaction they have with your organization. |
 
 ### Bundle policy and source code
 - [ ] A codebase MUST include the policy that the source code is based on.
