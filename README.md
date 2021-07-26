@@ -148,13 +148,8 @@ Status | Requirement | links and notes
 Status | Requirement | links and notes
 -----|-----|-----
 . |All of the functionality of the codebase – policy as well as source – MUST be described in language clearly understandable for those that understand the purpose of the code. |
-. |The documentation of the codebase MUST contain:
-  - a description of how to install and run the source code,
-  - examples demonstrating the key functionality. |
-. |The documentation of the codebase SHOULD contain:<ul>
-  <li>a high level description that is clearly understandable for a wide audience of stakeholders, like the general public and journalists,</li>
-  <li>a section describing how to install and run a standalone version of the source code, including, if necessary, a test dataset,</li>
-  <li>examples for all functionality.</li></ul> |
+. |The documentation of the codebase MUST contain:<ul><li>a description of how to install and run the source code,</li><li>examples demonstrating the key functionality.</li></ul> |
+. |The documentation of the codebase SHOULD contain:<ul><li>a high level description that is clearly understandable for a wide audience of stakeholders, like the general public and journalists,</li><li>a section describing how to install and run a standalone version of the source code, including, if necessary, a test dataset,</li><li>examples for all functionality.</li></ul> |
 . |There SHOULD be continuous integration tests for the quality of your documentation. |
 . |The documentation of the codebase MAY contain examples that make users want to immediately start using the codebase. |
 . |You MAY use the examples in your documentation to test the code. |
@@ -213,9 +208,5 @@ Status | Requirement | links and notes
 -----|-----|-----
 v | A codebase MUST be versioned. |
 . | A codebase that is ready to use MUST only depend on other codebases that are also ready to use. |
-v | A codebase that is not yet ready to use MUST have one of these labels:
-  - prototype - to test the look and feel, and to internally prove the concept of the technical possibilities,
-  - alpha - to do guided tests with a limited set of users,
-  - beta - to open up testing to a larger section of the general public, for example to test if the codebase works at scale,
-  - pre-release version - code that is ready to be released but hasn’t received formal approval yet. |
+v | A codebase that is not yet ready to use MUST have one of these labels:<ul><li>prototype - to test the look and feel, and to internally prove the concept of the technical possibilities,</li><li>alpha - to do guided tests with a limited set of users,</li><li>beta - to open up testing to a larger section of the general public, for example to test if the codebase works at scale,</li><li>pre-release version - code that is ready to be released but hasn’t received formal approval yet.</li></ul> |
 . | A codebase SHOULD contain a log of changes from version to version, for example in the CHANGELOG. |
