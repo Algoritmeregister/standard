@@ -57,7 +57,7 @@ We are planning on following https://standard.publiccode.net/ more and more over
 
 . Not yet evaluated
 
-✓ Complies
+v Complies
 
 x Does not comply
 
