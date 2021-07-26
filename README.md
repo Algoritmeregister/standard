@@ -53,6 +53,12 @@ Deze code base is in de prototype (pre-alfa) fase, dat wil zeggen dat alles nog 
 
 We are planning on following https://standard.publiccode.net/ more and more over time:
 
+Nomenclature
+white_check_mark - Complies
+x - Does not comply
+no_entry_sign - Does not apply
+question - Not sure how to apply
+
 ### Code in the open
 Status | Requirement | links and notes
 -----|-----|-----
