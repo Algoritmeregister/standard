@@ -41,11 +41,9 @@ Bijdragen kunnen worden geleverd tijdens werkgroepbijeenkomsten en online via de
 
 Deze code base is in pre-alpha, dat wil zeggen dat alles nog ter discussie staat.
 
-## About this document
+## Standard for Public Code
 
-We are planning on following https://standard.publiccode.net/ more and more over time.
-
-## Standard for Public Code checklist
+We are planning on following https://standard.publiccode.net/ more and more over time:
 
 ### Code in the open
 - [ ] All source code for any policy and software in use (unless used for fraud detection) MUST be published and publicly accessible.
