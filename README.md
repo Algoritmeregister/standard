@@ -4,7 +4,8 @@ In het project Publieke Controle op Algoritmes werkt [een consortium van Nederla
 
 ## Codebase objectives
 
-In deze code base leggen we de metadata standaard vast: wat leggen we vast over de algoritmes die gebruikt worden, waarom, en hoe.
+EN: In this code base we define the metadata standard: what do we register about the algorithms being used in government, why and how.
+NL: In deze code base leggen we de metadata standaard vast: wat leggen we vast over de algoritmes die gebruikt worden binnen de overheid, waarom, en hoe.
 
 ## Inventarisaties
 
