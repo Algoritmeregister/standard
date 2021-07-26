@@ -55,15 +55,15 @@ We are planning on following https://standard.publiccode.net/ more and more over
 
 ### Nomenclature
 
-. - Not yet evaluated
+. Not yet evaluated
 
-✓ - Complies
+✓ Complies
 
-x - Does not comply
+x Does not comply
 
-* - Does not apply
+\* Does not apply
 
-? - Not sure how to apply
+? Not sure how to apply
 
 ### Code in the open
 Status | Requirement | links and notes
