@@ -14,9 +14,9 @@
 
 ## Metadata Standard
 
-Bekijk het overzicht van eigenschappen op http://algoritmeregister.github.io/algoritmeregister-metadata-standaard/
+Bekijk het overzicht van definities op http://algoritmeregister.github.io/algoritmeregister-metadata-standaard/definitions
 
-Bekijk het automatisch gegenereerde testformulier op http://algoritmeregister.github.io/algoritmeregister-metadata-standaard/form
+Bekijk het overzicht van eigenschappen op http://algoritmeregister.github.io/algoritmeregister-metadata-standaard/
 
 Bekijk het overzicht van user stories op http://algoritmeregister.github.io/algoritmeregister-metadata-standaard/user-stories
 
