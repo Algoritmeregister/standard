@@ -1,6 +1,6 @@
 ---
 ---
-<a href="https://github.com/tiltshiftnl/algoritmeregister-metadata-standaard">Bekijk de code op Github</a>
+<a href="https://github.com/algoritmeregister/algoritmeregister-metadata-standaard">Bekijk de code op Github</a>
 <style>
 body {
     max-width: 32em;

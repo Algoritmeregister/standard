@@ -1,6 +1,6 @@
 ---
 ---
-<a href="https://github.com/tiltshiftnl/algoritmeregister-metadata-standaard">Bekijk dit project op Github</a>
+<a href="https://github.com/algoritmeregister/algoritmeregister-metadata-standaard">Bekijk dit project op Github</a>
 <br>
 <table>
     <tr>
