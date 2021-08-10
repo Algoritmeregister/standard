@@ -11,13 +11,19 @@ NL: Dit zijn de definities die zijn vastgesteld tijdens de verschillende inventa
 <br>
 <table>
     <tr>
-        <th>Name / naam</th>
-        <th>Description / omschrijving</th>
+        <th>Variable name / naam van de variabele</th>
+        <th>Name</th>
+        <th>Naam (nl)</th>
+        <th>Description</th>
+        <th>Omschrijving (nl)</th>
     </tr>
     {% for term in site.data.glossary %}
     <tr>
-        <td>{{ term.name }}</td>
-        <td>{{ term.description }}</td>
+        <td>`{{ term[0] }}`</td>
+        <td>{{ term[1].name }}</td>
+        <td>{{ term[1].translations.nl.name }}</td>
+        <td>{{ term[1].description }}</td>
+        <td>{{ term[1].translations.nl.description }}</td>
     </tr>
     {% endfor %}
 </table>
