@@ -7,7 +7,7 @@ AlgorithmRegister:
       description: register van de inzet van algoritmische toepassingen door overheden
 AlgorithmicApplication:
   name: algorithmic application
-  description: software automated predications, decisions and suggestions using data analysis, statistics and/or self learning logic
+  description: software making automated predications, decisions and suggestions using data analysis, statistics and/or self learning logic
   translations:
     nl:
       name: algoritmische toepassing
