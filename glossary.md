@@ -19,7 +19,7 @@ NL: Dit zijn de definities die zijn vastgesteld tijdens de verschillende inventa
     </tr>
     {% for term in site.data.glossary %}
     <tr>
-        <td>`{{ term[0] }}`</td>
+        <td><pre>{{ term[0] }}</pre></td>
         <td>{{ term[1].name }}</td>
         <td>{{ term[1].translations.nl.name }}</td>
         <td>{{ term[1].description }}</td>
