@@ -1,4 +1,4 @@
-## Algoritmeregister/Algorithm Registry
+## Algoritmeregister/Algorithm Register
 
 # Metadata Standard
 
