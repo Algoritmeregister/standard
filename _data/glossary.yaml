@@ -1,0 +1,14 @@
+AlgorithmRegister:
+  name: algorithm register
+  description: register of algorithmic applications in government services
+  translations:
+    nl:
+      name: algoritmeregister
+      description: register van de inzet van algoritmische toepassingen door overheden
+AlgorithmicApplication:
+  name: algorithmic application
+  description: software automated predications, decisions and suggestions using data analysis, statistics and/or self learning logic
+  translations:
+    nl:
+      name: algoritmische toepassing
+      description: software waarmee op geautomatiseerde wijze voorspellingen worden gedaan, besluiten worden genomen en/of adviezen worden gegeven door gebruik te maken van data-analyse, statistiek en/of zelflerende logica
