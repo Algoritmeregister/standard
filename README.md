@@ -1,30 +1,60 @@
-## Algoritmeregister/Algorithm Register
+---
+---
+<a href="#nl">Nederlandse vertaling</a>
 
-# Metadata Standard
+# Algorithm Register Metadata Standard
 
-**NL**: In het project Publieke Controle op Algoritmes werkt [een consortium van Nederlandse overheden](https://publiekecontrole.com/about/) momenteel aan beleidsinstrumenten om de controle op systemen te vergroten. Een onderdeel daarvan is dat we werken aan een overzicht van algoritmes, een Algoritmeregister. Door in deze registratie aspecten van algoritmes op een begrijpelijke manier vast te leggen kunnen wij transparantie bieden en verantwoording af leggen. In het register kun je technische elementen terugvinden, zoals de dataverwerking of broncode, maar bijvoorbeeld ook afspraken tussen overheden en leveranciers of bijvoorbeeld een beschrijving van de werking van het algoritme.
+## Objectives
 
-**EN**: 
+In this code base we define the metadata standard: what do we register about the algorithms being used in government, why and how.
 
-## Doel/Objectives
+[Glossary](/glossary)
 
-**NL**: In deze code base leggen we de metadata standaard vast: wat leggen we vast over de algoritmes die gebruikt worden binnen de overheid, waarom, en hoe.
+[Attributes](/)
 
-**EN**: In this code base we define the metadata standard: what do we register about the algorithms being used in government, why and how.
+[User Stories](/user-stories) (in Dutch)
 
-## Metadata Standard
+[Standard for Public Code complience](#publiccode)
 
-Bekijk het overzicht van definities op http://algoritmeregister.github.io/algoritmeregister-metadata-standaard/definitions
+## Inventarisations
 
-Bekijk het overzicht van eigenschappen op http://algoritmeregister.github.io/algoritmeregister-metadata-standaard/
+All consortium organisations are working on a list of algorithms that they will be disclosing in the registry. Currently these are the lists of algorithms per organisation:
 
-Bekijk het overzicht van user stories op http://algoritmeregister.github.io/algoritmeregister-metadata-standaard/user-stories
 
-## Inventarisaties/Inventarisation
+- Rotterdam
+- Amsterdam
+- Utrecht
+- Den Haag
+- Haarlemmermeer
+- Zuid-Holland
+- Noord-Brabant
+- Limburg
+- Kadaster
+- Politie
+- [Rijkswaterstaat](https://www.rijkswaterstaat.nl/en/about-us)
+- the Association of Netherlands Municipalities (Vereniging van Nederlandse Gemeenten, VNG)
+- UWV (Employee Insurance Agency)
+- Ministry of Interior Affairs and Kingdom Relations
 
-**NL**: Alle organisaties binnen het consortium werken momenteel aan een inventarisatie van de algoritmes die ze willen ontsluiten middels het algoritmeregister. Hieronder een overzicht van voorlopige inventarisaties per organisatie (links volgen):
+<h2>Nederlandse vertaling</h2>
 
-**EN**: All consortium organisations are working on a list of algorithms that they will be disclosing in the registry. Currently these are the lists of algorithms per organisation:
+# Algoritmeregister Metadata-standaard
+
+In het project Publieke Controle op Algoritmes werkt [een consortium van Nederlandse overheden](https://publiekecontrole.com/about/) momenteel aan beleidsinstrumenten om de controle op systemen te vergroten. Een onderdeel daarvan is dat we werken aan een overzicht van algoritmes, een Algoritmeregister. Door in deze registratie aspecten van algoritmes op een begrijpelijke manier vast te leggen kunnen wij transparantie bieden en verantwoording af leggen. In het register kun je technische elementen terugvinden, zoals de dataverwerking of broncode, maar bijvoorbeeld ook afspraken tussen overheden en leveranciers of bijvoorbeeld een beschrijving van de werking van het algoritme.
+
+## Doel
+
+In deze code base leggen we de metadata standaard vast: wat leggen we vast over de algoritmes die gebruikt worden binnen de overheid, waarom, en hoe.
+
+[Woordenlijst](/glossary)
+
+[Attributen](/)
+
+[User Stories](/user-stories)
+
+## Inventarisaties
+
+Alle organisaties binnen het consortium werken momenteel aan een inventarisatie van de algoritmes die ze willen ontsluiten middels het algoritmeregister. Hieronder een overzicht van voorlopige inventarisaties per organisatie (links volgen):
 
 - Rotterdam
 - Amsterdam
@@ -41,15 +71,17 @@ Bekijk het overzicht van user stories op http://algoritmeregister.github.io/algo
 - UWV
 - Ministerie van BZK
 
-## Bijdragen/Contributing
+## Bijdragen
 
 Bijdragen kunnen worden geleverd tijdens werkgroepbijeenkomsten en online via de [Code for NL slack omgeving](https://praatmee.codefor.nl) op kanaal #algoritmeregister.
 
-## Status/Maturity
+## Status
 
 Deze code base is in de prototype (pre-alfa) fase, dat wil zeggen dat alles nog ter discussie staat.
 
-## Standard for Public Code
+<a name="publiccode"></a>
+
+# Standard for Public Code complience
 
 We are planning on following https://standard.publiccode.net/ more and more over time:
 
