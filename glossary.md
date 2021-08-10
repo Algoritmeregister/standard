@@ -1,10 +1,12 @@
 ---
 ---
-EN: These are the definitions that are being formalized by the consortiumpartners.
+These are the definitions that are being formalized by the consortiumpartners.
 
 <a href="https://github.com/algoritmeregister/algoritmeregister-metadata-standaard">View this project on Github</a>
 
-NL: Dit zijn de definities die zijn vastgesteld tijdens de verschillende inventarisatiesessies met consortiumpartners en genodigden.
+<h2>Nederlands (nl)</h2>
+
+Dit zijn de definities die zijn vastgesteld tijdens de verschillende inventarisatiesessies met consortiumpartners en genodigden.
 
 <a href="https://github.com/algoritmeregister/algoritmeregister-metadata-standaard">Bekijk dit project op Github</a>
 
