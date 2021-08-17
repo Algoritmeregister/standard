@@ -8,11 +8,11 @@
 
 In this code base we define the metadata standard: what do we register about the algorithms being used in government, why and how.
 
-[Glossary](/glossary)
+[Glossary](glossary.md)
 
-[Attributes](/)
+[Attributes](index.md)
 
-[User Stories](/user-stories) (in Dutch)
+[User Stories](user-stories.md) (in Dutch)
 
 [Standard for Public Code complience](#publiccode)
 
@@ -46,11 +46,11 @@ In het project Publieke Controle op Algoritmes werkt [een consortium van Nederla
 
 In deze code base leggen we de metadata standaard vast: wat leggen we vast over de algoritmes die gebruikt worden binnen de overheid, waarom, en hoe.
 
-[Woordenlijst](/glossary)
+[Woordenlijst](glossary.md)
 
-[Attributen](/)
+[Attributen](index.md)
 
-[User Stories](/user-stories)
+[User Stories](user-stories.md)
 
 ## Inventarisaties
 
