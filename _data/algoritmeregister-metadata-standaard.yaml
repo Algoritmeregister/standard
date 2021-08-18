@@ -134,7 +134,7 @@
   type: bool
   omschrijving: 
 - eigenschap: menselijke_tussenkomst_beschrijving
-  naam: Beschrijving vna menselijke tussenkomst
+  naam: Beschrijving van menselijke tussenkomst
   categorie: TOEZICHT
   type: tekst
   omschrijving: Beschrijf de manier waarop de uitkomsten van het algoritme en de daaruit volgende processen stop gezet kunnen worden. Specificieer daarbij de verschillende interne en externe verantwoordelijkheden, zodat duidelijk is kan en mag handelen.
