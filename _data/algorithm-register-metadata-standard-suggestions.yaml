@@ -1,0 +1,270 @@
+# REGISTRATION METADATA FOR THIS ENTRY
+
+- property: id
+  name: Identifier
+  category: METADATA
+  type: Text
+  description: The identifier for this entry.
+- property: uri
+  name: URI
+  category: METADATA
+  type: Text
+  description: The URI for this entry.
+- property: metadata_standard_version
+  name: Metadata standard verison
+  category: METADATA
+  type: Text
+  description: The version of the metadata standard used for the documentation.
+  value: 0.2
+- property: URL_metadata_standard_source
+  name: URL of the metadata standard source
+  category: METADATA 
+  type: URL
+  description: The URL reference of the source/origin of the metadata file.
+- property: contact_person
+  name: Contact person
+  category: METADATA
+  type: Text
+  description: The contact person for this entry.
+- property: lang
+  name: Language
+  category: METADATA
+  type: Text
+  description: The language in which this entry was filled.
+- property: revision_date
+  name: Revision date
+  category: METADATA
+  type: Text
+  description: The date before which this entry has to be revisited.
+
+# BASIC INFORMATION ABOUT THIS ALGORITHMIC APPLICATION
+
+- property: name
+  name: Name
+  category: BASIC INFORMATION
+  type: Text
+  description: The colloquial name used to identify the algorithm.
+- property: organization
+  name: Organization
+  category: BASIC INFORMATION
+  type: Text
+  description: The organization that is using the algorithm.
+- property: department
+  name: Department
+  category: BASIC INFORMATION
+  type: Text
+  description: The department that is using the algorithm.
+- property: name_short
+  name: Short name
+  category: BASIC INFORMATION
+  type: Text
+  description: General, short name of the algorithm, max 35 chars.
+- property: description_short
+  name: Short description
+  category: BASIC INFORMATION
+  type: Text
+  description: General, short description of the algorithm, max 150 chars.
+- property: type
+  name: Type of algorithm
+  category: BASIC INFORMATION
+  type: Text
+  description: Rule based or self learning?
+- property: category
+  name: Category
+  category: BASIC INFORMATION
+  type: Text
+  description: Field for key words
+- property: website
+  name: URL of the website
+  category: BASIC INFORMATION
+  type: URL
+  description: The URL reference to the landing page of the algorithm.
+- property: status
+  name: Status
+  category: BASIC INFORMATION
+  type: Text
+  description: 
+
+# CONTEXT
+
+- property: decision_making_process
+  name: Decision-making process
+  category: CONTEXT
+  type: Text
+  description: In which decision-making process in the organization is the algorithm envolved. Are there automated decisions being made? If possible references to concrete decisions or policy, as published in publicly available sources such as council information management systems.
+- property: goal
+  name: Goal
+  category: CONTEXT
+  type: Text
+  description: Description of the goal for which the algorithm was developed. When does it work well (in which application). And what isn't it intended for?
+- property: functions
+  name: Functions
+  category: CONTEXT
+  type: Text
+  description: List of the most important functions of the algorithm.
+- property: impact
+  name: Impact
+  category: CONTEXT
+  type: Text
+  description: Describe the effect that (the outcome of) the algorithm has on the day to day lives of the citizens involved. When is a citizen confronted with the algorithm. In which way is this being communicated. Please reference publicly available sources such as government decisions.
+- property: proportionality
+  name: Proportionality
+  category: CONTEXT # from MONITORING
+  type: Text
+  description:
+- property: documentation
+  name: Documentation
+  category: CONTEXT # CODE BASE? MAINTENANCE?
+  type: URL
+  description: Link to extended documentation of the algorithm and the life cycle management.
+
+# DATA BEING USED BY THIS ALGORITHMIC APPLICATION
+
+- property: connections_to_base_registers
+  name: Connections to base registers
+  category: DATA
+  type: Bool
+  description: 
+- property: source_data
+  name: Source data
+  category: DATA
+  type: Text
+  description: Give an overview of the data that is being processed by the algorithm and possible dependensies that result from this.
+- property: personal_data
+  name: Personal data
+  category: DATA
+  type: Bool
+  description: 
+- property: personal_data_description
+  name: Description of the personal data
+  category: DATA
+  type: Text
+  description: What personal data is being used. How is discrimination prevented when (proxies of) data such as ethnicity, sex or zipcode are being used. Indicate if there is any profiling based on this type of information.
+
+# DESCRIPTION OF THE INNER WORKINGS OF THIS ALGORITHMIC APPLICATION
+
+- property: description
+  name: Long description
+  category: DESCRIPTION
+  type: Text
+  description: Extensive description between 500 and 10000 chars in which the inner workings of the algorithms are explained.
+
+# CODE BASE
+
+- property: algorithm_version
+  name: Version of the algorithm
+  category: CODE BASE
+  type: Text
+  description: The version of the algorithm.
+- property: suite
+  name: Suite
+  category: CODE BASE
+  type: Text
+  description: The software collection or application suite to which the algorithm belongs.
+- property: suite_version
+  name: Version of the suite
+  category: CODE BASE
+  type: Text
+  description: The version of the suite in which the algorithm is used.
+- property: release_date
+  name: Date of release
+  category: CODE BASE
+  type: Date
+  description: Date of the release of the current software version.
+- property: url_code
+  name: URL of the code
+  category: CODE BASE
+  type: URL
+  description: The URL reference to the public publication of the code of the algorithm.
+- property: is_based_on
+  name: URL of the base
+  category: CODE BASE
+  type: URL
+  description: If the algorithm is a fork of another source this can be entered here.
+- property: license
+  name: License
+  category: CODE BASE
+  type: Text
+  description: License model of the public source code of the algorithm. If the source is not publicly available, please enter 'proprietary' here.
+
+# TECHNOLOGY
+
+- property: programming_language
+  name: Programming language
+  category: TECHNOLOGY
+  type: Text
+  description: Documentation is available in which language?
+- property: methods_and_models
+  name: Methods and Models
+  category: TECHNOLOGY
+  type: Text
+  description: Indicate which standard methods or models the algorithm is using. Like ROC-curve or confusion matrix.
+
+# RISK MONITORING (AND INTERVENTION?)
+
+- property: performance_standards
+  name: Perfomance standards
+  category: MONITORING
+  type: Text
+  description: Which criteria are agreed upon to measure the performance of the algorithm. How is this being monitored?
+- property: monitoring # ?
+  name: Monitoring
+  category: MONITORING
+  type: Text
+  description: 
+- property: risk_monitoring
+  name: Risk monitoring
+  category: MONITORING
+  type: Text
+  description: Are the risks of the algorithm identified. How does the organisation monitor these risks. Please give specifics about how 'bias' plays a role in the use of the algorithm.
+- property: human_intervention # ?
+  name: Human intervention
+  category: MONITORING
+  type: Bool
+  description: 
+- property: human_intervention_description
+  name: Description of human intervention
+  category: MONITORING
+  type: Text
+  description: Describe how the outcomes of the algorithm and the resulting processes can be stopt. Specify the internal and external resonsibilities, so it's clear who can and may act.
+
+# LEGAL
+
+- property: data_controller # move to BASIC INFORMATION ?
+  name: Data controller
+  category: LEGAL
+  type: Text
+  description: Who is the data controller, and in case of personal data being used, what is the lawful basis.
+- property: lawful_basis
+  name: Lawful basis # move to CONTEXT?
+  category: LEGAL
+  type: Text
+  description: 
+- property: duty_to_inform
+  name: Duty to inform
+  category: LEGAL
+  type: Bool
+  description: 
+- property: objection_procedure
+  name: Objection procedure
+  category: LEGAL
+  type: Text
+  description: In what way can citizens object against the outcome of the algorithm.
+
+# MAINTENANCE
+
+- property: maintenance_model
+  name: Maintenance model
+  category: MAINTENANCE
+  type: Text
+  description: "How is the algorithm maintained: internally, contract, community, no maintenance".
+- property: maintenance_parties
+  name: Maintenance parties
+  category: MAINTENANCE
+  type: Text
+  description: Overview of parties committed in maintenance of the algorithm, contractually or by other means.
+- property: contact
+  name: Contact
+  category: MAINTENANCE
+  type: Text
+  description: Names of the persons responsible for maintaining the algorithm.
