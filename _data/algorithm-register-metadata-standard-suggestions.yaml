@@ -131,7 +131,7 @@
   name: Personal data
   category: DATA
   type: Bool
-  description: 
+  description: Is any personal data being used?
 - property: personal_data_description
   name: Description of the personal data
   category: DATA
