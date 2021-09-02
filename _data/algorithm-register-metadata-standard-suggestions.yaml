@@ -1,5 +1,4 @@
 # REGISTRATION METADATA FOR THIS ENTRY
-
 - property: id
   name: Identifier
   category: METADATA
@@ -38,7 +37,6 @@
   description: The date before which this entry has to be revisited.
 
 # BASIC INFORMATION ABOUT THIS ALGORITHMIC APPLICATION
-
 - property: name
   name: Name
   category: BASIC INFORMATION
@@ -86,7 +84,6 @@
   description: 
 
 # CONTEXT
-
 - property: decision_making_process
   name: Decision-making process
   category: CONTEXT
@@ -114,9 +111,9 @@
   description:
 - property: documentation
   name: Documentation
-  category: CONTEXT # CODE BASE? MAINTENANCE?
+  category: CONTEXT
   type: URL
-  description: Link to extended documentation of the algorithm and the life cycle management.
+  description: Link to extended documentation.
 
 # DATA BEING USED BY THIS ALGORITHMIC APPLICATION
 
@@ -142,7 +139,6 @@
   description: What personal data is being used. How is discrimination prevented when (proxies of) data such as ethnicity, sex or zipcode are being used. Indicate if there is any profiling based on this type of information.
 
 # DESCRIPTION OF THE INNER WORKINGS OF THIS ALGORITHMIC APPLICATION
-
 - property: description
   name: Long description
   category: DESCRIPTION
@@ -150,7 +146,6 @@
   description: Extensive description between 500 and 10000 chars in which the inner workings of the algorithms are explained.
 
 # CODE BASE
-
 - property: algorithm_version
   name: Version of the algorithm
   category: CODE BASE
@@ -188,7 +183,6 @@
   description: License model of the public source code of the algorithm. If the source is not publicly available, please enter 'proprietary' here.
 
 # TECHNOLOGY
-
 - property: programming_language
   name: Programming language
   category: TECHNOLOGY
@@ -201,7 +195,6 @@
   description: Indicate which standard methods or models the algorithm is using. Like ROC-curve or confusion matrix.
 
 # RISK MONITORING (AND INTERVENTION?)
-
 - property: performance_standards
   name: Perfomance standards
   category: MONITORING
@@ -229,7 +222,6 @@
   description: Describe how the outcomes of the algorithm and the resulting processes can be stopt. Specify the internal and external resonsibilities, so it's clear who can and may act.
 
 # LEGAL
-
 - property: data_controller # move to BASIC INFORMATION ?
   name: Data controller
   category: LEGAL
