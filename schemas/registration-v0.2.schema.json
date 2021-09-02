@@ -12,8 +12,8 @@
           "format": "uuid",
           "description":"The identifier for this entry."
        },
-       "uri":{
-          "name":"URI",
+       "url":{
+          "name":"URL",
           "category":"METADATA",
           "type":"string",
           "description":"The URI for this entry."
