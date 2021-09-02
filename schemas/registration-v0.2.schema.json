@@ -4,6 +4,7 @@
     "title":"Registration",
     "description":"A registration of the use of an algorithmic application by a government organization",
     "type":"object",
+    "required":["id","url"],
     "properties":{
        "id":{
           "name":"Identifier",
