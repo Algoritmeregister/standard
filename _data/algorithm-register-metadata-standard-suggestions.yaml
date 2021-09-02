@@ -120,6 +120,28 @@
   type: URL
   description: Link to extended documentation.
 
+# LEGAL
+- property: data_controller
+  name: Data controller
+  category: LEGAL
+  type: Text
+  description: Who is the data controller, and in case of personal data being used, what is the lawful basis.
+- property: lawful_basis
+  name: Lawful basis
+  category: LEGAL
+  type: Text
+  description: 
+- property: duty_to_inform
+  name: Duty to inform
+  category: LEGAL
+  type: Bool
+  description: 
+- property: objection_procedure
+  name: Objection procedure
+  category: LEGAL
+  type: Text
+  description: In what way can citizens object against the outcome of the algorithm.
+
 # DATA BEING USED BY THIS ALGORITHMIC APPLICATION
 - property: connections_to_base_registers
   name: Connections to base registers
@@ -142,7 +164,7 @@
   type: Text
   description: What personal data is being used. How is discrimination prevented when (proxies of) data such as ethnicity, sex or zipcode are being used. Indicate if there is any profiling based on this type of information.
 
-# DESCRIPTION OF THE INNER WORKINGS OF THIS ALGORITHMIC APPLICATION
+# DESCRIPTION OF THE INNER WORKINGS OF THE ALGORITHMIC APPLICATION
 - property: description
   name: Long description
   category: APPLICATION
@@ -185,25 +207,3 @@
   category: MONITORING
   type: Text
   description: Describe how the outcomes of the algorithm and the resulting processes can be stopt. Specify the internal and external resonsibilities, so it's clear who can and may act.
-
-# LEGAL
-- property: data_controller # move to BASIC INFORMATION ?
-  name: Data controller
-  category: LEGAL
-  type: Text
-  description: Who is the data controller, and in case of personal data being used, what is the lawful basis.
-- property: lawful_basis
-  name: Lawful basis # move to CONTEXT?
-  category: LEGAL
-  type: Text
-  description: 
-- property: duty_to_inform
-  name: Duty to inform
-  category: LEGAL
-  type: Bool
-  description: 
-- property: objection_procedure
-  name: Objection procedure
-  category: LEGAL
-  type: Text
-  description: In what way can citizens object against the outcome of the algorithm.
