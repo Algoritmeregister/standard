@@ -250,21 +250,3 @@
   category: LEGAL
   type: Text
   description: In what way can citizens object against the outcome of the algorithm.
-
-# MAINTENANCE
-
-- property: maintenance_model
-  name: Maintenance model
-  category: MAINTENANCE
-  type: Text
-  description: "How is the algorithm maintained: internally, contract, community, no maintenance".
-- property: maintenance_parties
-  name: Maintenance parties
-  category: MAINTENANCE
-  type: Text
-  description: Overview of parties committed in maintenance of the algorithm, contractually or by other means.
-- property: contact
-  name: Contact
-  category: MAINTENANCE
-  type: Text
-  description: Names of the persons responsible for maintaining the algorithm.
