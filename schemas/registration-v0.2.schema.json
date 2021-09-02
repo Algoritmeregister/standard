@@ -9,13 +9,14 @@
           "name":"Identifier",
           "category":"METADATA",
           "type":"string",
-          "format": "uuid",
+          "format":"uuid",
           "description":"The identifier for this entry."
        },
        "url":{
           "name":"URL",
           "category":"METADATA",
           "type":"string",
+          "format":"uri",
           "description":"The URI for this entry."
        },
        "contact_person":{
@@ -131,7 +132,7 @@
           "name":"Documentation",
           "category":"USE CASE",
           "type":"string",
-          "format":"url",
+          "format":"uri",
           "description":"Link to extended documentation."
        },
        "data_controller":{
@@ -198,7 +199,7 @@
           "name":"Application URL",
           "category":"APPLICATION",
           "type":"string",
-          "format":"url",
+          "format":"uri",
           "description":"The URL reference to the algorithmic application or code base."
        },
        "application_version":{
