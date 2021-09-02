@@ -1,5 +1,5 @@
 {
-    "$id":"http://0.0.0.0:4000/schemas/registration-v0.2.schema.json",
+    "$id":"https://raw.githubusercontent.com/Algoritmeregister/algoritmeregister-metadata-standaard/main/schemas/registration-v0.2.schema.json",
     "$schema":"https://json-schema.org/draft/2020-12/schema",
     "title":"Registration",
     "description":"A registration of the use of an algorithmic application by a government organization",
