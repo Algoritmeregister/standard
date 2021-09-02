@@ -1,4 +1,4 @@
-# REGISTRATION METADATA FOR THIS ENTRY
+# METADATA
 - property: id
   name: Identifier
   category: METADATA
@@ -36,7 +36,7 @@
   type: Text
   description: The date before which this entry has to be revisited.
 
-# BASIC INFORMATION ABOUT THIS ALGORITHMIC APPLICATION
+# BASIC INFORMATION
 - property: name
   name: Name
   category: BASIC INFORMATION
@@ -83,40 +83,40 @@
   type: Text
   description: 
 
-# CONTEXT
+# USE CASE
 - property: decision_making_process
   name: Decision-making process
-  category: CONTEXT
+  category: USE CASE
   type: Text
   description: In which decision-making process in the organization is the algorithm envolved. Are there automated decisions being made? If possible references to concrete decisions or policy, as published in publicly available sources such as council information management systems.
 - property: goal
   name: Goal
-  category: CONTEXT
+  category: USE CASE
   type: Text
   description: Description of the goal for which the algorithm was developed. When does it work well (in which application). And what isn't it intended for?
 - property: functions
   name: Functions
-  category: CONTEXT
+  category: USE CASE
   type: Text
   description: List of the most important functions of the algorithm.
 - property: impact
   name: Impact
-  category: CONTEXT
+  category: USE CASE
   type: Text
   description: Describe the effect that (the outcome of) the algorithm has on the day to day lives of the citizens involved. When is a citizen confronted with the algorithm. In which way is this being communicated. Please reference publicly available sources such as government decisions.
 - property: risks
   name: Risks
-  category: CONTEXT
+  category: USE CASE
   type: Text
   description: What are the risks of the algorithmic application? Please give specifics about how 'bias' plays a role in the use of the algorithm.
 - property: proportionality
   name: Proportionality
-  category: CONTEXT
+  category: USE CASE
   type: Text
   description:
 - property: documentation
   name: Documentation
-  category: CONTEXT
+  category: USE CASE
   type: URL
   description: Link to extended documentation.
 
@@ -142,7 +142,7 @@
   type: Text
   description: In what way can citizens object against the outcome of the algorithm.
 
-# DATA BEING USED BY THIS ALGORITHMIC APPLICATION
+# DATA
 - property: connections_to_base_registers
   name: Connections to base registers
   category: DATA
@@ -164,7 +164,7 @@
   type: Text
   description: What personal data is being used. How is discrimination prevented when (proxies of) data such as ethnicity, sex or zipcode are being used. Indicate if there is any profiling based on this type of information.
 
-# DESCRIPTION OF THE INNER WORKINGS OF THE ALGORITHMIC APPLICATION
+# APPLICATION
 - property: description
   name: Long description
   category: APPLICATION
@@ -186,7 +186,7 @@
   type: Text
   description: The version of the algorithmic application currently in use.
 
-# RISK MONITORING (AND INTERVENTION?)
+# MONITORING
 - property: performance_standards
   name: Perfomance standards
   category: MONITORING
