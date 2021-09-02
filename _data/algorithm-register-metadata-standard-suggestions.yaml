@@ -141,58 +141,24 @@
 # DESCRIPTION OF THE INNER WORKINGS OF THIS ALGORITHMIC APPLICATION
 - property: description
   name: Long description
-  category: DESCRIPTION
+  category: APPLICATION
   type: Text
   description: Extensive description between 500 and 10000 chars in which the inner workings of the algorithms are explained.
-
-# CODE BASE
-- property: algorithm_version
-  name: Version of the algorithm
-  category: CODE BASE
-  type: Text
-  description: The version of the algorithm.
-- property: suite
-  name: Suite
-  category: CODE BASE
-  type: Text
-  description: The software collection or application suite to which the algorithm belongs.
-- property: suite_version
-  name: Version of the suite
-  category: CODE BASE
-  type: Text
-  description: The version of the suite in which the algorithm is used.
-- property: release_date
-  name: Date of release
-  category: CODE BASE
-  type: Date
-  description: Date of the release of the current software version.
-- property: url_code
-  name: URL of the code
-  category: CODE BASE
-  type: URL
-  description: The URL reference to the public publication of the code of the algorithm.
-- property: is_based_on
-  name: URL of the base
-  category: CODE BASE
-  type: URL
-  description: If the algorithm is a fork of another source this can be entered here.
-- property: license
-  name: License
-  category: CODE BASE
-  type: Text
-  description: License model of the public source code of the algorithm. If the source is not publicly available, please enter 'proprietary' here.
-
-# TECHNOLOGY
-- property: programming_language
-  name: Programming language
-  category: TECHNOLOGY
-  type: Text
-  description: Documentation is available in which language?
 - property: methods_and_models
   name: Methods and Models
-  category: TECHNOLOGY
+  category: APPLICATION
   type: Text
   description: Indicate which standard methods or models the algorithm is using. Like ROC-curve or confusion matrix.
+- property: application_url
+  name: Application URL
+  category: APPLICATION
+  type: URL
+  description: The URL reference to the algorithmic application or code base.
+- property: application_version
+  name: Application live version
+  category: APPLICATION
+  type: Text
+  description: The version of the algorithmic application currently in use.
 
 # RISK MONITORING (AND INTERVENTION?)
 - property: performance_standards
