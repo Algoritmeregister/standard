@@ -111,7 +111,7 @@
   description: What are the risks of the algorithmic application? Please give specifics about how 'bias' plays a role in the use of the algorithm.
 - property: proportionality
   name: Proportionality
-  category: CONTEXT # from MONITORING
+  category: CONTEXT
   type: Text
   description:
 - property: documentation
