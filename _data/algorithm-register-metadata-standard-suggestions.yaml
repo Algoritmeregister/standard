@@ -104,6 +104,11 @@
   category: CONTEXT
   type: Text
   description: Describe the effect that (the outcome of) the algorithm has on the day to day lives of the citizens involved. When is a citizen confronted with the algorithm. In which way is this being communicated. Please reference publicly available sources such as government decisions.
+- property: risks
+  name: Risks
+  category: CONTEXT
+  type: Text
+  description: What are the risks of the algorithmic application? Please give specifics about how 'bias' plays a role in the use of the algorithm.
 - property: proportionality
   name: Proportionality
   category: CONTEXT # from MONITORING
@@ -116,7 +121,6 @@
   description: Link to extended documentation.
 
 # DATA BEING USED BY THIS ALGORITHMIC APPLICATION
-
 - property: connections_to_base_registers
   name: Connections to base registers
   category: DATA
@@ -166,17 +170,12 @@
   category: MONITORING
   type: Text
   description: Which criteria are agreed upon to measure the performance of the algorithm. How is this being monitored?
-- property: monitoring # ?
-  name: Monitoring
-  category: MONITORING
-  type: Text
-  description: 
 - property: risk_monitoring
   name: Risk monitoring
   category: MONITORING
   type: Text
-  description: Are the risks of the algorithm identified. How does the organisation monitor these risks. Please give specifics about how 'bias' plays a role in the use of the algorithm.
-- property: human_intervention # ?
+  description: How does the organisation monitor the risks.
+- property: human_intervention
   name: Human intervention
   category: MONITORING
   type: Bool
