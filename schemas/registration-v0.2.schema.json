@@ -1,0 +1,235 @@
+{
+    "$id":"http://0.0.0.0:4000/schemas/registration-v0.2.schema.json",
+    "$schema":"https://json-schema.org/draft/2020-12/schema",
+    "title":"Registration",
+    "description":"A registration of the use of an algorithmic application by a government organization",
+    "type":"object",
+    "properties":{
+       "id":{
+          "name":"Identifier",
+          "category":"METADATA",
+          "type":"string",
+          "format": "uuid",
+          "description":"The identifier for this entry."
+       },
+       "uri":{
+          "name":"URI",
+          "category":"METADATA",
+          "type":"string",
+          "description":"The URI for this entry."
+       },
+       "contact_person":{
+          "name":"Contact person",
+          "category":"METADATA",
+          "type":"string",
+          "description":"The contact person for this entry."
+       },
+       "lang":{
+          "name":"Language",
+          "category":"METADATA",
+          "type":"string",
+          "description":"The language in which this entry was filled."
+       },
+       "revision_date":{
+          "name":"Revision date",
+          "category":"METADATA",
+          "type":"string",
+          "description":"The date before which this entry has to be revisited."
+       },
+       "name":{
+          "name":"Name",
+          "category":"BASIC INFORMATION",
+          "type":"string",
+          "description":"The colloquial name used to identify the algorithm."
+       },
+       "organization":{
+          "name":"Organization",
+          "category":"BASIC INFORMATION",
+          "type":"string",
+          "description":"The organization that is using the algorithm."
+       },
+       "department":{
+          "name":"Department",
+          "category":"BASIC INFORMATION",
+          "type":"string",
+          "description":"The department that is using the algorithm."
+       },
+       "name_short":{
+          "name":"Short name",
+          "category":"BASIC INFORMATION",
+          "type":"string",
+          "description":"General, short name of the algorithm, max 35 chars."
+       },
+       "description_short":{
+          "name":"Short description",
+          "category":"BASIC INFORMATION",
+          "type":"string",
+          "description":"General, short description of the algorithm, max 150 chars."
+       },
+       "type":{
+          "name":"Type of algorithm",
+          "category":"BASIC INFORMATION",
+          "type":"string",
+          "description":"Rule based or self learning?"
+       },
+       "category":{
+          "name":"Category",
+          "category":"BASIC INFORMATION",
+          "type":"string",
+          "description":"Field for key words"
+       },
+       "website":{
+          "name":"URL of the website",
+          "category":"BASIC INFORMATION",
+          "type":"string",
+          "format":"url",
+          "description":"The URL reference to the landing page of the algorithm."
+       },
+       "status":{
+          "name":"Status",
+          "category":"BASIC INFORMATION",
+          "type":"string",
+          "description":""
+       },
+       "decision_making_process":{
+          "name":"Decision-making process",
+          "category":"USE CASE",
+          "type":"string",
+          "description":"In which decision-making process in the organization is the algorithm envolved. Are there automated decisions being made? If possible references to concrete decisions or policy, as published in publicly available sources such as council information management systems."
+       },
+       "goal":{
+          "name":"Goal",
+          "category":"USE CASE",
+          "type":"string",
+          "description":"Description of the goal for which the algorithm was developed. When does it work well (in which application). And what isn't it intended for?"
+       },
+       "functions":{
+          "name":"Functions",
+          "category":"USE CASE",
+          "type":"string",
+          "description":"List of the most important functions of the algorithm."
+       },
+       "impact":{
+          "name":"Impact",
+          "category":"USE CASE",
+          "type":"string",
+          "description":"Describe the effect that (the outcome of) the algorithm has on the day to day lives of the citizens involved. When is a citizen confronted with the algorithm. In which way is this being communicated. Please reference publicly available sources such as government decisions."
+       },
+       "risks":{
+          "name":"Risks",
+          "category":"USE CASE",
+          "type":"string",
+          "description":"What are the risks of the algorithmic application? Please give specifics about how 'bias' plays a role in the use of the algorithm."
+       },
+       "proportionality":{
+          "name":"Proportionality",
+          "category":"USE CASE",
+          "type":"string",
+          "description":""
+       },
+       "documentation":{
+          "name":"Documentation",
+          "category":"USE CASE",
+          "type":"string",
+          "format":"url",
+          "description":"Link to extended documentation."
+       },
+       "data_controller":{
+          "name":"Data controller",
+          "category":"LEGAL",
+          "type":"string",
+          "description":"Who is the data controller, and in case of personal data being used, what is the lawful basis."
+       },
+       "lawful_basis":{
+          "name":"Lawful basis",
+          "category":"LEGAL",
+          "type":"string",
+          "description":""
+       },
+       "duty_to_inform":{
+          "name":"Duty to inform",
+          "category":"LEGAL",
+          "type":"boolean",
+          "description":""
+       },
+       "objection_procedure":{
+          "name":"Objection procedure",
+          "category":"LEGAL",
+          "type":"string",
+          "description":"In what way can citizens object against the outcome of the algorithm."
+       },
+       "connections_to_base_registers":{
+          "name":"Connections to base registers",
+          "category":"DATA",
+          "type":"boolean",
+          "description":""
+       },
+       "source_data":{
+          "name":"Source data",
+          "category":"DATA",
+          "type":"string",
+          "description":"Give an overview of the data that is being processed by the algorithm and possible dependensies that result from this."
+       },
+       "personal_data":{
+          "name":"Personal data",
+          "category":"DATA",
+          "type":"boolean",
+          "description":"Is any personal data being used?"
+       },
+       "personal_data_description":{
+          "name":"Description of the personal data",
+          "category":"DATA",
+          "type":"string",
+          "description":"What personal data is being used. How is discrimination prevented when (proxies of) data such as ethnicity, sex or zipcode are being used. Indicate if there is any profiling based on this type of information."
+       },
+       "description":{
+          "name":"Long description",
+          "category":"APPLICATION",
+          "type":"string",
+          "description":"Extensive description between 500 and 10000 chars in which the inner workings of the algorithms are explained."
+       },
+       "methods_and_models":{
+          "name":"Methods and Models",
+          "category":"APPLICATION",
+          "type":"string",
+          "description":"Indicate which standard methods or models the algorithm is using. Like ROC-curve or confusion matrix."
+       },
+       "application_url":{
+          "name":"Application URL",
+          "category":"APPLICATION",
+          "type":"string",
+          "format":"url",
+          "description":"The URL reference to the algorithmic application or code base."
+       },
+       "application_version":{
+          "name":"Application live version",
+          "category":"APPLICATION",
+          "type":"string",
+          "description":"The version of the algorithmic application currently in use."
+       },
+       "performance_standards":{
+          "name":"Perfomance standards",
+          "category":"MONITORING",
+          "type":"string",
+          "description":"Which criteria are agreed upon to measure the performance of the algorithm. How is this being monitored?"
+       },
+       "risk_monitoring":{
+          "name":"Risk monitoring",
+          "category":"MONITORING",
+          "type":"string",
+          "description":"How does the organisation monitor the risks."
+       },
+       "human_intervention":{
+          "name":"Human intervention",
+          "category":"MONITORING",
+          "type":"boolean",
+          "description":""
+       },
+       "human_intervention_description":{
+          "name":"Description of human intervention",
+          "category":"MONITORING",
+          "type":"string",
+          "description":"Describe how the outcomes of the algorithm and the resulting processes can be stopt. Specify the internal and external resonsibilities, so it's clear who can and may act."
+       }
+    }
+ }

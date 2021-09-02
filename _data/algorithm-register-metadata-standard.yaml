@@ -192,7 +192,7 @@
   name: Maintenance model
   category: MAINTENANCE
   type: Text
-  description: "How is the algorithm maintained: internally, contract, community, no maintenance".
+  description: "How is the algorithm maintained: internally, contract, community, no maintenance."
 - property: maintenance_parties
   name: Maintenance parties
   category: MAINTENANCE
