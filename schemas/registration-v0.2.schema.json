@@ -4,7 +4,7 @@
     "title":"Registration",
     "description":"A registration of the use of an algorithmic application by a government organization",
     "type":"object",
-    "required":["id","url","contact_person","name"],
+    "required":["id","url","contact_person_email","name","description_short"],
     "properties":{
        "id":{
           "name":"Identifier",
@@ -55,12 +55,6 @@
           "category":"BASIC INFORMATION",
           "type":"string",
           "description":"The department that is using the algorithm."
-       },
-       "name_short":{
-          "name":"Short name",
-          "category":"BASIC INFORMATION",
-          "type":"string",
-          "description":"General, short name of the algorithm, max 35 chars."
        },
        "description_short":{
           "name":"Short description",
