@@ -20,11 +20,11 @@
           "format":"uri",
           "description":"The URI for this entry."
        },
-       "contact_person":{
-          "name":"Contact person",
+       "contact_person_email":{
+          "name":"Contact person e-mail",
           "category":"METADATA",
           "type":"string",
-          "description":"The contact person for this entry."
+          "description":"The e-mail of the contact person for this entry."
        },
        "lang":{
           "name":"Language",
