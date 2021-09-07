@@ -4,7 +4,17 @@
     "title":"Registration",
     "description":"A registration of the use of an algorithmic application by a government organization",
     "type":"object",
-    "required":["schema","id","url","contact_person_email","name","description_short","organization","department","revision_date"],
+    "required":[
+       "schema",
+       "id",
+       "url",
+       "contact_person_email",
+       "name",
+       "description_short",
+       "organization",
+       "department",
+       "revision_date"
+    ],
     "properties":{
        "schema":{
           "name":"Schema",
