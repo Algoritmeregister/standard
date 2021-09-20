@@ -1,5 +1,5 @@
 {
-	"$id": "https://raw.githubusercontent.com/Algoritmeregister/algoritmeregister-metadata-standaard/main/schemas/registration-v0.2.schema.json",
+	"$id": "https://standaard.algoritmeregister.org/schemas/registration-v0.2.schema.json",
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
 	"title": "Algorithm and AI Registration Standard NL",
 	"description": "Standard for registration of the use of models, algorithms or AI in policy or decision making processes by Dutch governmental organisations.",
