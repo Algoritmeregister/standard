@@ -1,188 +1,402 @@
 version: "0.2"
-title: "Algorithm and AI Registration Standard NL"
-description: "Standard for registration of the use of models, algorithms or AI in policy or decision making processes by Dutch governmental organisations."
+title:
+  en: "Algorithm and AI Registration Standard NL"
+  nl: "NL Standaard voor Registratie van Algoritmes en AI"
+description:
+  en: "Standard for registration of the use of models, algorithms or AI in policy or decision making processes by Dutch governmental organisations."
+  nl: "Standaard voor de registratie van de inzet van modellen, algoritmes en AI in beleid en besluitvormingsprocessen in Nederlandse overheidsorganisaties."
 properties:
 - attribute: "name"
-  name: "Name"
-  category: "BASIC INFORMATION"
+  name:
+    en: "Name"
+    nl: "Naam"
+  category:
+    en: "BASIC INFORMATION"
+    nl: "ALGEMENE INFORMATIE"
   type: "string"
-  description: "The string 'name' is the colloquial name used to identify the algorithm. Example: 'WMO prediction Rotterdam' or 'Crowd-monitoring Enschede'."
+  description:
+    en: "The string 'name' is the colloquial name used to identify the algorithm. Example: 'WMO prediction Rotterdam' or 'Crowd-monitoring Enschede'."
+    nl: ""
   required: true
 - attribute: "organization"
-  name: "Organization"
-  category: "BASIC INFORMATION"
+  name:
+    en: "Organization"
+    nl: "Organisatie"
+  category:
+    en: "BASIC INFORMATION"
+    nl: "ALGEMENE INFORMATIE"
   type: "string"
-  description: "The string 'organization' is the full name of the organization used to identify responsibility for use of the model, algorithm or AI. Example: 'City of Amsterdam' or 'Water Authority Limburg '."
+  description:
+    en: "The string 'organization' is the full name of the organization used to identify responsibility for use of the model, algorithm or AI. Example: 'City of Amsterdam' or 'Water Authority Limburg '."
+    nl: ""
   required: true
 - attribute: "department"
-  name: "Department"
-  category: "BASIC INFORMATION"
+  name:
+    en: "Department"
+    nl: "Afdeling"
+  category:
+    en: "BASIC INFORMATION"
+    nl: "ALGEMENE INFORMATIE"
   type: "string"
-  description: "The string 'department' is the full name of the department or division used to specify responsibility for use of the model, algorithm or AI. Example: 'District Segbroek' or 'Traffic and transport'."
+  description:
+    en: "The string 'department' is the full name of the department or division used to specify responsibility for use of the model, algorithm or AI. Example: 'District Segbroek' or 'Traffic and transport'."
+    nl: ""
   required: true
 - attribute: "description_short"
-  name: "Short description"
-  category: "BASIC INFORMATION"
+  name:
+    en: "Short description"
+    nl: "Korte omschrijving"
+  category:
+    en: "BASIC INFORMATION"
+    nl: "ALGEMENE INFORMATIE"
   type: "string"
-  description: "The string 'description_short' is a description of maximum 150 chars in order to give a quick overview of the purpose of the model, algorithm or AI. Example: 'The traffic light priority algorithm prioritises traffic modalities based on applicable law and local regulations'."
+  description:
+    en: "The string 'description_short' is a description of maximum 150 chars in order to give a quick overview of the purpose of the model, algorithm or AI. Example: 'The traffic light priority algorithm prioritises traffic modalities based on applicable law and local regulations'."
+    nl: ""
   required: true
 - attribute: "type"
-  name: "Type of algorithm"
-  category: "BASIC INFORMATION"
+  name:
+    en: "Type of algorithm"
+    nl: "Type algoritme"
+  category:
+    en: "BASIC INFORMATION"
+    nl: "ALGEMENE INFORMATIE"
   type: "string"
-  description: "The string 'type' indicates wether the model, algorithm or AI is descriptive, diagnostic, predictive or prescriptive. This information can be used as a possible risk indicator."
+  description:
+    en: "The string 'type' indicates wether the model, algorithm or AI is descriptive, diagnostic, predictive or prescriptive. This information can be used as a possible risk indicator."
+    nl: ""
 - attribute: "category"
-  name: "Category"
-  category: "BASIC INFORMATION"
+  name:
+    en: "Category"
+    nl: "Categorie"
+  category:
+    en: "BASIC INFORMATION"
+    nl: "ALGEMENE INFORMATIE"
   type: "string"
-  description: "The string 'category' can be used to add keywords in order to facilitate search. Examples: 'traffic', 'transport', 'social security', 'crowd-monitoring', 'facial recognition', 'camera surveillance'."
+  description:
+    en: "The string 'category' can be used to add keywords in order to facilitate search. Examples: 'traffic', 'transport', 'social security', 'crowd-monitoring', 'facial recognition', 'camera surveillance'."
+    nl: ""
 - attribute: "website"
-  name: "URL of the website"
-  category: "BASIC INFORMATION"
+  name:
+    en: "URL of the website"
+    nl: "URL van de website"
+  category:
+    en: "BASIC INFORMATION"
+    nl: "ALGEMENE INFORMATIE"
   type: "string"
-  description: "The string 'website' is the URL reference to the landing page with further information about the model, algorithm or AI and its use. This facilitates users searching more in-depth information about the practical use or technical details."
+  description:
+    en: "The string 'website' is the URL reference to the landing page with further information about the model, algorithm or AI and its use. This facilitates users searching more in-depth information about the practical use or technical details."
+    nl: ""
 - attribute: "status"
-  name: "Status"
-  category: "BASIC INFORMATION"
+  name:
+    en: "Status"
+    nl: "Status"
+  category:
+    en: "BASIC INFORMATION"
+    nl: "ALGEMENE INFORMATIE"
   type: "string"
-  description: "The string 'status' indicates wether the model, algorithm or AI is in development, in use, or archived."
+  description:
+    en: "The string 'status' indicates wether the model, algorithm or AI is in development, in use, or archived."
+    nl: ""
 - attribute: "goal"
-  name: "Goal"
-  category: "USE CASE"
+  name:
+    en: "Goal"
+    nl: "Doel"
+  category:
+    en: "USE CASE"
+    nl: "INZET"
   type: "string"
-  description: "The string 'goal' is the description of the goal of the policy for which the model, algorithm or AI was developed and how the technology contributes to reaching that goal. It should become clear why it is likely that this specific technology will help reach the goal."
+  description:
+    en: "The string 'goal' is the description of the goal of the policy for which the model, algorithm or AI was developed and how the technology contributes to reaching that goal. It should become clear why it is likely that this specific technology will help reach the goal."
+    nl: ""
 - attribute: "impact"
-  name: "Impact"
-  category: "USE CASE"
+  name:
+    en: "Impact"
+    nl: "Impact"
+  category:
+    en: "USE CASE"
+    nl: "INZET"
   type: "string"
-  description: "The string 'impact' describes in what way citizens come into contact with the effects of the model, algorithm or AI. It should become clear under what specific circumstances this happens and what the expected consequences are on an individual and/or societal level."
+  description:
+    en: "The string 'impact' describes in what way citizens come into contact with the effects of the model, algorithm or AI. It should become clear under what specific circumstances this happens and what the expected consequences are on an individual and/or societal level."
+    nl: ""
 - attribute: "proportionality"
-  name: "Proportionality"
-  category: "USE CASE"
+  name:
+    en: "Proportionality"
+    nl: "Proportionaliteit"
+  category:
+    en: "USE CASE"
+    nl: "INZET"
   type: "string"
-  description: "The string 'proportionality' describes why the authority by which the model, algorithm or AI is used is reasonably necessary. It should explain why the expected benefit outweighs any potential expected harm."
+  description:
+    en: "The string 'proportionality' describes why the authority by which the model, algorithm or AI is used is reasonably necessary. It should explain why the expected benefit outweighs any potential expected harm."
+    nl: ""
 - attribute: "decision_making_process"
-  name: "Decision-making process"
-  category: "USE CASE"
+  name:
+    en: "Decision-making process"
+    nl: "Besluitvormingsproces"
+  category:
+    en: "USE CASE"
+    nl: "INZET"
   type: "string"
-  description: "The string 'decision_making_process' refers to the official process in the organisation in which the model, algorithm or AI is involved. It should refer to concrete laws, regulation or policy, as published in publicly available sources."
+  description:
+    en: "The string 'decision_making_process' refers to the official process in the organisation in which the model, algorithm or AI is involved. It should refer to concrete laws, regulation or policy, as published in publicly available sources."
+    nl: ""
 - attribute: "documentation"
-  name: "Documentation"
-  category: "USE CASE"
+  name:
+    en: "Documentation"
+    nl: "Documentatie"
+  category:
+    en: "USE CASE"
+    nl: "INZET"
   type: "string"
-  description: "The string 'documentation' is the URL reference to any extended information about the use of the model, algorithm or AI within this specific use case."
+  description:
+    en: "The string 'documentation' is the URL reference to any extended information about the use of the model, algorithm or AI within this specific use case."
+    nl: ""
 - attribute: "description"
-  name: "Long description"
-  category: "APPLICATION"
+  name:
+    en: "Long description"
+    nl: "Lange omschrijving"
+  category:
+    en: "APPLICATION"
+    nl: "TOEPASSING"
   type: "string"
-  description: "The string 'description' is an extensive description between 500 and 10000 chars in which the inner workings of the model, algorithm or AI are explained. It should detail all relevant aspects that are needed to understand how the model, algorithm or AI processes data and feeds decision making."
+  description:
+    en: "The string 'description' is an extensive description between 500 and 10000 chars in which the inner workings of the model, algorithm or AI are explained. It should detail all relevant aspects that are needed to understand how the model, algorithm or AI processes data and feeds decision making."
+    nl: ""
 - attribute: "application_url"
-  name: "Application URL"
-  category: "APPLICATION"
+  name:
+    en: "Application URL"
+    nl: "URL van de applicatie"
+  category:
+    en: "APPLICATION"
+    nl: "TOEPASSING"
   type: "string"
-  description: "The string 'application_url' is the URL reference to the algorithmic application or code base. Examples are links to a Github repository, the Common Ground Component Catalogue or supplier documentation."
+  description:
+    en: "The string 'application_url' is the URL reference to the algorithmic application or code base. Examples are links to a Github repository, the Common Ground Component Catalogue or supplier documentation."
+    nl: ""
 - attribute: "publiccode"
-  name: "URL of PublicCode.yml"
-  category: "APPLICATION"
+  name:
+    en: "URL of PublicCode.yml"
+    nl: "URL van publiccode.yml"
+  category:
+    en: "APPLICATION"
+    nl: "TOEPASSING"
   type: "string"
-  description: "The string 'publiccode' is the URL reference to the the PublicCode.yml standard if available."
+  description:
+    en: "The string 'publiccode' is the URL reference to the the PublicCode.yml standard if available."
+    nl: ""
 - attribute: "MPRD"
-  name: "Connection to Municipal Personal Records Database"
-  category: "APPLICATION"
+  name:
+    en: "Connection to Municipal Personal Records Database"
+    nl: "Koppelingen met basisregistraties"
+  category:
+    en: "APPLICATION"
+    nl: "TOEPASSING"
   type: "boolean"
-  description: "The boolean 'MPRD' indicates wether a connection is being made to the Municipal Personal Records Database."
+  description:
+    en: "The boolean 'MPRD' indicates wether a connection is being made to the Municipal Personal Records Database."
+    nl: ""
 - attribute: "source_data"
-  name: "Source data"
-  category: "APPLICATION"
+  name:
+    en: "Source data"
+    nl: "Brondata"
+  category:
+    en: "APPLICATION"
+    nl: "TOEPASSING"
   type: "string"
-  description: "The string 'source_data' gives an overview of the data that is being processed by the model, algorithm or AI. It should describe the pupose with which each data source is added and possible dependencies that resulting from this."
+  description:
+    en: "The string 'source_data' gives an overview of the data that is being processed by the model, algorithm or AI. It should describe the pupose with which each data source is added and possible dependencies that resulting from this."
+    nl: ""
 - attribute: "methods_and_models"
-  name: "Methods and models"
-  category: "APPLICATION"
+  name:
+    en: "Methods and models"
+    nl: "Methoden en modellen"
+  category:
+    en: "APPLICATION"
+    nl: "TOEPASSING"
   type: "string"
-  description: "The string 'methods_and_models' indicates which standard methods or models the algorithm is using. Examples are ROC-curve or confusion matrix."
+  description:
+    en: "The string 'methods_and_models' indicates which standard methods or models the algorithm is using. Examples are ROC-curve or confusion matrix."
+    nl: ""
 - attribute: "monitoring"
-  name: "Monitoring"
-  category: "OVERSIGHT"
+  name:
+    en: "Monitoring"
+    nl: "Monitoring"
+  category:
+    en: "OVERSIGHT"
+    nl: "TOEZICHT"
   type: "string"
-  description: "The string 'monitoring' gives a general overview of how the competent authority monitors the implementation of the model, algorithm or AI. "
+  description:
+    en: "The string 'monitoring' gives a general overview of how the competent authority monitors the implementation of the model, algorithm or AI. "
+    nl: ""
 - attribute: "human_intervention"
-  name: "Human intervention"
-  category: "OVERSIGHT"
+  name:
+    en: "Human intervention"
+    nl: "Menselijke tussenkomst"
+  category:
+    en: "OVERSIGHT"
+    nl: "TOEZICHT"
   type: "string"
-  description: "The string 'human_intervention' describe how the outcomes of the model, algorithm or AI can be intervened by humans. It should detail how the responsibility for possible human intervention is secured, so it's clear who can and may act."
+  description:
+    en: "The string 'human_intervention' describe how the outcomes of the model, algorithm or AI can be intervened by humans. It should detail how the responsibility for possible human intervention is secured, so it's clear who can and may act."
+    nl: ""
 - attribute: "risks"
-  name: "Risks"
-  category: "OVERSIGHT"
+  name:
+    en: "Risks"
+    nl: "Risico's"
+  category:
+    en: "OVERSIGHT"
+    nl: "TOEZICHT"
   type: "string"
-  description: "The string 'risks' is an overview of the outcome of the internal risk analysis. It can also refer to available online documentation. We currently refer to the assessment framework for algorithms by the Netherlands Court of Audit and the Regulation on a European Approach for Artificial Intelligence."
+  description:
+    en: "The string 'risks' is an overview of the outcome of the internal risk analysis. It can also refer to available online documentation. We currently refer to the assessment framework for algorithms by the Netherlands Court of Audit and the Regulation on a European Approach for Artificial Intelligence."
+    nl: ""
 - attribute: "performance_standard"
-  name: "Performance standard"
-  category: "OVERSIGHT"
+  name:
+    en: "Performance standard"
+    nl: ""
+  category:
+    en: "OVERSIGHT"
+    nl: "TOEZICHT"
   type: "string"
-  description: "The string 'performance_standard' describes what the expected performance of the model, algorithm or AI is and how it is measured. It should detail which criteria are used and the frequency with which the performance is monitored. "
+  description:
+    en: "The string 'performance_standard' describes what the expected performance of the model, algorithm or AI is and how it is measured. It should detail which criteria are used and the frequency with which the performance is monitored. "
+    nl: ""
 - attribute: "competent_authority"
-  name: "Competent authority"
-  category: "LEGAL"
+  name:
+    en: "Competent authority"
+    nl: ""
+  category:
+    en: "LEGAL"
+    nl: "JURIDISCH"
   type: "string"
-  description: "The string 'competent_authority' is the legal entity responsible for deployment of the model, algorithm or AI."
+  description:
+    en: "The string 'competent_authority' is the legal entity responsible for deployment of the model, algorithm or AI."
+    nl: ""
 - attribute: "lawful_basis"
-  name: "Lawful basis"
-  category: "LEGAL"
+  name:
+    en: "Lawful basis"
+    nl: ""
+  category:
+    en: "LEGAL"
+    nl: "JURIDISCH"
   type: "string"
-  description: "The string 'lawful_basis' is a link to the administrative act that makes the use of the model, algorithm or AI legitimate."
+  description:
+    en: "The string 'lawful_basis' is a link to the administrative act that makes the use of the model, algorithm or AI legitimate."
+    nl: ""
 - attribute: "DPIA"
-  name: "Data protection impact assessment"
-  category: "LEGAL"
+  name:
+    en: "Data protection impact assessment"
+    nl: ""
+  category:
+    en: "LEGAL"
+    nl: "JURIDISCH"
   type: "boolean"
-  description: "The boolean 'DPIA' indicates wether a data protection impact assessment has been carried out."
+  description:
+    en: "The boolean 'DPIA' indicates wether a data protection impact assessment has been carried out."
+    nl: ""
 - attribute: "DPIA_description"
-  name: "Description of the DPIA"
-  category: "LEGAL"
+  name:
+    en: "Description of the DPIA"
+    nl: ""
+  category:
+    en: "LEGAL"
+    nl: "JURIDISCH"
   type: "string"
-  description: "The string 'DPIA_description' is an overview of the key points from the data protection impact assessment. It should explain how discrimination is prevented when (proxies of) ethnicity, sex or zipcode are being used. If available it can reference the URL to the full DPIA documentation. "
+  description:
+    en: "The string 'DPIA_description' is an overview of the key points from the data protection impact assessment. It should explain how discrimination is prevented when (proxies of) ethnicity, sex or zipcode are being used. If available it can reference the URL to the full DPIA documentation. "
+    nl: ""
 - attribute: "objection_procedure"
-  name: "Objection procedure"
-  category: "LEGAL"
+  name:
+    en: "Objection procedure"
+    nl: ""
+  category:
+    en: "LEGAL"
+    nl: "JURIDISCH"
   type: "string"
-  description: "The string 'objection_procedure' describes in what way can citizens object against the use or outcome of the model, algorithm or AI."
+  description:
+    en: "The string 'objection_procedure' describes in what way can citizens object against the use or outcome of the model, algorithm or AI."
+    nl: ""
 - attribute: "schema"
-  name: "Schema"
-  category: "METADATA"
+  name:
+    en: "Schema"
+    nl: ""
+  category:
+    en: "METADATA"
+    nl: "METADATA"
   type: "string"
-  description: "The schema used for this entry."
+  description:
+    en: "The schema used for this entry."
+    nl: ""
   required: true
 - attribute: "id"
-  name: "Identifier"
-  category: "METADATA"
+  name:
+    en: "Identifier"
+    nl: ""
+  category:
+    en: "METADATA"
+    nl: "METADATA"
   type: "string"
-  description: "The uuid 'id' is the Universal Unique Identifier for this entry."
+  description:
+    en: "The uuid 'id' is the Universal Unique Identifier for this entry."
+    nl: ""
   required: true
 - attribute: "url"
-  name: "URL"
-  category: "METADATA"
+  name:
+    en: "URL"
+    nl: ""
+  category:
+    en: "METADATA"
+    nl: "METADATA"
   type: "string"
-  description: "The string 'url' is the URI for this entry."
+  description:
+    en: "The string 'url' is the URI for this entry."
+    nl: ""
   required: true
 - attribute: "contact_email"
-  name: "Contact person e-mail"
-  category: "METADATA"
+  name:
+    en: "Contact person e-mail"
+    nl: ""
+  category:
+    en: "METADATA"
+    nl: "METADATA"
   type: "string"
-  description: "The string 'contact_email' is the e-mail address of the organisation or contact person for this entry."
+  description:
+    en: "The string 'contact_email' is the e-mail address of the organisation or contact person for this entry."
+    nl: ""
   required: true
 - attribute: "area"
-  name: "Geographical area"
-  category: "METADATA"
+  name:
+    en: "Geographical area"
+    nl: ""
+  category:
+    en: "METADATA"
+    nl: "METADATA"
   type: "string"
-  description: "The string 'area' is the geographical area to which this entry applies."
+  description:
+    en: "The string 'area' is the geographical area to which this entry applies."
+    nl: ""
 - attribute: "lang"
-  name: "Language"
-  category: "METADATA"
+  name:
+    en: "Language"
+    nl: ""
+  category:
+    en: "METADATA"
+    nl: "METADATA"
   type: "string"
-  description: "The string 'lang' is the language in which this entry was filled."
+  description:
+    en: "The string 'lang' is the language in which this entry was filled."
+    nl: ""
 - attribute: "revision_date"
-  name: "Revision date"
-  category: "METADATA"
+  name:
+    en: "Revision date"
+    nl: ""
+  category:
+    en: "METADATA"
+    nl: "METADATA"
   type: "string"
-  description: "The string 'revision_data' is the date before which this entry has to be revisited."
+  description:
+    en: "The string 'revision_data' is the date before which this entry has to be revisited."
+    nl: ""
   required: true

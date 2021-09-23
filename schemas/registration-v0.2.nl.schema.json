@@ -4,16 +4,16 @@
 {
     "$id": "https://standaard.algoritmeregister.org/schemas/registration-v{{ schema.version }}.schema.json",
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "title": "{{ schema.title.en }}",
-    "description": "{{ schema.description.en }}",
+    "title": "{{ schema.title.nl }}",
+    "description": "{{ schema.description.nl }}",
     "type": "object",
     "properties": {
         {% for property in schema.properties %}
             "{{ property.attribute }}": {
-                "name": "{{ property.name.en }}",
-				"category": "{{ property.category.en }}",
+                "name": "{{ property.name.nl }}",
+				"category": "{{ property.category.nl }}",
 				"type": "{{ property.type }}",
-				"description": "{{ property.description.en }}",
+				"description": "{{ property.description.nl }}",
 				"required": {{ property.required | default: false }}
             }{% if forloop.last == false %},{% endif %}
         {% endfor %}
