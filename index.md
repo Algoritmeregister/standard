@@ -5,6 +5,7 @@
 <table>
     <tr>
         <th>name</th>
+        <th>attribute</th>
         <th>category</th>
         <th>type</th>
         <th>description</th>
@@ -14,6 +15,7 @@
 
         <tr>
             <td>{{ property.name }}</td>
+            <td>{{ property.attribute }}</td>
             <td>{{ property.category }}</td>
             <td>{{ property.type }}</td>
             <td>{{ property.description }}</td>
