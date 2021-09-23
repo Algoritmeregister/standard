@@ -13,12 +13,15 @@
     </tr>
     {% for property in site.data.schema-v0_2.properties %}
         <tr>
-            <td>{{ property.attribute }}</td>
-            <td>{{ property.name.en }} /<br>{{ property.name.nl | default "<b>nog geen vertaling</b>" }}</td>
-            <td>{{ property.category.en }} /<br>{{ property.category.nl | default "<b>nog geen vertaling</b>"  }}</td>
-            <td>{{ property.type }}</td>
-            <td>{{ property.description.en }} /<br>{{ property.description.nl | default "<b>nog geen vertaling</b>"  }}</td>
-            <td>{{ property.required }}</td>
+            <td><b>{{ property.attribute }}</b></td>
+            <td><b>{{ property.name.en }}</b><br>
+                   {{ property.name.nl }}</td>
+            <td><b>{{ property.category.en }}</b><br>
+                   {{ property.category.nl }}</td>
+            <td><b>{{ property.type }}</b></td>
+            <td><b>{{ property.description.en }}</b><br>
+                   {{ property.description.nl }}</td>
+            <td><b>{{ property.required }}</b></td>
         </tr>
 
     {% endfor %}
