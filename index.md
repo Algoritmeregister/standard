@@ -8,14 +8,16 @@
         <th>category</th>
         <th>type</th>
         <th>description</th>
+        <th>required</th>
     </tr>
-    {% for item in site.data.schema-v0_2.properties %}
+    {% for property in site.data.schema-v0_2.properties %}
 
         <tr>
-            <td>{{ item[1].name }}</td>
-            <td>{{ item[1].category }}</td>
-            <td>{{ item[1].type }}</td>
-            <td>{{ item[1].description }}</td>
+            <td>{{ property.name }}</td>
+            <td>{{ property.category }}</td>
+            <td>{{ property.type }}</td>
+            <td>{{ property.description }}</td>
+            <td>{{ property.required }}</td>
         </tr>
 
     {% endfor %}

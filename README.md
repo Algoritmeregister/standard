@@ -8,9 +8,9 @@
 
 In this code base we define the metadata standard: what do we register about the algorithms being used in government, why and how.
 
-[Glossary](glossary.md)
-
 [Attributes](index.md)
+
+[Glossary](glossary.md)
 
 [User Stories](user-stories.md) (in Dutch)
 
