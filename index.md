@@ -4,19 +4,19 @@
 <br>
 <table>
     <tr>
-        <th>naam</th>
-        <th>CATEGORIE</th>
-        <th>eigenschap</th>
+        <th>name</th>
+        <th>category</th>
         <th>type</th>
-        <th>omschrijving</th>
+        <th>description</th>
     </tr>
-    {% for item in site.data.algoritmeregister-metadata-standaard %}
-    <tr>
-        <td>{{ item.naam }}</td>
-        <td>{{ item.categorie }}</td>
-        <td>{{ item.eigenschap }}</td>
-        <td>{{ item.type }}</td>
-        <td>{{ item.omschrijving }}</td>
-    </tr>
+    {% for item in site.data.schema-v0_2.properties %}
+
+        <tr>
+            <td>{{ item[1].name }}</td>
+            <td>{{ item[1].category }}</td>
+            <td>{{ item[1].type }}</td>
+            <td>{{ item[1].description }}</td>
+        </tr>
+
     {% endfor %}
 </table>
