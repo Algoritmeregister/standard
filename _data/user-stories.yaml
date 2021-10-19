@@ -20,7 +20,7 @@
       
       Definitie eindverantwoordelijke?
   Story: "Als eindverantwoordelijke, wil ik de mogelijke impact en implicaties van een algoritme begrijpen, zodat ik de samenhang met andere interventies blijf overzien."
-  Prototype: "Door deze velden op te nemen in de standaard en (dus) de beheer-tool wordt de persoon die de registratie opneemt aangespoord dit in kaart te brengen."
+  Prototype: "Door de velden 'impact' en 'risks' op te nemen in de standaard en (dus) de beheer-tool wordt de persoon die de registratie opneemt aangespoord dit in kaart te brengen."
 - 
   Bruikbaar: Rood
   Doelgroep: inkoper
@@ -39,18 +39,21 @@
   ID: AR004
   Opmerkingen: "Dit is geen functionaliteit. Dit is een doel of uitgangspunt bij het opstellen van de besluitprocessen."
   Story: "Als eindverantwoordelijke, wil ik niet afhankelijk zijn van de uitkomsten/adviezen van een algoritme, zodat ik een brede afweging kan maken die juridisch overeind blijft"
+  Prototype: "Door het veld 'human_intervention' op te nemen in de standaard en (dus) de beheer-tool wordt hier aandacht op gevestigd. Dit zou zeker zo zijn als de registratie vooraf en tijdens de ontwikkeling en implementatie wordt gemaakt (in plaats van achteraf)."
 - 
   Bruikbaar: Rood
   Doelgroep: uitvoerder
   ID: AR005
   Opmerkingen: "Dit heeft betrekking op het algoritme zelf; niet een register of registratie ervan."
   Story: "Als uitvoerder, wil ik 'samenwerken' met het algoritme, zodat mijn prestatie in het veld beter wordt."
+  Prototype: "(Niet verwerkt in het prototype. Zie ook 'computer aided design'; zou passen in een handboek 'inzetten van algoritmes' oid.)"
 - 
   Bruikbaar: Oranje
   Doelgroep: directielid
   ID: AR006
   Opmerkingen: "Opnemen van risico's die een algoritme heeft. Dus risico-analyse is nodig en deel van de meta-data standaard voor het register?"
   Story: "Als directielid, wil ik in eenvoudig te begrijpen rapportage zien welke risico's we lopen, zodat ik kan bijsturen waar nodig."
+  Prototype: "Door de velden 'impact' en 'risks' op te nemen in de standaard en (dus) de beheer-tool wordt de persoon die de registratie opneemt aangespoord dit in kaart te brengen. Mogelijke toevoegingen: + standaardisatie van veld 'risico', + overzicht van risico's"
 - 
   Bruikbaar: Oranje
   Doelgroep: ontwikkelaar/datascientist
