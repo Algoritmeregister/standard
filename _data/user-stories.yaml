@@ -6,6 +6,7 @@
   Opmerkingen: "Direct betekend wanneer of de manier waarop? \n\n\
       Story vraagt meerdere functionaliteiten; delen, meekijken en meedenken. Voor de bouw van register deze verdeling ook gebruiken? "
   Story: "Als team, wil ik algoritmes direct open kunnen delen, zodat er snel vanuit de samenleving meegekeken en meegedacht kan worden."
+  Prototype: "Wanneer een team aan de slag gaat met het ontwikkelen of inzetten van een algoritmische toepassing, kan er een registratie gepubliceerd worden in het algoritmeregister. Door middel van de contactpersoon-informatie kan een geïnteresseerde dan contact opnemen voor vragen en opmerkingen. Mogelijke toevoegingen: + discussie-functionaliteit, + nieuwe registratie indicator, + filter op nieuwe registraties."
 - 
   Bruikbaar: Oranje
   Doelgroep: eindverantwoordelijke
@@ -19,6 +20,7 @@
       
       Definitie eindverantwoordelijke?
   Story: "Als eindverantwoordelijke, wil ik de mogelijke impact en implicaties van een algoritme begrijpen, zodat ik de samenhang met andere interventies blijf overzien."
+  Prototype: "Door deze velden op te nemen in de standaard en (dus) de beheer-tool wordt de persoon die de registratie opneemt aangespoord dit in kaart te brengen."
 - 
   Bruikbaar: Rood
   Doelgroep: inkoper
@@ -30,6 +32,7 @@
       
       Is dit specifiek als een algoritme ingekocht wordt?
   Story: "Als inkoper, wil inzage in risicovolle algoritmes en hun leveranciers, zodat ik teams kan adviseren tijdens het inkoopproces."
+  Prototype: "Mogelijke toevoegingen: + veld 'leverancier' in standaard, + standaardisatie van veld 'risico', + filter op risico(profiel)."
 - 
   Bruikbaar: Rood
   Doelgroep: eindverantwoordelijke
