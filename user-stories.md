@@ -12,6 +12,7 @@ Dit zijn de user stories die zijn opgehaald tijdens de verschillende inventarisa
         <th>Doelgroep</th>
         <th>Bruikbaar</th>
         <th>Opmerkingen</th>
+        <th>Prototype</th>
     </tr>
     {% for item in site.data.user-stories %}
     <tr>
@@ -20,6 +21,7 @@ Dit zijn de user stories die zijn opgehaald tijdens de verschillende inventarisa
         <td>{{ item.Doelgroep }}</td>
         <td>{{ item.Bruikbaar }}</td>
         <td>{{ item.Opmerkingen }}</td>
+        <td>{{ item.Prototype }}</td>
     </tr>
     {% endfor %}
 </table>
