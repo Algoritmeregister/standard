@@ -1,3 +1,11 @@
+AlgorithmicApplication:
+  name: algorithmic application
+  description: software making automated predications, decisions and suggestions using data analysis, statistics and/or self learning logic
+  translations:
+    nl:
+      name: algoritmische toepassing
+      description: software waarmee op geautomatiseerde wijze voorspellingen worden gedaan, besluiten worden genomen en/of adviezen worden gegeven door gebruik te maken van data-analyse, statistiek en/of zelflerende logica
+
 AlgorithmRegistration:
   name: algorithm registration
   description: registration of the use of an algorithmic application by a government organization
@@ -37,11 +45,3 @@ AlgorithmCatalog:
     nl:
       name: algoritmecatalogus
       description: centrale applicatie voor het doorzoeken en doorbladeren van basisinformatie over algoritmeregistraties van alle overheden die doorverwijst naar het betreffende algoritmeregister voor meer informatie
-      
-AlgorithmicApplication:
-  name: algorithmic application
-  description: software making automated predications, decisions and suggestions using data analysis, statistics and/or self learning logic
-  translations:
-    nl:
-      name: algoritmische toepassing
-      description: software waarmee op geautomatiseerde wijze voorspellingen worden gedaan, besluiten worden genomen en/of adviezen worden gegeven door gebruik te maken van data-analyse, statistiek en/of zelflerende logica
