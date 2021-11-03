@@ -1,10 +1,10 @@
 AlgorithmRegistration:
   name: algorithm registration
-  description: registration of use of algorithmic applications by a government organization
+  description: registration of the use of an algorithmic application by a government organization
   translations:
     nl:
       name: algoritmeregistratie
-      description: registratie van inzet van algoritmische toepassingen door een overheid
+      description: registratie van de inzet van een algoritmische toepassing door een overheid
 
 MetadataStandard:
   name: metadata standard
