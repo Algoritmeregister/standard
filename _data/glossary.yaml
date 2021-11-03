@@ -32,11 +32,11 @@ AlgorithmRegister:
       
 AlgorithmCatalog:
   name: algorithm catalog
-  description: central application for searching or browsing the basic information on algorithm registrations that links to the containing algorithm register for more information
+  description: central application for searching or browsing the basic information on algorithm registrations of all government organizations that links to the containing algorithm register for more information
   translations:
     nl:
       name: algoritmecatalogus
-      description: centrale applicatie voor het doorzoeken en doorbladeren van basisinformatie over algoritmeregistraties die doorverwijst naar het betreffende algoritmeregister voor meer informatie
+      description: centrale applicatie voor het doorzoeken en doorbladeren van basisinformatie over algoritmeregistraties van alle overheden die doorverwijst naar het betreffende algoritmeregister voor meer informatie
       
 AlgorithmicApplication:
   name: algorithmic application
