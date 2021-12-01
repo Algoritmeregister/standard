@@ -151,8 +151,8 @@ properties:
     nl: "INZET"
   type: "string"
   description:
-    en: "the URL reference to any extended information about the use of the model, algorithm or AI within this specific use case."
-    nl: ""
+    en: "Please provide a URL reference to any extended information about the use of the model, algorithm or AI within this specific use case."
+    nl: "Wat is de URL naar aanvullende documentatie over dit specifieke gebruik van het model, algoritme of AI?"
 - attribute: "description"
   name:
     en: "Long description"
@@ -162,8 +162,8 @@ properties:
     nl: "TOEPASSING"
   type: "string"
   description:
-    en: "an extensive description between 500 and 10000 chars in which the inner workings of the model, algorithm or AI are explained. It should detail all relevant aspects that are needed to understand how the model, algorithm or AI processes data and feeds decision making."
-    nl: ""
+    en: "Please provide an extensive description between 500 and 10000 chars in which the inner workings of the model, algorithm or AI are explained. It should detail all relevant aspects that are needed to understand how the model, algorithm or AI processes data and feeds decision making."
+    nl: "Geef een uitgebreide uitleg tussen de 500 en 10000 karakters lang van de manier van werken van het model, algoritme of AI. Dit moet alle relevante aspecten bevatten om te kunnen snappen hoe het model, algoritme of AI data verwerkt en een beslissing maakt of beinvloed."
 - attribute: "application_url"
   name:
     en: "Application URL"
@@ -173,8 +173,8 @@ properties:
     nl: "TOEPASSING"
   type: "string"
   description:
-    en: "the URL reference to the algorithmic application or code base. Examples are links to a Github repository, the Common Ground Component Catalogue or supplier documentation."
-    nl: ""
+    en: "Please provide the URL reference to the algorithmic application or code base. Examples are links to a Github repository, the Common Ground Component Catalogue or supplier documentation."
+    nl: "Wat is de URL van de algoritmische applicatie of broncode. Voorbeelden zijn links naar Github, de Common Ground componentencatalogus, of de webpagina van de aanbieder?"
 - attribute: "publiccode"
   name:
     en: "URL of PublicCode.yml"
@@ -184,8 +184,8 @@ properties:
     nl: "TOEPASSING"
   type: "string"
   description:
-    en: "the URL reference to the the PublicCode.yml standard if available."
-    nl: ""
+    en: "What is the URL reference to the the PublicCode.yml standard if available?"
+    nl: "Wat is, indien beschikbaar, de URL van het publiccode.yml bestand?"
 - attribute: "MPRD"
   name:
     en: "Connection to Municipal Personal Records Database"
@@ -195,8 +195,8 @@ properties:
     nl: "TOEPASSING"
   type: "boolean"
   description:
-    en: "indicates wether a connection is being made to the Municipal Personal Records Database."
-    nl: ""
+    en: "Please indicate wether a connection is being made to the Municipal Personal Records Database."
+    nl: "Geef aan of er gebruik wordt gemaakt van koppeling met de BRP."
 - attribute: "source_data"
   name:
     en: "Source data"
@@ -206,8 +206,8 @@ properties:
     nl: "TOEPASSING"
   type: "string"
   description:
-    en: "an overview of the data that is being processed by the model, algorithm or AI. It should describe the pupose with which each data source is added and possible dependencies that resulting from this."
-    nl: ""
+    en: "Please give an overview of the data that is being processed by the model, algorithm or AI. It should describe the pupose with which each data source is added and possible dependencies that resulting from this."
+    nl: "Geen een overzicht van de databronnen die gebruikt worden door of bij het maken of trainen van het model, algoritme of AI. Dit moet inzicht geven in met welk doel welke data is toegevoegd en mogelijke afhankelijkheden die daaruit voortvloeien."
 - attribute: "methods_and_models"
   name:
     en: "Methods and models"
@@ -217,8 +217,8 @@ properties:
     nl: "TOEPASSING"
   type: "string"
   description:
-    en: "indicates which standard methods or models the algorithm is using. Examples are ROC-curve or confusion matrix."
-    nl: ""
+    en: "Please indicate which standard methods or models the algorithm is using. Examples: ROC-curve, confusion matrix."
+    nl: "Geef aan welke standaard methoden of modellen het algoritme gebruikt. Voorbeelden: ROC-curve, confusion matrix."
 - attribute: "monitoring"
   name:
     en: "Monitoring"
@@ -228,8 +228,8 @@ properties:
     nl: "TOEZICHT"
   type: "string"
   description:
-    en: "The string 'monitoring' gives a general overview of how the competent authority monitors the implementation of the model, algorithm or AI. "
-    nl: ""
+    en: "Please give a general overview of how the competent authority monitors the implementation of the model, algorithm or AI. "
+    nl: "Geef een overzicht van hoe de organisatie de inzet van het model, algoritme of AI monitort."
 - attribute: "human_intervention"
   name:
     en: "Human intervention"
@@ -239,8 +239,8 @@ properties:
     nl: "TOEZICHT"
   type: "string"
   description:
-    en: "describes how the outcomes of the model, algorithm or AI can be intervened by humans. It should detail how the responsibility for possible human intervention is secured, so it's clear who can and may act."
-    nl: ""
+    en: "Please describe how the outcomes of the model, algorithm or AI can be intervened by humans. It should detail how the responsibility for possible human intervention is secured, so it's clear who can and may act."
+    nl: "Geef aan hoe de uitkomsten van het model, algoritme of AI door een mens gecontroleerd en bijgesteld worden. Dit moet inzicht geven in hoe menselijke interventie is verzekerd om misstanden te voorkomen."
 - attribute: "risks"
   name:
     en: "Risks"
@@ -250,41 +250,41 @@ properties:
     nl: "TOEZICHT"
   type: "string"
   description:
-    en: "an overview of the outcome of the internal risk analysis. It can also refer to available online documentation. We currently refer to the assessment framework for algorithms by the Netherlands Court of Audit and the Regulation on a European Approach for Artificial Intelligence."
-    nl: ""
+    en: "Please provide an overview of the outcome of the internal risk analysis. It can also refer to available online documentation. We currently refer to the assessment framework for algorithms by the Netherlands Court of Audit and the Regulation on a European Approach for Artificial Intelligence."
+    nl: "Geef een overzicht van de voorziene risico's. Dit mag ook verwijzen naar online documentatie. Aanbevelingen assesment instrumenten: ..."
 - attribute: "performance_standard"
   name:
     en: "Performance standard"
-    nl: ""
+    nl: "Prestatienormen"
   category:
     en: "OVERSIGHT"
     nl: "TOEZICHT"
   type: "string"
   description:
-    en: "describes what the expected performance of the model, algorithm or AI is and how it is measured. It should detail which criteria are used and the frequency with which the performance is monitored. "
-    nl: ""
+    en: "Please describe what the expected performance of the model, algorithm or AI is and how it is measured. It should detail which criteria are used and the frequency with which the performance is monitored. "
+    nl: "Geef aan wat de verwachte prestaties van het model, algoritme of AI zijn en hoe die worden gemeten. Dit moet beschrijven welke criteria gebruikt worden en met welke regelmaat deze worden beoordeeld."
 - attribute: "competent_authority"
   name:
     en: "Competent authority"
-    nl: ""
+    nl: "Bevoegde autoriteit"
   category:
     en: "LEGAL"
     nl: "JURIDISCH"
   type: "string"
   description:
-    en: "the legal entity responsible for deployment of the model, algorithm or AI."
-    nl: ""
+    en: "What is the legal entity responsible for deployment of the model, algorithm or AI?"
+    nl: "Welke bevoegde autoriteit is verantwoordelijk voor de inzet van het model, algoritme of AI?"
 - attribute: "lawful_basis"
   name:
     en: "Lawful basis"
-    nl: ""
+    nl: "Wettelijke grondslag"
   category:
     en: "LEGAL"
     nl: "JURIDISCH"
   type: "string"
   description:
-    en: "a link to the administrative act that makes the use of the model, algorithm or AI legitimate."
-    nl: ""
+    en: "Please provide a link to the administrative act that makes the use of the model, algorithm or AI legitimate."
+    nl: "Geef een verwijzing naar het formele besluit waarin de inzet van het model, algoritme of AI is goedgekeurd."
 - attribute: "DPIA"
   name:
     en: "Data protection impact assessment"
