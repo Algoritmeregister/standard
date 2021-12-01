@@ -16,7 +16,7 @@ properties:
   type: "string"
   description:
     en: "The string 'name' is the colloquial name used to identify the algorithm. Example: 'WMO prediction Rotterdam' or 'Crowd-monitoring Enschede'."
-    nl: ""
+    nl: "De string 'name' is de naam die gebruikt wordt om het algoritme aan te duiden. Voorbeeld: 'WMO voorspelling Rotterdam' of 'Crowd-monitoring Enschede'."
   required: true
 - attribute: "organization"
   name:
@@ -28,7 +28,7 @@ properties:
   type: "string"
   description:
     en: "The string 'organization' is the full name of the organization used to identify responsibility for use of the model, algorithm or AI. Example: 'City of Amsterdam' or 'Water Authority Limburg '."
-    nl: ""
+    nl: "De string 'organization' is de volledige naam van de organisatie verantwoordelijk voor de inzet van het model, algoritme of AI. Voorbeeld: 'Gemeente Amsterdam' of 'Waterschap Limburg'."
   required: true
 - attribute: "department"
   name:
@@ -40,7 +40,7 @@ properties:
   type: "string"
   description:
     en: "The string 'department' is the full name of the department or division used to specify responsibility for use of the model, algorithm or AI. Example: 'District Segbroek' or 'Traffic and transport'."
-    nl: ""
+    nl: "De string 'department' is de volledige naam van de afdeling of divisie verantwoordelijk voor de inzet van het model, algoritme of AI. Voorbeeld: 'Stadsdeel Segbroek' of 'Verkeer en Transport'."
   required: true
 - attribute: "description_short"
   name:
@@ -52,7 +52,7 @@ properties:
   type: "string"
   description:
     en: "The string 'description_short' is a description of maximum 150 chars in order to give a quick overview of the purpose of the model, algorithm or AI. Example: 'The traffic light priority algorithm prioritises traffic modalities based on applicable law and local regulations'."
-    nl: ""
+    nl: "De string 'description_short' is een omschrijving van maximaal 150 karakters waarin hoog over omschreven wordt wat het doel is van het model, algoritme of AI. Voorbeeld: 'Algoritme dat bij stoplichten voorrang van verkeersmodaliteiten berekent op basis van wetgeving en lokale voorschriften."
   required: true
 - attribute: "type"
   name:
