@@ -288,115 +288,115 @@ properties:
 - attribute: "DPIA"
   name:
     en: "Data protection impact assessment"
-    nl: ""
+    nl: "Data protection impact assessment"
   category:
     en: "LEGAL"
     nl: "JURIDISCH"
   type: "boolean"
   description:
-    en: "indicates wether a data protection impact assessment has been carried out."
-    nl: ""
+    en: "Has a data protection impact assessment been carried out?"
+    nl: "Is er een data protection impact assessment (DPIA) uitgevoerd?"
 - attribute: "DPIA_description"
   name:
     en: "Description of the DPIA"
-    nl: ""
+    nl: "Omschrijving van de DPIA"
   category:
     en: "LEGAL"
     nl: "JURIDISCH"
   type: "string"
   description:
-    en: "an overview of the key points from the data protection impact assessment. It should explain how discrimination is prevented when (proxies of) ethnicity, sex or zipcode are being used. If available it can reference the URL to the full DPIA documentation. "
-    nl: ""
+    en: "Please give an overview of the key points from the data protection impact assessment. It should explain how discrimination is prevented when (proxies of) ethnicity, sex or zipcode are being used. If available it can reference the URL to the full DPIA documentation. "
+    nl: "Geef een overzicht van de belangrijkste zaken die uit de data protection impact assessment (DPIA) naar voren kwamen. Dit moet beschrijven hoe discriminatie wordt tegengegaan bij gebruik van (proxies van) etniciteit, sexe, of postcode. Indien beschikbaar kan dit verwijzen naar de URL van de volledige DPIA documentatie."
 - attribute: "objection_procedure"
   name:
     en: "Objection procedure"
-    nl: ""
+    nl: "Bezwaarprocedure"
   category:
     en: "LEGAL"
     nl: "JURIDISCH"
   type: "string"
   description:
-    en: "describes in what way can citizens object against the use or outcome of the model, algorithm or AI."
-    nl: ""
+    en: "Please describe in what way can citizens object against the use or outcome of the model, algorithm or AI."
+    nl: "Omschrijf op welke manier burgers bezwaar kunnen maken tegen de uitkomsten van het model, algoritme of AI."
 - attribute: "schema"
   name:
     en: "Schema"
-    nl: ""
+    nl: "Schema"
   category:
     en: "METADATA"
     nl: "METADATA"
   type: "string"
   description:
-    en: "the schema used for this entry."
-    nl: ""
+    en: "This is the schema used for this entry."
+    nl: "Dit is het schema gebruikt voor deze registratie."
   required: true
 - attribute: "id"
   name:
     en: "Identifier"
-    nl: ""
+    nl: "ID"
   category:
     en: "METADATA"
     nl: "METADATA"
   type: "string"
   description:
-    en: "the Universal Unique Identifier for this entry."
-    nl: ""
+    en: "This is the Universal Unique Identifier for this entry."
+    nl: "Dit is de unieke identificatie (uuid) voor deze registratie."
   required: true
 - attribute: "url"
   name:
     en: "URL"
-    nl: ""
+    nl: "URL"
   category:
     en: "METADATA"
     nl: "METADATA"
   type: "string"
   description:
-    en: "the URI for this entry."
-    nl: ""
+    en: "This is the URL for this entry."
+    nl: "Dit is de URL voor deze registratie."
   required: true
 - attribute: "contact_email"
   name:
     en: "Contact person e-mail"
-    nl: ""
+    nl: "E-mailadres van de contactpersoon"
   category:
     en: "METADATA"
     nl: "METADATA"
   type: "string"
   description:
-    en: "the e-mail address of the organisation or contact person for this entry."
-    nl: ""
+    en: "This is the e-mail address of the organisation or contact person for this entry."
+    nl: "Dit is het e-mailadres van de organisatie of het contactpersoon voor deze registratie."
   required: true
 - attribute: "area"
   name:
     en: "Geographical area"
-    nl: ""
+    nl: "Geografisch gebied"
   category:
     en: "METADATA"
     nl: "METADATA"
   type: "string"
   description:
-    en: "the geographical area to which this entry applies."
-    nl: ""
+    en: "This is the geographical area to which this entry applies."
+    nl: "Dit is het geografische gebied waarop deze registratie betrekking heeft."
 - attribute: "lang"
   name:
     en: "Language"
-    nl: ""
+    nl: "Taal"
   category:
     en: "METADATA"
     nl: "METADATA"
   type: "string"
   description:
-    en: "the language in which this entry was filled."
-    nl: ""
+    en: "This is the language in which this entry was filled."
+    nl: "Dit is de taal waarin deze registratie is ingevoerd."
 - attribute: "revision_date"
   name:
     en: "Revision date"
-    nl: ""
+    nl: "Herzieningsdatum"
   category:
     en: "METADATA"
     nl: "METADATA"
   type: "string"
   description:
-    en: "the date before which this entry has to be revisited."
-    nl: ""
+    en: "This is the date before which this entry has to be revisited."
+    nl: "Dit is de datum waarvoor deze registratie moet worden herzien."
   required: true
