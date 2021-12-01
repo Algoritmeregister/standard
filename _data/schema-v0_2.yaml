@@ -15,8 +15,8 @@ properties:
     nl: "ALGEMENE INFORMATIE"
   type: "string"
   description:
-    en: "the colloquial name used to identify the algorithm. Example: 'WMO prediction Rotterdam' or 'Crowd-monitoring Enschede'."
-    nl: "de naam die gebruikt wordt om het algoritme aan te duiden. Voorbeeld: 'WMO voorspelling Rotterdam' of 'Crowd-monitoring Enschede'."
+    en: "What is the colloquial name used to identify this algorithm? Example: 'WMO prediction Rotterdam' or 'Crowd-monitoring Enschede'."
+    nl: "Wat de naam die gebruikt wordt om dit algoritme aan te duiden? Voorbeeld: 'WMO voorspelling Rotterdam' of 'Crowd-monitoring Enschede'."
   required: true
 - attribute: "organization"
   name:
@@ -27,8 +27,8 @@ properties:
     nl: "ALGEMENE INFORMATIE"
   type: "string"
   description:
-    en: "the full name of the organization used to identify responsibility for use of the model, algorithm or AI. Example: 'City of Amsterdam' or 'Water Authority Limburg '."
-    nl: "de volledige naam van de organisatie verantwoordelijk voor de inzet van het model, algoritme of AI. Voorbeeld: 'Gemeente Amsterdam' of 'Waterschap Limburg'."
+    en: "What is the full name of the organization used to identify responsibility for use of the model, algorithm or AI? Example: 'City of Amsterdam' or 'Water Authority Limburg '."
+    nl: "Wat is de volledige naam van de organisatie verantwoordelijk voor de inzet van het model, algoritme of AI? Voorbeeld: 'Gemeente Amsterdam' of 'Waterschap Limburg'."
   required: true
 - attribute: "department"
   name:
@@ -39,8 +39,8 @@ properties:
     nl: "ALGEMENE INFORMATIE"
   type: "string"
   description:
-    en: "the full name of the department or division used to specify responsibility for use of the model, algorithm or AI. Example: 'District Segbroek' or 'Traffic and transport'."
-    nl: "de volledige naam van de afdeling of divisie verantwoordelijk voor de inzet van het model, algoritme of AI. Voorbeeld: 'Stadsdeel Segbroek' of 'Verkeer en Transport'."
+    en: "What is the full name of the department or division used to specify responsibility for use of the model, algorithm or AI? Example: 'District Segbroek' or 'Traffic and transport'."
+    nl: "Wat is de volledige naam van de afdeling of divisie verantwoordelijk voor de inzet van het model, algoritme of AI? Voorbeeld: 'Stadsdeel Segbroek' of 'Verkeer en Transport'."
   required: true
 - attribute: "description_short"
   name:
@@ -51,8 +51,8 @@ properties:
     nl: "ALGEMENE INFORMATIE"
   type: "string"
   description:
-    en: "a short description of maximum 150 chars in order to give a quick overview of the purpose of the model, algorithm or AI. Example: 'The traffic light priority algorithm prioritises traffic modalities based on applicable law and local regulations'."
-    nl: "een korte omschrijving van maximaal 150 karakters waarin hoog over omschreven wordt wat het doel is van het model, algoritme of AI. Voorbeeld: 'Algoritme dat bij stoplichten voorrang van verkeersmodaliteiten berekent op basis van wetgeving en lokale voorschriften."
+    en: "Please give a short description of maximum 150 chars in order to give a quick overview of the purpose of the model, algorithm or AI. Example: 'The traffic light priority algorithm prioritises traffic modalities based on applicable law and local regulations'."
+    nl: "Geef een korte omschrijving van maximaal 150 karakters waarin hoog over omschreven wordt wat het doel is van het model, algoritme of AI. Voorbeeld: 'Algoritme dat bij stoplichten voorrang van verkeersmodaliteiten berekent op basis van wetgeving en lokale voorschriften."
   required: true
 - attribute: "type"
   name:
@@ -63,8 +63,8 @@ properties:
     nl: "ALGEMENE INFORMATIE"
   type: "string"
   description:
-    en: "indicates wether the model, algorithm or AI is descriptive, diagnostic, predictive or prescriptive. This information can be used as a possible risk indicator."
-    nl: ""
+    en: "Please indicate wether the model, algorithm or AI is descriptive, diagnostic, predictive or prescriptive. This information can be used as a possible risk indicator."
+    nl: "Geef aan of het model, algoritme of AI descriptief, diagnostisch, voorspellend of prescriptief is. Deze information kan gebruikt worden als risico-indicator."
 - attribute: "category"
   name:
     en: "Category"
@@ -74,8 +74,8 @@ properties:
     nl: "ALGEMENE INFORMATIE"
   type: "string"
   description:
-    en: "keywords to facilitate search. Examples: 'traffic', 'transport', 'social security', 'crowd-monitoring', 'facial recognition', 'camera surveillance'."
-    nl: ""
+    en: "Please provide keywords to facilitate search. Examples: 'traffic', 'transport', 'social security', 'crowd-monitoring', 'facial recognition', 'camera surveillance'."
+    nl: "Geef zoekwoorden om zoeken te ondersteunen. Voorbeelden: 'verkeer', 'transport', 'sociale zekerheid', 'drukte-monitoring', 'gezichtsherkenning', 'camera-toezicht'."
 - attribute: "website"
   name:
     en: "URL of the website"
@@ -85,8 +85,8 @@ properties:
     nl: "ALGEMENE INFORMATIE"
   type: "string"
   description:
-    en: "the URL reference to the landing page with further information about the model, algorithm or AI and its use. This facilitates users searching more in-depth information about the practical use or technical details."
-    nl: ""
+    en: "What is the URL reference to the landing page with further information about the model, algorithm or AI and its use? This facilitates users searching more in-depth information about the practical use or technical details."
+    nl: "Wat is de URL van de pagina waarom meer informatie te vinden is over het model, algoritme of AI en de inzet daarvan? Dit is interessant voor gebruikers die meer willen weten over de praktische inzet en technische details."
 - attribute: "status"
   name:
     en: "Status"
@@ -96,8 +96,8 @@ properties:
     nl: "ALGEMENE INFORMATIE"
   type: "string"
   description:
-    en: "indicates wether the model, algorithm or AI is in development, in use, or archived."
-    nl: ""
+    en: "Please indicate wether the model, algorithm or AI is in development, in use, or archived."
+    nl: "Geef aan of het model, algoritme of AI in ontwikkeling is, in gebruik, of buiten gebruik."
 - attribute: "goal"
   name:
     en: "Goal"
@@ -107,8 +107,8 @@ properties:
     nl: "INZET"
   type: "string"
   description:
-    en: "the description of the goal of the policy for which the model, algorithm or AI was developed and how the technology contributes to reaching that goal. It should become clear why it is likely that this specific technology will help reach the goal."
-    nl: ""
+    en: "Please describe the goal of the policy for which the model, algorithm or AI was developed and how the technology contributes to reaching that goal. It should become clear why it is likely that this specific technology will help reach the goal."
+    nl: "Omschrijf de doelen waarvoor het model, algoritme of AI ontwikkeld is en hoe de inzet ervan bijdraagt aan het behalen van die doelen. Hieruit moet duidelijk blijken hoe en waarom deze specifieke technologie daar aan bijdraagt."
 - attribute: "impact"
   name:
     en: "Impact"
@@ -118,8 +118,8 @@ properties:
     nl: "INZET"
   type: "string"
   description:
-    en: "describes in what way citizens come into contact with the effects of the model, algorithm or AI. It should become clear under what specific circumstances this happens and what the expected consequences are on an individual and/or societal level."
-    nl: ""
+    en: "Please describe in what way citizens come into contact with the effects of the model, algorithm or AI. It should become clear under what specific circumstances this happens and what the expected consequences are on an individual and/or societal level."
+    nl: "Omschrijf hoe burgers te maken krijgen met de effecten van het model, algoritme of AI. Onder welke omstandigheden gebeurt dit en wat zijn de verwachte consequenties daarvan voor het individu en/of de samenleving?"
 - attribute: "proportionality"
   name:
     en: "Proportionality"
@@ -129,8 +129,8 @@ properties:
     nl: "INZET"
   type: "string"
   description:
-    en: "describes why the authority by which the model, algorithm or AI is used is reasonably necessary. It should explain why the expected benefit outweighs any potential expected harm."
-    nl: ""
+    en: "Please describe why the authority by which the model, algorithm or AI is used is reasonably necessary. It should explain why the expected benefit outweighs any potential expected harm."
+    nl: "Omschrijf waarom de inzet van het model, algoritme of AI redelijk gerechtvaardigd is. Hieruit moet blijken waarom de verwachte baten groter zijn dan de negatieve effecten en risico's."
 - attribute: "decision_making_process"
   name:
     en: "Decision-making process"
@@ -140,8 +140,8 @@ properties:
     nl: "INZET"
   type: "string"
   description:
-    en: "the official process in the organisation in which the model, algorithm or AI is involved. It should refer to concrete laws, regulation or policy, as published in publicly available sources."
-    nl: ""
+    en: "What is the official process in the organisation in which the model, algorithm or AI is involved. It should refer to concrete laws, regulation or policy, as published in publicly available sources."
+    nl: "Binnen welk proces in de organisatie wordt het model, algoritme of AI ingezet? Dit moet linken aan concrete wetgeving, voorschriften of beleid zoals vastgelegd in publiek beschikbare bronnen."
 - attribute: "documentation"
   name:
     en: "Documentation"
