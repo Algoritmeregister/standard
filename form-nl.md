@@ -45,9 +45,9 @@ form {
 {% assign schema = site.data.schema-v0_2 %}
     {% for property in schema.properties %}
     <div class="eigenschap">
-        <h2><span class="label">{{ property.category.en }}</span><br>
-            {{ property.name.en }} (<code>{{ property.attribute }}</code>)</h2>
-        <p>{{ property.description.en }}</p>
+        <h2><span class="label">{{ property.category.nl }}</span><br>
+            {{ property.name.nl }} (<code>{{ property.attribute }}</code>)</h2>
+        <p>{{ property.description.nl }}</p>
         <div class="{{ property.type }}-invoer"></div>
     </div>
 {% endfor %}
