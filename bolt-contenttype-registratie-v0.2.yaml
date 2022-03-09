@@ -1,0 +1,12 @@
+---
+---
+registrations:
+    name: Registraties
+    singular_name: Registratie
+    fields: {% assign schema = site.data.schema-v0_2 %}{% for property in schema.properties %}
+        {{ property.attribute }}:
+            type: {{ property.type }}
+            label: "{{ property.name.nl }}"
+            group: "{{ property.category.nl }}"
+            info: "{{ property.description.nl }}"
+            required: {{ property.required | default: false }}{% endfor %}
