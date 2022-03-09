@@ -5,7 +5,7 @@ registrations:
     singular_name: Registratie
     fields: {% assign schema = site.data.schema-v0_2 %}{% for property in schema.properties %}
         {{ property.attribute }}:
-            type: {{ property.type }}
+            type: {{ property.type | replace: "string", "text" }}
             label: "{{ property.name.nl }}"
             group: "{{ property.category.nl }}"
             info: "{{ property.description.nl }}"
