@@ -1,11 +1,11 @@
 ---
 ---
-registrations:
+registraties:
     name: Registraties
     singular_name: Registratie
     fields: {% assign schema = site.data.schema-v0_2 %}{% for property in schema.properties %}
-        {{ property.attribute }}:
-            type: {{ property.type | replace: "string", "text" }}
+        ar_{{ property.attribute }}:
+            type: {{ property.type | replace: "string", "text" | replace: "boolean", "checkbox" }}
             label: "{{ property.name.nl }}"
             group: "{{ property.category.nl }}"
             info: "{{ property.description.nl }}"
