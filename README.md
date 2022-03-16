@@ -2,7 +2,7 @@
 title: Readme
 description: Readme file on the code base
 ---
-<a href="#nl">Nederlandse vertaling</a>
+<a href="#nederlandse-vertaling">Nederlandse vertaling</a>
 
 # Algorithm Register Metadata Standard
 
@@ -16,12 +16,11 @@ In this code base we define the metadata standard: what do we register about the
 
 [User Stories](user-stories.md) (in Dutch)
 
-[Standard for Public Code complience](#publiccode)
+[Standard for Public Code compliance](#publiccode)
 
 ## Inventarisations
 
 All consortium organisations are working on a list of algorithms that they will be disclosing in the registry. Currently these are the lists of algorithms per organisation:
-
 
 - Rotterdam
 - Amsterdam
@@ -83,7 +82,7 @@ Deze code base is in de prototype (pre-alfa) fase, dat wil zeggen dat alles nog 
 
 <a name="publiccode"></a>
 
-# Standard for Public Code complience
+# Standard for Public Code compliance
 
 We are planning on following https://standard.publiccode.net/ more and more over time:
 
