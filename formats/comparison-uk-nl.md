@@ -30,6 +30,7 @@ description: Comparison between the UK and NL standard for algorithmic transpare
 
 <div style="display: flex">
 <div style="flex: 1">
+<h2 style="background: black; color: white; padding: 10px; margin: 10px">UK properties</h2>
 {% for UK_prop in UK_props %}
     {% assign prop = mapping | where: "UK", UK_prop.attribute | first %}
     {% if prop %}
@@ -47,6 +48,7 @@ description: Comparison between the UK and NL standard for algorithmic transpare
 </div>
 
 <div style="flex: 1">
+<h2 style="background: black; color: white; padding: 10px; margin: 10px">NL properties</h2>
 {% for NL_prop in NL_props %}
     {% assign prop = mapping | where: "NL", NL_prop.attribute | first %}
     {% if prop %}
