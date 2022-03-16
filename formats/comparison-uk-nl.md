@@ -16,6 +16,12 @@ description: Comparison between the UK and NL standard for algorithmic transpare
 
 {% for prop in mapping %}
     <div style="padding: 10px">
+        {% case prop.status %}
+        {% when "same" %} ✔️
+        {% when "similar" %} 🔔
+        {% when "different" %} ⚠️
+        {% when "missing" %} ⛔
+        {% endcase %}
         UK:<b>{{ prop.UK }}</b> matches NL:<b>{{ prop.NL }}</b> {% if prop.remark %}<i>(notice: {{ prop.remark}})</i>{% endif %}
     </div>
 {% endfor %}
