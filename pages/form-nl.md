@@ -1,4 +1,7 @@
 ---
+permalink: /form-nl
+title: "Papieren Formulier: Inzet van Algoritme (NL)"
+description: Formulier voor inventarisatie. Dit formulier is in ontwikkeling. Opmerkingen zijn erg welkom in de kantlijn.
 ---
 <a href="https://github.com/algoritmeregister/algoritmeregister-metadata-standaard">Bekijk de code op Github</a>
 <style>

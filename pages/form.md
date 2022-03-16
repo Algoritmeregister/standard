@@ -1,6 +1,9 @@
 ---
+permalink: form
+title: "Print Form: Use of Algorithm (EN)"
+description: Form for inventarisation. Under development. Please add suggestions in the margin.
 ---
-<a href="https://github.com/algoritmeregister/algoritmeregister-metadata-standaard">Bekijk de code op Github</a>
+<a href="https://github.com/algoritmeregister/algoritmeregister-metadata-standaard">View code on Github</a>
 <style>
 body {
     max-width: 32em;
@@ -38,8 +41,8 @@ form {
 }
 </style>
 <br>
-<h1>Formulier Inzet van Algoritme</h1>
-<p>Dit formulier is in ontwikkeling. Opmerkingen zijn erg welkom in de kantlijn.</p>
+<h1>{{ page.title }}</h1>
+<p>{{ page.description }}</p>
 <br>
 <form>
 {% assign schema = site.data.schema-v0_2 %}

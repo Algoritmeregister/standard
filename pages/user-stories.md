@@ -1,8 +1,13 @@
 ---
+permalink: user-stories
+title: Algoritmeregister User Stories
+description: Dit zijn de user stories die zijn opgehaald tijdens de verschillende inventarisatiesessies met consortiumpartners en genodigden.
 ---
-Dit zijn de user stories die zijn opgehaald tijdens de verschillende inventarisatiesessies met consortiumpartners en genodigden.
+# {{ page.title }}
 
-<a href="https://github.com/algoritmeregister/algoritmeregister-metadata-standaard">Bekijk dit project op Github</a>
+{{ page.description }}
+
+(<a href="https://github.com/algoritmeregister/algoritmeregister-metadata-standaard">Bekijk dit project op Github</a>)
 
 <br>
 <table>

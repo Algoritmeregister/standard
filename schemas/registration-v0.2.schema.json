@@ -1,4 +1,6 @@
 ---
+title: v0.2 schema json (EN)
+description: schema.json file for the v0.2 version of the standard
 ---
 {% assign schema = site.data.schema-v0_2 %}
 {

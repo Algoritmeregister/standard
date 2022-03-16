@@ -1,8 +1,13 @@
 ---
+permalink: /glossary
+title: Glossary
+description: These are the definitions that are being formalized by the consortiumpartners.
 ---
-<a href="#nl">Nederlandse vertaling</a>
+# {{ page.title }}
 
-These are the definitions that are being formalized by the consortiumpartners.
+{{ page.description }}
+
+<a href="#nl">Nederlandse vertaling</a>
 
 <a href="https://github.com/algoritmeregister/algoritmeregister-metadata-standaard">View this project on Github</a>
 

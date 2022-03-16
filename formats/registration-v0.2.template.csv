@@ -1,4 +1,6 @@
 ---
 permalink: registration-v0.2.template.csv
+title: registration .csv template
+description: .csv template for inventarisation based on the standard (download)
 ---
 {% for property in site.data.schema-v0_2.properties %}"{{ property.attribute }}"{% if forloop.last == false %};{% endif %}{% endfor %}

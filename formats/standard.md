@@ -1,15 +1,11 @@
 ---
-title: Index
-description: infinite recursion to this page
+permalink: /standard
+title: Field Overview Dutch Algorithmic Transparency Standard
+description: Overview of all fields in the Dutch Algorithmic Transparency Standard
 ---
-# {{ site.title }}
-## {{ site.description }}
+# {{ page.title }}
 
-{% for page in site.pages %}
-<a href="{{ page.url }}">{{ page.title }}</a> - {{ page.description }} (filename: {{ page.name }})
-{% endfor %}
-
-<hr>
+{{ page.description }}
 
 <a href="https://github.com/algoritmeregister/algoritmeregister-metadata-standaard">Bekijk dit project op Github</a>
 <br>

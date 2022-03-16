@@ -1,4 +1,6 @@
 ---
+title: Readme
+description: Readme file on the code base
 ---
 <a href="#nl">Nederlandse vertaling</a>
 

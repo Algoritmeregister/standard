@@ -1,4 +1,7 @@
 ---
+permalink: /bolt-contenttype-registratie-v0.2.yaml
+title: Bolt Content-Type file
+description: CMS (Bolt) specific content-type definition file (yaml)
 ---
 registraties:
     name: Registraties
