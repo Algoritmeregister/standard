@@ -1,0 +1,42 @@
+- UK: name
+  NL: name
+  remark:
+- UK: description
+  NL: description
+  remark:
+- UK: website
+  NL: website
+  remark:
+- UK: contact_email
+  NL: contact_email
+  remark:
+- UK: organisation
+  NL: organization
+  remark: UK versus US spelling
+- UK: team
+  NL: department
+  remark: not sure if this is identical
+- UK: senior_responsible_owner
+  NL: competent_authority
+  remark: NL is a bit less personal here
+- UK: "external_supplier*"
+  NL: "application_url"
+  remark:
+- UK: "external_supplier_role*"
+  NL: NO MATCH
+  remark:
+- UK: external_supplier_identifier*
+  NL: NO MATCH
+  remark:
+- UK: data_access_terms*
+  NL: NO MATCH
+  remark: combine with NL:source_data?
+- UK: scope
+  NL: goal
+  remark: NL:goal combines UK:scope and UK:benefit, also maybe overlaps with NL:proportionality
+- UK: benefit
+  NL: goal
+  remark: NL:goal combines UK:scope and UK:benefit, also maybe overlaps with NL:proportionality
+- UK: alternatives_considered
+  NL: NO MATCH
+  remark: subsidiarity?
