@@ -1,0 +1,348 @@
+title:
+  en: "UK Algorithmic Transparency Standard"
+description:
+  en: "The Algorithmic Transparency Standard helps public sector organisations provide clear information about the algorithmic tools they use, and why they’re using them."
+properties: 
+- attribute: "name"
+  name:
+    en: "Name"
+  category:
+    en: "Overview"
+  type: "UTF-8 string"
+  description:
+    en: "The attribute 'name' is the colloquial name used to identify the algorithmic tool."
+  required: TRUE 
+- attribute: "description"
+  name:
+    en: "Description"
+  category:
+    en: "Overview"
+  type: "UTF-8 string"
+  description:
+    en: "The attribute 'description' is a description to give a basic overview of the purpose of the algorithmic tool. It should include:
+- how the algorithmic tool is used
+- why the algorithmic tool is being used"
+  required: TRUE 
+- attribute: "website"
+  name:
+    en: "URL of the website"
+  category:
+    en: "Overview"
+  type: "URL"
+  description:
+    en: "The attribute 'website' is the URL reference to a page with further information about the algorithmic tool and its use. This facilitates users searching more in-depth information about the practical use or technical details.This could, for instance, be a local government page, a link to a GitHub repository or a departmental landing page with additional information."
+  required: FALSE 
+- attribute: "contact_email"
+  name:
+    en: "Contact email"
+  category:
+    en: "Owner and responsibility"
+  type: "UTF-8 string"
+  description:
+    en: "The attribute 'contact_email' is the email address of the organisation, team or contact person for this entry."
+  required: TRUE 
+- attribute: "organisation"
+  name:
+    en: "Organisation/ department"
+  category:
+    en: "Owner and responsibility"
+  type: "UTF-8 string"
+  description:
+    en: "The attribute 'organisation' is the full name of the organisation, department or public sector body that carries responsibility for use of the algorithmic tool. For example, 'Department for Transport'."
+  required: TRUE 
+- attribute: "team"
+  name:
+    en: "Team"
+  category:
+    en: "Owner and responsibility"
+  type: "UTF-8 string"
+  description:
+    en: "The attribute 'team' is the full name of the team that carries responsibility for use of the algorithmic tool."
+  required:  
+- attribute: "senior_responsible_owner"
+  name:
+    en: "Senior responsible owner"
+  category:
+    en: "Owner and responsibility"
+  type: "UTF-8 string"
+  description:
+    en: "The attribute 'senior_responsible_owner' is the role title of the senior responsible owner for the algorithmic tool."
+  required:  
+- attribute: "external_supplier*"
+  name:
+    en: "Supplier or developer of the algorithmic tool"
+  category:
+    en: "Owner and responsibility"
+  type: "UTF-8 string"
+  description:
+    en: "The attribute 'supplier' gives the name of any external organisation or person that has been contracted to develop the whole or parts of or the algorithmic tool."
+  required: TRUE 
+- attribute: "external_supplier_identifier*"
+  name:
+    en: "External supplier identifier"
+  category:
+    en: "Owner and responsibility"
+  type: "UTF-8 string"
+  description:
+    en: "The attribute 'external_supplier_identifier' gives, if available, the Companies House number of the external organisation that has been contracted to develop the whole or parts of or the algorithmic tool. You can get a company's Companies House number by finding company informationor using the Companies House API"
+  required: FALSE 
+- attribute: "external_supplier_role*"
+  name:
+    en: "External supplier role"
+  category:
+    en: "Owner and responsibility"
+  type: "UTF-8 string"
+  description:
+    en: "The attribute 'external_supplier_role' gives a short description of the role the external supplier assumed with regards to the development of the algorithmic tool."
+  required: TRUE 
+- attribute: "data_access_terms*"
+  name:
+    en: "Terms of access to data for external supplier"
+  category:
+    en: "Owner and responsibility"
+  type: "UTF-8 string"
+  description:
+    en: "The attribute 'data_access_terms' details the terms of access to (government) data applied to the external supplier."
+  required:  
+- attribute: "scope"
+  name:
+    en: "Scope"
+  category:
+    en: "Description"
+  type: "UTF-8 string"
+  description:
+    en: "The attribute 'scope' describes the purpose of the tool in terms of what it's been designed for and what it's not been designed for. This can include a list of potential purposes that the tool was not designed to fulfil but which could constitute possible common misconceptions in the future."
+  required: TRUE 
+- attribute: "benefit"
+  name:
+    en: "Benefit"
+  category:
+    en: "Description"
+  type: "UTF-8 string"
+  description:
+    en: "The attribute 'benefit' describes the key benefits that the algorithmic tool is expected to deliver, and an expanded justification on why the tool is being used."
+  required: TRUE 
+- attribute: "alternatives_considered"
+  name:
+    en: "Alternatives considered"
+  category:
+    en: "Description"
+  type: "UTF-8 string"
+  description:
+    en: "The attribute 'alternatives_considered' details, where applicable, a list of non-algorithmic alternatives considered, or a description of how the decision process was conducted previously."
+  required:  
+- attribute: "model_type"
+  name:
+    en: "Type of model"
+  category:
+    en: "Description"
+  type: "UTF-8 string"
+  description:
+    en: "The attribute 'model_type' indicates which types of methods or models the algorithm is using. For example expert system, deep neural network and so on."
+  required: TRUE 
+- attribute: "frequency_usage"
+  name:
+    en: "Frequency of usage"
+  category:
+    en: "Description"
+  type: "UTF-8 string"
+  description:
+    en: "The attribute 'frequency_usage' gives information on how regularly the algorithmic tool is being used. For example the number of decisions made per month, the number of citizens interacting with the tool, and so on."
+  required:  
+- attribute: "phase"
+  name:
+    en: "Phase"
+  category:
+    en: "Description"
+  type: "UTF-8 string"
+  description:
+    en: "The attribute 'phase' indicates in which of the following stages or phases the tool is currently situated: 
+
+- idea
+- design
+- development
+- production
+- retired
+
+This field includes date and time stamps of creation and any updates."
+  required: TRUE 
+- attribute: "maintenance"
+  name:
+    en: "Maintenance"
+  category:
+    en: "Description"
+  type: "UTF-8 string"
+  description:
+    en: "The attribute 'maintenance' gives details on the maintenance schedule and frequency of any reviews. For example, specific details on when and how a person reviews or checks the automated decision."
+  required:  
+- attribute: "system_architecture"
+  name:
+    en: "System architecture"
+  category:
+    en: "Description"
+  type: "URL"
+  description:
+    en: "The attribute 'system_architecture' is the URL reference to documentation about the system architecture. For example, a link to a GitHub repository image or additional documentation about the system architecture."
+  required:  
+- attribute: "process_integration"
+  name:
+    en: "Process integration"
+  category:
+    en: "Oversight"
+  type: "UTF-8 string"
+  description:
+    en: "The attribute 'process_integration' explains how the algorithmic tool is integrated into the decision-making process and what influence the algorithmic tool has on the decision-making process. It gives a more detailed and extensive description of the wider decision-making process into which the algorithmic tool is embedded."
+  required:  
+- attribute: "provided_information"
+  name:
+    en: "Provided information"
+  category:
+    en: "Oversight"
+  type: "UTF-8 string"
+  description:
+    en: "The attribute 'provided information” details how much and what information the algorithmic tool provides to the decision maker."
+  required:  
+- attribute: "human_decisions"
+  name:
+    en: "Human decisions"
+  category:
+    en: "Oversight"
+  type: "UTF-8 string"
+  description:
+    en: "The attribute 'human_decisions' describes the decisions that people take in the overall process, including human review options."
+  required: TRUE 
+- attribute: "required_training"
+  name:
+    en: "Required training"
+  category:
+    en: "Oversight"
+  type: "UTF-8 string"
+  description:
+    en: "The attribute 'required_training' details the required training those deploying or using the algorithmic tool must undertake, if applicable; For example, the person responsible for the management of the tool had to complete data science training."
+  required:  
+- attribute: "appeals_and_review"
+  name:
+    en: "Appeals and review"
+  category:
+    en: "Oversight"
+  type: "UTF-8 string"
+  description:
+    en: "The attribute 'appeals_and_review' details the mechanisms that are in place for review or appeal of the decision available to the general public."
+  required: TRUE 
+- attribute: "source_data_name*"
+  name:
+    en: "Source data name"
+  category:
+    en: "Information on data"
+  type: "UTF-8 string"
+  description:
+    en: "The attribute 'source_data_name' gives, if applicable, the name of the datasets used."
+  required: TRUE 
+- attribute: "source_data_description*"
+  name:
+    en: "Source data"
+  category:
+    en: "Information on data"
+  type: "UTF-8 string"
+  description:
+    en: "The attribute 'source_data' gives an overview of the data used to train and run the algorithmic tool. It will also specify whether data is used for training, testing, or operating. It should include which categories of data - for example 'age' or 'address' - which were used to train the model and which are used as input data for making a prediction."
+  required: TRUE 
+- attribute: "source_data_url*"
+  name:
+    en: "Source data URL"
+  category:
+    en: "Information on data"
+  type: "URL"
+  description:
+    en: "The attribute 'source_data_url' provides a URL to the dataset wherever possible."
+  required: FALSE 
+- attribute: "data_collection*"
+  name:
+    en: "Data collection"
+  category:
+    en: "Information on data"
+  type: "UTF-8 string"
+  description:
+    en: "The attribute 'data_collection' gives information on the data collection process, including the original purpose of data collection."
+  required: TRUE 
+- attribute: "data_sharing_agreements*"
+  name:
+    en: "Data sharing agreements"
+  category:
+    en: "Information on data"
+  type: "UTF-8 string"
+  description:
+    en: "The attribute 'data_sharing_agreements' provides further information on data sharing agreements in place."
+  required: TRUE 
+- attribute: "data_access_and_storage*"
+  name:
+    en: "Data access and storage"
+  category:
+    en: "Information on data"
+  type: "UTF-8 string"
+  description:
+    en: "The attribute 'data_access_and_storage' details on who has or will have access to this data, how long it's stored, under what circumstances and by whom."
+  required: TRUE 
+- attribute: "impact_assessment_name*"
+  name:
+    en: "Impact assessment name"
+  category:
+    en: "Risk mitigation and impact assessment"
+  type: "UTF-8 string"
+  description:
+    en: "The attribute 'impact_assessment_name' is a name and a short overview of the impact assessment conducted."
+  required: TRUE 
+- attribute: "impact_assessment_description*"
+  name:
+    en: "Impact assessment description"
+  category:
+    en: "Risk mitigation and impact assessment"
+  type: "UTF-8 string"
+  description:
+    en: "The attribute 'impact_assessment_description' is a description of the impact assessments conducted."
+  required:  
+- attribute: "impact_assessment_date*"
+  name:
+    en: "Impact assessment date"
+  category:
+    en: "Risk mitigation and impact assessment"
+  type: "UTF-8 string"
+  description:
+    en: "The attribute 'impact_assessment_date' is a date of when the impact assessment was conducted."
+  required:  
+- attribute: "impact_assessment_link*"
+  name:
+    en: "Impact assessment link"
+  category:
+    en: "Risk mitigation and impact assessment"
+  type: "UTF-8 string"
+  description:
+    en: "The attribute 'impact_assessment_link' is a link to the impact assessment."
+  required:  
+- attribute: "risk_name*"
+  name:
+    en: "Risk name"
+  category:
+    en: "Risk mitigation and impact assessment"
+  type: "UTF-8 string"
+  description:
+    en: "The attribute 'risk_name' is an overview of the common risks for the algorithmic tool."
+  required: TRUE 
+- attribute: "risk_description*"
+  name:
+    en: "Risk description"
+  category:
+    en: "Risk mitigation and impact assessment"
+  type: "UTF-8 string"
+  description:
+    en: "The attribute 'risk_description' is a description of the risks identified under 'risk_name'."
+  required:  
+- attribute: "risk_mitigation*"
+  name:
+    en: "Risk mitigation"
+  category:
+    en: "Risk mitigation and impact assessment"
+  type: "UTF-8 string"
+  description:
+    en: "The attribute 'risk mitigation' is an overview of how the risks have been mitigated."
+  required:  

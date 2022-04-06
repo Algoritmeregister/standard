@@ -1,0 +1,19 @@
+---
+permalink: /data/generate-schema-UK.yaml
+title: Generate UK schema
+description: Generate the yaml file from the UK csv file
+---
+title:
+  en: "UK Algorithmic Transparency Standard"
+description:
+  en: "The Algorithmic Transparency Standard helps public sector organisations provide clear information about the algorithmic tools they use, and why they’re using them."
+properties: {% for i in site.data.Algorithmic_transparency_data_standard %}
+- attribute: "{{ i.attribute }}"
+  name:
+    en: "{{ i.name }}"
+  category:
+    en: "{{ i.category }}"
+  type: "{{ i.type }}"
+  description:
+    en: "{{ i.description }}"
+  required: {{ i.required }} {% endfor %}
