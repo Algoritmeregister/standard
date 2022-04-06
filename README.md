@@ -104,7 +104,7 @@ Status | Requirement | links and notes
 . | All source code for any policy and software in use (unless used for fraud detection) MUST be published and publicly accessible. |
 . | Contributors MUST NOT upload sensitive information regarding users, their organization or third parties to the repository. |
 . | Any source code not currently in use (such as new versions, proposals or older versions) SHOULD be published. |
-. | The source code MAY provide the general public with insight into which source code or policy underpins any specific interaction they have with your organization. |
+. | The source code MAY provide the general public with insight into which source code or policy underpins any specific interaction they have with an organization. |
 
 ### Bundle policy and source code
 Status | Requirement | links and notes
@@ -123,14 +123,14 @@ Status | Requirement | links and notes
 . |The codebase SHOULD be in use by multiple parties. |
 . |The roadmap SHOULD be influenced by the needs of multiple parties. |
 . |Configuration SHOULD be used to make code adapt to context specific needs. |
-. |Codebases SHOULD include a publiccode.yml metadata description so that they’re easily discoverable. |
+. |The codebase SHOULD include a machine readable metadata description, for example in a [publiccode.yml](https://github.com/publiccodeyml/publiccode.yml) file. |
 . |Code and its documentation SHOULD NOT contain situation-specific information. |
 
 ### Welcome contributors
 Status | Requirement | links and notes
 -----|-----|-----
 . |The codebase MUST allow anyone to submit suggestions for changes to the codebase. |
-. |The codebase MUST include contribution guidelines explaining how contributors can get involved, for example in a CONTRIBUTING file. |
+. |The codebase MUST include contribution guidelines explaining what kinds of contributions are welcome and how contributors can get involved, for example in a CONTRIBUTING file. |
 . |The codebase SHOULD advertise the committed engagement of involved organizations in the development and maintenance. |
 . |The codebase SHOULD document the governance of the codebase, contributions and its community, for example in a GOVERNANCE file. |
 . |The codebase SHOULD have a publicly available roadmap. |
@@ -148,14 +148,15 @@ Status | Requirement | links and notes
 ### Maintain version control
 Status | Requirement | links and notes
 -----|-----|-----
-. |You MUST have a way to maintain version control for the code. |
+. |The community MUST have a way to maintain version control for the code. |
 . |All files in a codebase MUST be version controlled. |
 . |All decisions MUST be documented in commit messages. |
 . |Every commit message MUST link to discussions and issues wherever possible. |
-. |You SHOULD use a distributed version control system. |
-. |You SHOULD group relevant changes in commits. |
-. |You SHOULD mark different versions of the codebase, for example using revision tags or textual labels. |
-. |You SHOULD prefer file formats where the changes within the files can be easily viewed and understood in the version control system. |
+. |The codebase SHOULD be maintained in a distributed version control system. |
+. |Contributors SHOULD group relevant changes in commits. |
+. |Maintainers SHOULD mark released versions of the codebase, for example using revision tags or textual labels. |
+. |Contributors SHOULD prefer file formats where the changes within the files can be easily viewed and understood in the version control system. |
+. |Contributors MAY sign their commits and provide an email address, so that future contributors are able to contact past contributors with questions about their work. |
 
 ### Require review of contributions
 Status | Requirement | links and notes
@@ -166,36 +167,38 @@ Status | Requirement | links and notes
 . |Contributions SHOULD conform to the standards, architecture and decisions set out in the codebase in order to pass review. |
 . |Reviews SHOULD include running both the code and the tests of the codebase. |
 . |Contributions SHOULD be reviewed by someone in a different context than the contributor. |
-. |Version control systems SHOULD not accept non-reviewed contributions in release versions. |
+. |Version control systems SHOULD NOT accept non-reviewed contributions in release versions. |
 . |Reviews SHOULD happen within two business days. |
 . |Reviews MAY be performed by multiple reviewers. |
 
-### Document your objectives
+### Document codebase objectives
 Status | Requirement | links and notes
 -----|-----|-----
 . |The codebase MUST contain documentation of its objectives – like a mission and goal statement – that is understandable by designers and developers so that they can use or contribute to the codebase. |
-. |The codebase SHOULD contain documentation of its objectives understandable by policy makers and management. |
+. |Codebase documentation SHOULD clearly describe the connections between policy objectives and codebase objectives. |
 . |The codebase MAY contain documentation of its objectives for the general public. |
 
 ### Document the code
 Status | Requirement | links and notes
 -----|-----|-----
 . |All of the functionality of the codebase – policy as well as source – MUST be described in language clearly understandable for those that understand the purpose of the code. |
-. |The documentation of the codebase MUST contain:<ul><li>a description of how to install and run the source code,</li><li>examples demonstrating the key functionality.</li></ul> |
-. |The documentation of the codebase SHOULD contain:<ul><li>a high level description that is clearly understandable for a wide audience of stakeholders, like the general public and journalists,</li><li>a section describing how to install and run a standalone version of the source code, including, if necessary, a test dataset,</li><li>examples for all functionality.</li></ul> |
-. |There SHOULD be continuous integration tests for the quality of your documentation. |
+. |The documentation of the codebase MUST contain: a description of how to install and run the source code, examples demonstrating the key functionality.  |
+. |The documentation of the codebase SHOULD contain: a high level description that is clearly understandable for a wide audience of stakeholders, like the general public and journalists, a section describing how to install and run a standalone version of the source code, including, if necessary, a test dataset, examples for all functionality. |
+. |There SHOULD be continuous integration tests for the quality of the documentation. |
 . |The documentation of the codebase MAY contain examples that make users want to immediately start using the codebase. |
-. |You MAY use the examples in your documentation to test the code. |
+. |The code MAY be tested by using examples in the documentation. |
 
 ### Use plain English
 Status | Requirement | links and notes
 -----|-----|-----
-. |All code and documentation MUST be in English. |
+. |All codebase documentation MUST be in English. |
+. |All code MUST be in English, except where policy is machine interpreted as code. |
+. |All bundled policy not available in English MUST have an accompanying summary in English. |
 . |Any translation MUST be up to date with the English version and vice versa. |
-. |There SHOULD be no acronyms, abbreviations, puns or legal/domain specific terms in the codebase without an explanation preceding it or a link to an explanation. |
-. |The name of the codebase SHOULD be descriptive and free from acronyms, abbreviations, puns or branding. |
-. |Documentation SHOULD aim for a lower secondary education reading level, as recommended by the Web Content Accessibility Guidelines 2. |
-. |Any code, documentation and tests MAY have a translation. |
+. |There SHOULD be no acronyms, abbreviations, puns or legal/non-English/domain specific terms in the codebase without an explanation preceding it or a link to an explanation. |
+. |The name of the codebase SHOULD be descriptive and free from acronyms, abbreviations, puns or organizational branding. |
+. |Documentation SHOULD aim for a lower secondary education reading level, as recommended by the [Web Content Accessibility Guidelines 2](https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=315#readable). |
+. |Any code, documentation or tests MAY have a translation. |
 
 ### Use open standards
 Status | Requirement | links and notes
@@ -203,7 +206,7 @@ Status | Requirement | links and notes
 . |For features of a codebase that facilitate the exchange of data the codebase MUST use an open standard that meets the Open Source Initiative Open Standard Requirements. |
 . |If no existing open standard is available, effort SHOULD be put into developing one. |
 . |Standards that are machine testable SHOULD be preferred over those that are not. |
-. |Functionality using features from a standard that is not an open standard MAY be provided if necessary, but only in addition to compliant features. |
+. |Functionality using features from a non-open standard (one that doesn’t meet the Open Source  Initiative Open Standard Requirements) MAY be provided if necessary, but only in addition to compliant features. |
 . |All non-compliant standards used MUST be recorded clearly in the documentation. |
 . |The codebase SHOULD contain a list of all the standards used with links to where they are available. |
 
@@ -222,7 +225,7 @@ Status | Requirement | links and notes
 Status | Requirement | links and notes
 -----|-----|-----
 . |All code and documentation MUST be licensed such that it may be freely reusable, changeable and redistributable. |
-. |Software source code MUST be licensed under an OSI-approved open source license. |
+. |Software source code MUST be licensed under an [OSI-approved open source license](https://opensource.org/licenses/category). |
 . |All code MUST be published with a license file. |
 . |Contributors MUST NOT be required to transfer copyright of their contributions to the codebase. |
 . |All source code files in the codebase SHOULD include a copyright notice and a license header that are machine readable. |
@@ -231,15 +234,15 @@ Status | Requirement | links and notes
 ### Use a coherent style
 Status | Requirement | links and notes
 -----|-----|-----
-. |Contributions MUST adhere to either a coding or writing style guide, either your own or an existing one that is advertised in or part of the codebase. |
+. |Contributions MUST adhere to either a coding or writing style guide, either the codebase community’s own or an existing one that is advertised in or part of the codebase. |
 . |Contributions SHOULD pass automated tests on style. |
-. |Your codebase SHOULD include inline comments and documentation for non-trivial sections. |
-. |You MAY include sections in your style guide on understandable English. |
+. |The codebase SHOULD include inline comments and documentation for non-trivial sections. |
+. |The style guide MAY include sections on understandable English. |
 
 ### Document codebase maturity
 Status | Requirement | links and notes
 -----|-----|-----
 v | A codebase MUST be versioned. |
 . | A codebase that is ready to use MUST only depend on other codebases that are also ready to use. |
-v | A codebase that is not yet ready to use MUST have one of these labels:<ul><li>prototype - to test the look and feel, and to internally prove the concept of the technical possibilities,</li><li>alpha - to do guided tests with a limited set of users,</li><li>beta - to open up testing to a larger section of the general public, for example to test if the codebase works at scale,</li><li>pre-release version - code that is ready to be released but hasn’t received formal approval yet.</li></ul> |
+v | A codebase that is not yet ready to use MUST have one of these labels: prototype - to test the look and feel, and to internally prove the concept of the technical possibilities, alpha - to do guided tests with a limited set of users, beta - to open up testing to a larger section of the general public, for example to test if the codebase works at scale, pre-release version - code that is ready to be released but hasn’t received formal approval yet. |
 . | A codebase SHOULD contain a log of changes from version to version, for example in the CHANGELOG. |
