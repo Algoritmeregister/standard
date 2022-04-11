@@ -34,7 +34,7 @@ It should be noted that this act is still being processed.
 
 The motion, [35510-16](https://www.tweedekamer.nl/kamerstukken/brieven_regering/detail?id=2021Z00984&did=2021D02426), in the Dutch House of Representatives calls on the government to:
 
-> set up an algorithm register describing which algorithms the government uses, for what purpose and of which datasets they rely on, so that everyone can monitor whether the algorithms are discriminatory, and follows current rule of law.
+> set up an algorithm register describing which algorithms the government uses, for what purpose and of which datasets they rely on, so that everyone can monitor whether the algorithms are discriminatory, and follow current rule of law.
 
 It should be noted that while the motion has passed in the House, it has not been signed into law yet.
 
