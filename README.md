@@ -18,6 +18,26 @@ In this code base we define the metadata standard: what do we register about the
 
 [Standard for Public Code compliance](#publiccode)
 
+## Policies
+
+The Algorithm Register Metadata Standard aims to help implement two policies for algorithm registers.
+
+### Laying down harmonised rules on artificial intelligence (Artificial Intelligence Act) and amending certain union legislative acts
+
+The proposal, [2021/0106(COD)](https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1623335154975&uri=CELEX%3A52021PC0206), from the European Union states:
+
+> [The Commission] will establish a system for registering stand-alone high-risk AI applications in a public EU-wide database. This registration will also enable competent authorities, users and other interested people to verify if the high-risk AI system complies with the requirements laid down in the proposal and to exercise enhanced oversight over those AI systems posing high risks to fundamental rights. To feed this database, AI providers will be obliged to provide meaningful information about their systems and the conformity assessment carried out on those systems.
+
+It should be noted that this act is still being processed.
+
+### Motie van het lid Klaver c.s. over opzetten van een algoritmeregister
+
+The motion, [35510-16](https://www.tweedekamer.nl/kamerstukken/brieven_regering/detail?id=2021Z00984&did=2021D02426), in the Dutch House of Representatives calls on the government to:
+
+> set up an algorithm register describing which algorithms the government uses, for what purpose and of which datasets they rely on, so that everyone can monitor whether the algorithms are discriminatory, and follows current rule of law.
+
+It should be noted that while the motion has passed in the House, it has not been signed into law yet.
+
 ## Inventarisations
 
 All consortium organisations are working on a list of algorithms that they will be disclosing in the registry. Currently these are the lists of algorithms per organisation:
