@@ -121,19 +121,19 @@ x Does not comply
 ### Code in the open
 Status | Requirement | links and notes
 -----|-----|-----
-v | All source code for any policy and software in use (unless used for fraud detection) MUST be published and publicly accessible. | Code is published; no policy is referred to yet, though the policy is likely not secret or non-public -- see Bundle policy and source code below
+v | All source code for any policy and software in use (unless used for fraud detection) MUST be published and publicly accessible. |
 v | Contributors MUST NOT upload sensitive information regarding users, their organization or third parties to the repository. |
 v | Any source code not currently in use (such as new versions, proposals or older versions) SHOULD be published. |
-. | The source code MAY provide the general public with insight into which source code or policy underpins any specific interaction they have with an organization. |
+v | The source code MAY provide the general public with insight into which source code or policy underpins any specific interaction they have with an organization. |
 
 ### Bundle policy and source code
 Status | Requirement | links and notes
 -----|-----|-----
-x | A codebase MUST include the policy that the source code is based on. | No policy referred to yet
-x | A codebase MUST include all source code that the policy is based on. | No policy referred to yet
-x |All policy and source code that the codebase is based on MUST be documented, reusable and portable. | No policy referred to yet
-x |Policy SHOULD be provided in machine readable and unambiguous formats. | No policy referred to yet
-x |Continuous integration tests SHOULD validate that the source code and the policy are executed coherently. | No policy referred to yet
+v | A codebase MUST include the policy that the source code is based on. |
+v | A codebase MUST include all source code that the policy is based on. |
+v |All policy and source code that the codebase is based on MUST be documented, reusable and portable. |
+\* |Policy SHOULD be provided in machine readable and unambiguous formats. | Policy is not signed into its final form yet
+x |Continuous integration tests SHOULD validate that the source code and the policy are executed coherently. |
 
 ### Create reusable and portable code
 Status | Requirement | links and notes
@@ -195,7 +195,7 @@ x |All contributions that are accepted or committed to release versions of the c
 Status | Requirement | links and notes
 -----|-----|-----
 x |The codebase MUST contain documentation of its objectives – like a mission and goal statement – that is understandable by designers and developers so that they can use or contribute to the codebase. | Very brief description
-x |Codebase documentation SHOULD clearly describe the connections between policy objectives and codebase objectives. | No policy referred to yet
+v |Codebase documentation SHOULD clearly describe the connections between policy objectives and codebase objectives. |
 x |The codebase MAY contain documentation of its objectives for the general public. |
 
 ### Document the code
@@ -213,7 +213,7 @@ Status | Requirement | links and notes
 -----|-----|-----
 x |All codebase documentation MUST be in English. |
 v |All code MUST be in English, except where policy is machine interpreted as code. |
-x |All bundled policy not available in English MUST have an accompanying summary in English. |No policy referred to yet
+v |All bundled policy not available in English MUST have an accompanying summary in English. |
 ? |Any translation MUST be up to date with the English version and vice versa. | Looks like they are up to date in the standard but not in the documentation
 v |There SHOULD be no acronyms, abbreviations, puns or legal/non-English/domain specific terms in the codebase without an explanation preceding it or a link to an explanation. |
 v |The name of the codebase SHOULD be descriptive and free from acronyms, abbreviations, puns or organizational branding. | Algoritmeregister "standard" vs "algorithmregistery-standard" could be discussed
