@@ -119,6 +119,8 @@ x Does not comply
 ? Not sure how to apply
 
 ### Code in the open
+- [x] compliant with this criterion.
+
 Status | Requirement | links and notes
 -----|-----|-----
 v | All source code for any policy and software in use (unless used for fraud detection) MUST be published and publicly accessible. |
@@ -127,6 +129,8 @@ v | Any source code not currently in use (such as new versions, proposals or old
 v | The source code MAY provide the general public with insight into which source code or policy underpins any specific interaction they have with an organization. |
 
 ### Bundle policy and source code
+- [ ] compliant with this criterion.
+
 Status | Requirement | links and notes
 -----|-----|-----
 v | A codebase MUST include the policy that the source code is based on. |
@@ -136,6 +140,8 @@ v |All policy and source code that the codebase is based on MUST be documented, 
 x |Continuous integration tests SHOULD validate that the source code and the policy are executed coherently. |
 
 ### Create reusable and portable code
+- [ ] compliant with this criterion.
+
 Status | Requirement | links and notes
 -----|-----|-----
 v |The codebase MUST be developed to be reusable in different contexts. |
@@ -147,6 +153,8 @@ x |The codebase SHOULD include a machine readable metadata description, for exam
 v |Code and its documentation SHOULD NOT contain situation-specific information. |
 
 ### Welcome contributors
+- [ ] compliant with this criterion.
+
 Status | Requirement | links and notes
 -----|-----|-----
 v |The codebase MUST allow anyone to submit suggestions for changes to the codebase. |
@@ -157,6 +165,8 @@ x |The codebase SHOULD have a publicly available roadmap. |
 x |The codebase MAY include a code of conduct for contributors. |
 
 ### Make contributing easy
+- [ ] compliant with this criterion.
+
 Status | Requirement | links and notes
 -----|-----|-----
 v |The codebase MUST have a public issue tracker that accepts suggestions from anyone. | [issues](https://github.com/Algoritmeregister/standard/issues)
@@ -166,6 +176,8 @@ x |The documentation MUST link to both the public issue tracker and submitted co
 x |The documentation SHOULD include instructions for how to report potentially security sensitive issues on a closed channel. |
 
 ### Maintain version control
+- [ ] compliant with this criterion.
+
 Status | Requirement | links and notes
 -----|-----|-----
 v |The community MUST have a way to maintain version control for the code. | Git+GitHub
@@ -179,6 +191,8 @@ v |Contributors SHOULD prefer file formats where the changes within the files ca
 v |Contributors MAY sign their commits and provide an email address, so that future contributors are able to contact past contributors with questions about their work. |
 
 ### Require review of contributions
+- [ ] compliant with this criterion.
+
 Status | Requirement | links and notes
 -----|-----|-----
 x |All contributions that are accepted or committed to release versions of the codebase MUST be reviewed by another contributor. | Single contributor so far.
@@ -192,6 +206,8 @@ x |All contributions that are accepted or committed to release versions of the c
 . |Reviews MAY be performed by multiple reviewers. |
 
 ### Document codebase objectives
+- [ ] compliant with this criterion.
+
 Status | Requirement | links and notes
 -----|-----|-----
 x |The codebase MUST contain documentation of its objectives – like a mission and goal statement – that is understandable by designers and developers so that they can use or contribute to the codebase. | Very brief description
@@ -199,6 +215,8 @@ v |Codebase documentation SHOULD clearly describe the connections between policy
 x |The codebase MAY contain documentation of its objectives for the general public. |
 
 ### Document the code
+- [ ] compliant with this criterion.
+
 Status | Requirement | links and notes
 -----|-----|-----
 ? |All of the functionality of the codebase – policy as well as source – MUST be described in language clearly understandable for those that understand the purpose of the code. | It would be better if this documentation was not only in the pdf; need to look to see what is not covered in the documentation
@@ -209,6 +227,8 @@ x |The documentation of the codebase MAY contain examples that make users want t
 x |The code MAY be tested by using examples in the documentation. |
 
 ### Use plain English
+- [ ] compliant with this criterion.
+
 Status | Requirement | links and notes
 -----|-----|-----
 x |All codebase documentation MUST be in English. |
@@ -221,6 +241,8 @@ x |Documentation SHOULD aim for a lower secondary education reading level, as re
 . |Any code, documentation or tests MAY have a translation. |
 
 ### Use open standards
+- [ ] compliant with this criterion.
+
 Status | Requirement | links and notes
 -----|-----|-----
 v |For features of a codebase that facilitate the exchange of data the codebase MUST use an open standard that meets the Open Source Initiative Open Standard Requirements. | Looks like it only requires a csv file to be generated
@@ -231,6 +253,8 @@ v |Standards that are machine testable SHOULD be preferred over those that are n
 x |The codebase SHOULD contain a list of all the standards used with links to where they are available. |
 
 ### Use continuous integration
+- [ ] compliant with this criterion.
+
 Status | Requirement | links and notes
 -----|-----|-----
 x |All functionality in the source code MUST have automated tests. |
@@ -242,6 +266,8 @@ x |Policy and documentation MAY have testing for consistency with the source and
 x |Policy and documentation MAY have testing for style and broken links. |
 
 ### Publish with an open license
+- [ ] compliant with this criterion.
+
 Status | Requirement | links and notes
 -----|-----|-----
 x |All code and documentation MUST be licensed such that it may be freely reusable, changeable and redistributable. | There is no license file in the repository
@@ -252,6 +278,8 @@ x |All source code files in the codebase SHOULD include a copyright notice and a
 . |Codebases MAY have multiple licenses for different types of code and documentation. |
 
 ### Use a coherent style
+- [ ] compliant with this criterion.
+
 Status | Requirement | links and notes
 -----|-----|-----
 x |Contributions MUST adhere to either a coding or writing style guide, either the codebase community’s own or an existing one that is advertised in or part of the codebase. |
@@ -260,6 +288,8 @@ x |Contributions SHOULD pass automated tests on style. |
 x |The style guide MAY include sections on understandable English. |
 
 ### Document codebase maturity
+- [ ] compliant with this criterion.
+
 Status | Requirement | links and notes
 -----|-----|-----
 ? | A codebase MUST be versioned. | Is 0.2 the schema and codebase version? is there any difference between the two?
