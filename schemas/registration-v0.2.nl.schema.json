@@ -4,7 +4,7 @@ description: schema.json file voor de v0.2 versie van de standaard in het Nederl
 ---
 {% assign schema = site.data.schema-v0_2 %}
 {
-    "$id": "https://standaard.algoritmeregister.org/schemas/registration-v{{ schema.version }}.schema.json",
+    "$id": "https://standaard.algoritmeregister.org/schemas/registration-v{{ schema.version }}.nl.schema.json",
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "title": "{{ schema.title.nl }}",
     "description": "{{ schema.description.nl }}",
