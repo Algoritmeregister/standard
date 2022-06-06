@@ -4,7 +4,7 @@ description: schema.json bestand voor IAMA
 ---
 {% assign iama-fraia = site.data.iama-fraia %}
 {
-    "$id": "https://standaard.algoritmeregister.org/schemas/fraia.schema.json",
+    "$id": "https://standaard.algoritmeregister.org/schemas/iama.schema.json",
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "title": "{{ iama-fraia.title.nl }}",
     "description": "{{ schema.description.nl }}",
