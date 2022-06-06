@@ -418,4 +418,77 @@ content:
         consequenties, ...)
       hint: 'Antwoord:'
       remark: ''
-
+- type: Chapter
+  title: 'Deel 4: Mensenrechten'
+  subtitle: Stappenplan grondrechten
+  content:
+  - type: Section
+    title: '4.1'
+    subtitle: Grondrecht
+    content:
+    - type: Question
+      title: 4.1.1
+      description: Wordt er een grondrecht geraakt door het in te zetten algoritme?
+      hint: 'Antwoord:'
+      remark: ''
+  - type: Section
+    title: '4.2'
+    subtitle: Specifieke wetgeving en richtsnoeren
+    content:
+    - type: Question
+      title: 4.2.1
+      description: Zijn er specifieke wettelijke bepalingen of richtsnoeren van toepassing
+        op de grondrechteninbreuk?
+      hint: 'Antwoord:'
+      remark: ''
+  - type: Section
+    title: '4.3'
+    subtitle: Zwaartebepaling
+    content:
+    - type: Question
+      title: 4.3.1
+      description: Hoe zwaar wordt een grondrecht geraakt door het algoritme?
+      hint: 'Antwoord:'
+      remark: ''
+  - type: Section
+    title: '4.4'
+    subtitle: Doelstellingen
+    content:
+    - type: Question
+      title: 4.4.1
+      description: Welke doelen worden met inzet van het algoritme nagestreefd? Kijk
+        hierbij naar uw antwoord op vraag 1.2
+      hint: 'Antwoord:'
+      remark: ''
+  - type: Section
+    title: '4.5'
+    subtitle: Doeltreffendheid/effectiviteit/geschiktheid
+    content:
+    - type: Question
+      title: 4.5.1
+      description: Vormt het in te zetten algoritme een doeltreffend middel om de
+        gestelde doelen te realiseren? Leg uit.
+      hint: 'Antwoord:'
+      remark: ''
+  - type: Section
+    title: '4.6'
+    subtitle: Noodzakelijkheid/subsidiariteit
+    content:
+    - type: Question
+      title: 4.6.1
+      description: Is de inzet van dit specifieke algoritme noodzakelijk om dit doel
+        te bereiken en zijn er geen andere of mitigerende maatregelen beschikbaar
+        om dit te doen? Leg uit.
+      hint: 'Antwoord:'
+      remark: ''
+  - type: Section
+    title: '4.7'
+    subtitle: Belangenafweging/proportionaliteit
+    content:
+    - type: Question
+      title: 4.7.1
+      description: Levert inzet van het algoritme een redelijk evenwicht op tussen
+        de te realiseren doelen en de grondrechten die worden geraakt, en waarom is
+        dat zo?
+      hint: 'Antwoord:'
+      remark: ''
