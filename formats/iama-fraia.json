@@ -1,0 +1,64 @@
+---
+permalink: iama-fraia.json
+title: Generate IAMA-FRAIA.json
+description: Generate the .json file from aima-fraia.yaml
+---
+{
+    "title": {
+        "nl": "{{ site.data.iama-fraia.title.nl }}",
+        "en": "{{ site.data.iama-fraia.title.en }}"
+    },
+    "content": [
+    {% for chapter in site.data.iama-fraia.content %}
+    {
+        "type": "Chapter",
+        "title": {
+            "nl": "{{ chapter.title.nl }}",
+            "en": "{{ chapter.title.en }}"
+        },
+        "subtitle": {
+            "nl": "{{ chapter.subtitle.nl }}",
+            "en": "{{ chapter.subtitle.en }}"
+        },
+        "content": [
+            {% for section in chapter.content %}
+            {
+                "type": "Section",
+                "title": {
+                    "nl": "{{ section.title.nl }}",
+                    "en": "{{ section.title.en }}"
+                },
+                "subtitle": {
+                    "nl": "{{ section.subtitle.nl }}",
+                    "en": "{{ section.subtitle.en }}"
+                },
+                "content": [
+                    {% for question in section.content %}
+                    {
+                        "type": "Question",
+                        "title": {
+                            "nl": "{{ question.title.nl }}",
+                            "en": "{{ question.title.en }}"
+                        },
+                        "description": {
+                            "nl": "{{ question.description.nl }}",
+                            "en": "{{ question.description.en }}"
+                        },
+                        "hint": {
+                            "nl": "{{ question.hint.nl }}",
+                            "en": "{{ question.hint.en }}"
+                        },
+                        "remark": {
+                            "nl": "{{ question.remark.nl }}",
+                            "en": "{{ question.remark.en }}"
+                        }
+                    }{% if forloop.last == false %},{% endif %}
+                    {% endfor %}
+                ]
+            }{% if forloop.last == false %},{% endif %}
+            {% endfor %}
+        ]
+    }{% if forloop.last == false %},{% endif %}
+    {% endfor %}
+    ]
+}
