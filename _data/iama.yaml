@@ -1,494 +1,908 @@
 ---
-title: Impact Assessment Mensenrechten en Algoritmes
+title:
+  nl: Impact Assessment Mensenrechten en Algoritmes
+  en: ''
 content:
 - type: Chapter
-  title: 'Deel 1: Waarom?'
-  subtitle: Beoogde Effecten - Doelstellingen - Randvoorwaarden
+  title:
+    nl: 'Deel 1: Waarom?'
+    en: ''
+  subtitle:
+    nl: Beoogde Effecten - Doelstellingen - Randvoorwaarden
+    en: ''
   content:
   - type: Section
-    title: '1.1'
-    subtitle: Aanleiding en probleemdefinitie
+    title:
+      nl: '1.1'
+      en: ''
+    subtitle:
+      nl: Aanleiding en probleemdefinitie
+      en: ''
     content:
     - type: Question
-      title: 1.1.1
-      description: Licht uw voorstel voor het gebruik/de inzet van een algoritme toe.
-        Wat is de aanleiding hiervoor geweest? Voor welk probleem moet het algoritme
-        een oplossing bieden?
-      hint: Beschrijf hier beknopt het voorstel, zodanig dat een buitenstaander zou
-        kunnen begrijpen wat u van plan bent.
-      remark: "*Let op:* de doelstelling van het algoritme komt hierna afzonderlijk,
-        bij vraag 1.2, aan bod."
+      title:
+        nl: 1.1.1
+        en: ''
+      description:
+        nl: Licht uw voorstel voor het gebruik/de inzet van een algoritme toe. Wat
+          is de aanleiding hiervoor geweest? Voor welk probleem moet het algoritme
+          een oplossing bieden?
+        en: ''
+      hint:
+        nl: Beschrijf hier beknopt het voorstel, zodanig dat een buitenstaander zou
+          kunnen begrijpen wat u van plan bent.
+        en: ''
+      remark:
+        nl: "*Let op:* de doelstelling van het algoritme komt hierna afzonderlijk,
+          bij vraag 1.2, aan bod."
+        en: ''
   - type: Section
-    title: '1.2'
-    subtitle: Doelstelling
+    title:
+      nl: '1.2'
+      en: ''
+    subtitle:
+      nl: Doelstelling
+      en: ''
     content:
     - type: Question
-      title: 1.2.1
-      description: Wat is het doel dat bereikt dient te worden met de inzet van het
-        algoritme? Wat is hierbij het hoofddoel en wat zijn subdoelen?
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 1.2.1
+        en: ''
+      description:
+        nl: Wat is het doel dat bereikt dient te worden met de inzet van het algoritme?
+          Wat is hierbij het hoofddoel en wat zijn subdoelen?
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
   - type: Section
-    title: '1.3'
-    subtitle: Publieke waarden
+    title:
+      nl: '1.3'
+      en: ''
+    subtitle:
+      nl: Publieke waarden
+      en: ''
     content:
     - type: Question
-      title: 1.3.1
-      description: Wat zijn de publieke waarden die de inzet van het algoritme ingeven?
-        Indien meerdere publieke waarden de inzet van het algoritme ingeven, kan daar
-        een rangschikking in aangebracht worden?
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 1.3.1
+        en: ''
+      description:
+        nl: Wat zijn de publieke waarden die de inzet van het algoritme ingeven? Indien
+          meerdere publieke waarden de inzet van het algoritme ingeven, kan daar een
+          rangschikking in aangebracht worden?
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
     - type: Question
-      title: 1.3.2
-      description: Wat zijn de publieke waarden die mogelijk in het gedrang komen
-        door de inzet van het algoritme?
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 1.3.2
+        en: ''
+      description:
+        nl: Wat zijn de publieke waarden die mogelijk in het gedrang komen door de
+          inzet van het algoritme?
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
   - type: Section
-    title: '1.4'
-    subtitle: Wettelijke grondslag
+    title:
+      nl: '1.4'
+      en: ''
+    subtitle:
+      nl: Wettelijke grondslag
+      en: ''
     content:
     - type: Question
-      title: 1.4.1
-      description: Wat is de wettelijke grondslag van de inzet van dit algoritme en
-        van de beoogde besluiten die genomen zullen worden op basis van dit algoritme?
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 1.4.1
+        en: ''
+      description:
+        nl: Wat is de wettelijke grondslag van de inzet van dit algoritme en van de
+          beoogde besluiten die genomen zullen worden op basis van dit algoritme?
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
   - type: Section
-    title: '1.5'
-    subtitle: Wettelijke grondslag
+    title:
+      nl: '1.5'
+      en: ''
+    subtitle:
+      nl: Wettelijke grondslag
+      en: ''
     content:
     - type: Question
-      title: 1.5.1
-      description: Welke partijen en personen zijn er bij de ontwikkeling/het gebruik/het
-        onderhoud van het algoritme betrokken?
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 1.5.1
+        en: ''
+      description:
+        nl: Welke partijen en personen zijn er bij de ontwikkeling/het gebruik/het
+          onderhoud van het algoritme betrokken?
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
     - type: Question
-      title: 1.5.2
-      description: Hoe zijn de verantwoordelijkheden belegd ten aanzien van de ontwikkeling
-        en de inzet van het algoritme, ook nadat het algoritme eenmaal is afgerond?
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 1.5.2
+        en: ''
+      description:
+        nl: Hoe zijn de verantwoordelijkheden belegd ten aanzien van de ontwikkeling
+          en de inzet van het algoritme, ook nadat het algoritme eenmaal is afgerond?
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
     - type: Question
-      title: 1.5.3
-      description: Wie is eindverantwoordelijk voor het algoritme?
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 1.5.3
+        en: ''
+      description:
+        nl: Wie is eindverantwoordelijk voor het algoritme?
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
 - type: Chapter
-  title: 'Deel 2A: Wat?'
-  subtitle: Data - input
+  title:
+    nl: 'Deel 2A: Wat?'
+    en: ''
+  subtitle:
+    nl: Data - input
+    en: ''
   content:
   - type: Section
-    title: 2A.1
-    subtitle: 'Inschatting: type algoritme'
+    title:
+      nl: 2A.1
+      en: ''
+    subtitle:
+      nl: 'Inschatting: type algoritme'
+      en: ''
     content:
     - type: Question
-      title: 2A.1.1
-      description: Wat voor type algoritme wordt gebruikt, of wat voor type algoritme
-        gaat ontwikkeld worden?
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 2A.1.1
+        en: ''
+      description:
+        nl: Wat voor type algoritme wordt gebruikt, of wat voor type algoritme gaat
+          ontwikkeld worden?
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
   - type: Section
-    title: 2A.2
-    subtitle: Databronnen en kwaliteit
+    title:
+      nl: 2A.2
+      en: ''
+    subtitle:
+      nl: Databronnen en kwaliteit
+      en: ''
     content:
     - type: Question
-      title: 2A.2.1
-      description: Wat voor type data gaat gebruikt worden als input voor het algoritme
-        en uit welke bronnen is de data afkomstig? Indien geen gebruik wordt gemaakt
-        van inputdata, ga door naar onderwerp 2A.4.
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 2A.2.1
+        en: ''
+      description:
+        nl: Wat voor type data gaat gebruikt worden als input voor het algoritme en
+          uit welke bronnen is de data afkomstig? Indien geen gebruik wordt gemaakt
+          van inputdata, ga door naar onderwerp 2A.4.
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
     - type: Question
-      title: 2A.2.2
-      description: Is de kwaliteit en betrouwbaarheid van de data voldoende voor de
-        beoogde datatoepassing? Leg uit.
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 2A.2.2
+        en: ''
+      description:
+        nl: Is de kwaliteit en betrouwbaarheid van de data voldoende voor de beoogde
+          datatoepassing? Leg uit.
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
   - type: Section
-    title: 2A.3
-    subtitle: Bias / aannames in de data
+    title:
+      nl: 2A.3
+      en: ''
+    subtitle:
+      nl: Bias / aannames in de data
+      en: ''
     content:
     - type: Question
-      title: 2A.3.1
-      description: Welke aannames en bias liggen in de data besloten en hoe wordt
-        de invloed daarvan op de output van het algoritme gecorrigeerd of anderszins
-        ondervangen of gemitigeerd (zie ook bijlage 2)?
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 2A.3.1
+        en: ''
+      description:
+        nl: Welke aannames en bias liggen in de data besloten en hoe wordt de invloed
+          daarvan op de output van het algoritme gecorrigeerd of anderszins ondervangen
+          of gemitigeerd (zie ook bijlage 2)?
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
     - type: Question
-      title: 2A.3.2
-      description: 'Indien gebruik wordt gemaakt van trainingsdata: is de data representatief
-        voor de context waarin het algoritme ingezet gaat worden?'
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 2A.3.2
+        en: ''
+      description:
+        nl: 'Indien gebruik wordt gemaakt van trainingsdata: is de data representatief
+          voor de context waarin het algoritme ingezet gaat worden?'
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
   - type: Section
-    title: 2A.4
-    subtitle: Beveiliging en archivering
+    title:
+      nl: 2A.4
+      en: ''
+    subtitle:
+      nl: Beveiliging en archivering
+      en: ''
     content:
     - type: Question
-      title: 2A.4.1
-      description: Is de data voldoende beveiligd? Maak hierin onderscheid tussen
-        de inputdata en de outputdata.
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 2A.4.1
+        en: ''
+      description:
+        nl: Is de data voldoende beveiligd? Maak hierin onderscheid tussen de inputdata
+          en de outputdata.
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
     - type: Question
-      title: 2A.4.2
-      description: Is er controle op de toegang tot de data? Maak hierin onderscheid
-        tussen de inputdata en de outputdata.
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 2A.4.2
+        en: ''
+      description:
+        nl: Is er controle op de toegang tot de data? Maak hierin onderscheid tussen
+          de inputdata en de outputdata.
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
     - type: Question
-      title: 2A.4.3
-      description: Hoe worden relevante regels over archivering in acht genomen, zoals
-        die in de Archiefwet zijn vastgelegd?
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 2A.4.3
+        en: ''
+      description:
+        nl: Hoe worden relevante regels over archivering in acht genomen, zoals die
+          in de Archiefwet zijn vastgelegd?
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
 - type: Chapter
-  title: 'Deel 2B: Wat?'
-  subtitle: Algoritme - throughput
+  title:
+    nl: 'Deel 2B: Wat?'
+    en: ''
+  subtitle:
+    nl: Algoritme - throughput
+    en: ''
   content:
   - type: Section
-    title: 2B.1
-    subtitle: Type algoritme
+    title:
+      nl: 2B.1
+      en: ''
+    subtitle:
+      nl: Type algoritme
+      en: ''
     content:
     - type: Question
-      title: 2B.1.1
-      description: 'Type algoritme: wat voor soort algoritme wordt gebruikt of gaat
-        worden gebruikt? Hoe werkt het? Onderscheid tussen: A. Een niet-zelflerend
-        algoritme, waarin de mens de regels specificeert die de computer moet volgen
-        B. Een zelflerend algoritme, waarin de machine zelf leert over de patronen
-        in de data (machine learning)'
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 2B.1.1
+        en: ''
+      description:
+        nl: 'Type algoritme: wat voor soort algoritme wordt gebruikt of gaat worden
+          gebruikt? Hoe werkt het? Onderscheid tussen: A. Een niet-zelflerend algoritme,
+          waarin de mens de regels specificeert die de computer moet volgen B. Een
+          zelflerend algoritme, waarin de machine zelf leert over de patronen in de
+          data (machine learning)'
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
     - type: Question
-      title: 2B.1.2
-      description: Waarom wordt voor dit type algoritme gekozen?
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 2B.1.2
+        en: ''
+      description:
+        nl: Waarom wordt voor dit type algoritme gekozen?
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
     - type: Question
-      title: 2B.1.3
-      description: Waarom is dit type algoritme het meest geschikt om de bij vraag
-        1.2 geformuleerde doelstellingen te bereiken?
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 2B.1.3
+        en: ''
+      description:
+        nl: Waarom is dit type algoritme het meest geschikt om de bij vraag 1.2 geformuleerde
+          doelstellingen te bereiken?
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
     - type: Question
-      title: 2B.1.4
-      description: Welke alternatieven zijn er en waarom zijn die minder passend of
-        bruikbaar?
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 2B.1.4
+        en: ''
+      description:
+        nl: Welke alternatieven zijn er en waarom zijn die minder passend of bruikbaar?
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
   - type: Section
-    title: 2B.2
-    subtitle: Eigenaarschap en controle
+    title:
+      nl: 2B.2
+      en: ''
+    subtitle:
+      nl: Eigenaarschap en controle
+      en: ''
     content:
     - type: Question
-      title: 2B.2.1
-      description: 'Indien het algoritme is ontwikkeld door een externe partij: zijn
-        er heldere afspraken gemaakt over eigenaarschap en beheer van het algoritme?
-        Wat zijn die afspraken?'
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 2B.2.1
+        en: ''
+      description:
+        nl: 'Indien het algoritme is ontwikkeld door een externe partij: zijn er heldere
+          afspraken gemaakt over eigenaarschap en beheer van het algoritme? Wat zijn
+          die afspraken?'
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
   - type: Section
-    title: 2B.3
-    subtitle: Accuraatheid algoritme
+    title:
+      nl: 2B.3
+      en: ''
+    subtitle:
+      nl: Accuraatheid algoritme
+      en: ''
     content:
     - type: Question
-      title: 2B.3.1
-      description: Wat is de accuraatheid van het algoritme, en op basis van welke
-        evaluatiecriteria is deze accuraatheid bepaald?
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 2B.3.1
+        en: ''
+      description:
+        nl: Wat is de accuraatheid van het algoritme, en op basis van welke evaluatiecriteria
+          is deze accuraatheid bepaald?
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
     - type: Question
-      title: 2B.3.2
-      description: Is de mate van accuraatheid (vraag 2B.3.1) acceptabel voor de manier
-        waarop het algoritme ingezet zal worden?
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 2B.3.2
+        en: ''
+      description:
+        nl: Is de mate van accuraatheid (vraag 2B.3.1) acceptabel voor de manier waarop
+          het algoritme ingezet zal worden?
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
     - type: Question
-      title: 2B.3.3
-      description: Hoe wordt het algoritme getest?
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 2B.3.3
+        en: ''
+      description:
+        nl: Hoe wordt het algoritme getest?
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
     - type: Question
-      title: 2B.3.4
-      description: Welke maatregelen kunnen worden getroffen om de risico's van reproductie
-        of zelfs versterking van biases tegen te gaan (bijv. andere sampling-strategie,
-        feature modification, ...)?
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 2B.3.4
+        en: ''
+      description:
+        nl: Welke maatregelen kunnen worden getroffen om de risico's van reproductie
+          of zelfs versterking van biases tegen te gaan (bijv. andere sampling-strategie,
+          feature modification, ...)?
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
     - type: Question
-      title: 2B.3.5
-      description: Welke aannames liggen ten grondslag aan de selectie en weging van
-        de indicatoren? Zijn die aannames terecht? Waarom wel/niet?
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 2B.3.5
+        en: ''
+      description:
+        nl: Welke aannames liggen ten grondslag aan de selectie en weging van de indicatoren?
+          Zijn die aannames terecht? Waarom wel/niet?
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
     - type: Question
-      title: 2B.3.6
-      description: Hoe vaak/erg zit het algoritme ernaast? (bijv. in termen van aantal
-        false positives, false negatives, R-squared, ...)
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 2B.3.6
+        en: ''
+      description:
+        nl: Hoe vaak/erg zit het algoritme ernaast? (bijv. in termen van aantal false
+          positives, false negatives, R-squared, ...)
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
   - type: Section
-    title: 2B.4
-    subtitle: Transparantie & uitlegbaarheid
+    title:
+      nl: 2B.4
+      en: ''
+    subtitle:
+      nl: Transparantie & uitlegbaarheid
+      en: ''
     content:
     - type: Question
-      title: 2B.4.1
-      description: Is het duidelijk wat het algoritme doet, hoe het dit doet, en op
-        basis waarvan (welke data) het dit doet? Leg uit.
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 2B.4.1
+        en: ''
+      description:
+        nl: Is het duidelijk wat het algoritme doet, hoe het dit doet, en op basis
+          waarvan (welke data) het dit doet? Leg uit.
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
     - type: Question
-      title: 2B.4.2
-      description: Voor welke personen en groepen binnen en buiten de eigen organisatie
-        wordt de werking van het algoritme transparant gemaakt en hoe gebeurt dit?
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 2B.4.2
+        en: ''
+      description:
+        nl: Voor welke personen en groepen binnen en buiten de eigen organisatie wordt
+          de werking van het algoritme transparant gemaakt en hoe gebeurt dit?
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
     - type: Question
-      title: 2B.4.3
-      description: Voor welke doelgroepen moet het algoritme uitlegbaar zijn?
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 2B.4.3
+        en: ''
+      description:
+        nl: Voor welke doelgroepen moet het algoritme uitlegbaar zijn?
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
     - type: Question
-      title: 2B.4.4
-      description: Kan de werking van het algoritme voor de bij vraag 2B.4.3 geïdentificeerde
-        doelgroepen op een voldoende begrijpelijke manier worden uitgelegd?
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 2B.4.4
+        en: ''
+      description:
+        nl: Kan de werking van het algoritme voor de bij vraag 2B.4.3 geïdentificeerde
+          doelgroepen op een voldoende begrijpelijke manier worden uitgelegd?
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
 - type: Chapter
-  title: 'Deel 3: Hoe?'
-  subtitle: Implementatie, gebruik en toezicht - output
+  title:
+    nl: 'Deel 3: Hoe?'
+    en: ''
+  subtitle:
+    nl: Implementatie, gebruik en toezicht - output
+    en: ''
   content:
   - type: Section
-    title: '3.1'
-    subtitle: Beslissingen op basis van output algoritme
+    title:
+      nl: '3.1'
+      en: ''
+    subtitle:
+      nl: Beslissingen op basis van output algoritme
+      en: ''
     content:
     - type: Question
-      title: 3.1.1
-      description: Wat gebeurt er met de uitkomsten van het algoritme? Welke beslissingen
-        worden daarop gebaseerd?
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 3.1.1
+        en: ''
+      description:
+        nl: Wat gebeurt er met de uitkomsten van het algoritme? Welke beslissingen
+          worden daarop gebaseerd?
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
   - type: Section
-    title: '3.2'
-    subtitle: De rol van de mens in de beslissing
+    title:
+      nl: '3.2'
+      en: ''
+    subtitle:
+      nl: De rol van de mens in de beslissing
+      en: ''
     content:
     - type: Question
-      title: 3.2.1
-      description: Welke rol spelen mensen bij het nemen van beslissingen op basis
-        van de output van het algoritme (‘human in the loop’) en hoe worden zij in
-        staat gesteld om die rol te spelen?
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 3.2.1
+        en: ''
+      description:
+        nl: Welke rol spelen mensen bij het nemen van beslissingen op basis van de
+          output van het algoritme (‘human in the loop’) en hoe worden zij in staat
+          gesteld om die rol te spelen?
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
     - type: Question
-      title: 3.2.2
-      description: Is er nu en in de toekomst voldoende gekwalificeerd personeel aanwezig
-        om het algoritme te beheren, te herzien en aan te passen indien gewenst/nodig?
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 3.2.2
+        en: ''
+      description:
+        nl: Is er nu en in de toekomst voldoende gekwalificeerd personeel aanwezig
+          om het algoritme te beheren, te herzien en aan te passen indien gewenst/nodig?
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
   - type: Section
-    title: '3.3'
-    subtitle: Effecten van het algoritme
+    title:
+      nl: '3.3'
+      en: ''
+    subtitle:
+      nl: Effecten van het algoritme
+      en: ''
     content:
     - type: Question
-      title: 3.3.1
-      description: Wat zullen de effecten zijn van de inzet van het algoritme voor
-        burgersen hoe wordt rekening gehouden met de ‘menselijke maat’ bij het nemen
-        van beslissingen op basis van de output van het algoritme?
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 3.3.1
+        en: ''
+      description:
+        nl: Wat zullen de effecten zijn van de inzet van het algoritme voor burgersen
+          hoe wordt rekening gehouden met de ‘menselijke maat’ bij het nemen van beslissingen
+          op basis van de output van het algoritme?
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
     - type: Question
-      title: 3.3.2
-      description: Welke risico’s voor stigmatiserende, discriminerende of anderszins
-        schadelijke of nadelige effecten zijn er voor de burger en hoe zullen die
-        worden bestreden of gemitigeerd?
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 3.3.2
+        en: ''
+      description:
+        nl: Welke risico’s voor stigmatiserende, discriminerende of anderszins schadelijke
+          of nadelige effecten zijn er voor de burger en hoe zullen die worden bestreden
+          of gemitigeerd?
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
     - type: Question
-      title: 3.3.3
-      description: Hoe zullen de verwachte effecten bijdragen aan de oplossing van
-        het probleem dat de aanleiding is voor de ontwikkeling/inzet van het algoritme
-        (zie vraag 1.1) en het bereiken van de daarbij gestelde doelen (zie vraag
-        1.2)?
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 3.3.3
+        en: ''
+      description:
+        nl: Hoe zullen de verwachte effecten bijdragen aan de oplossing van het probleem
+          dat de aanleiding is voor de ontwikkeling/inzet van het algoritme (zie vraag
+          1.1) en het bereiken van de daarbij gestelde doelen (zie vraag 1.2)?
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
     - type: Question
-      title: 3.3.4
-      description: Hoe verhouden de verwachte effecten zich tot de waarden die worden
-        gediend (zie vraag 1.3)? Welke risico’s zijn er dat bepaalde waarden onder
-        druk komen te staan en hoe wordt daarmee dan omgegaan?
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 3.3.4
+        en: ''
+      description:
+        nl: Hoe verhouden de verwachte effecten zich tot de waarden die worden gediend
+          (zie vraag 1.3)? Welke risico’s zijn er dat bepaalde waarden onder druk
+          komen te staan en hoe wordt daarmee dan omgegaan?
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
   - type: Section
-    title: '3.4'
-    subtitle: Procedures
+    title:
+      nl: '3.4'
+      en: ''
+    subtitle:
+      nl: Procedures
+      en: ''
     content:
     - type: Question
-      title: 3.4.1
-      description: Via welke procedures zullen beslissingen op basis van het algoritme
-        worden genomen?
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 3.4.1
+        en: ''
+      description:
+        nl: Via welke procedures zullen beslissingen op basis van het algoritme worden
+          genomen?
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
     - type: Question
-      title: 3.4.2
-      description: Hoe worden verschillende relevante actoren (bestuurlijke en politiek
-        verantwoordelijken, burgers) bij de besluitvorming betrokken?
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 3.4.2
+        en: ''
+      description:
+        nl: Hoe worden verschillende relevante actoren (bestuurlijke en politiek verantwoordelijken,
+          burgers) bij de besluitvorming betrokken?
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
     - type: Question
-      title: 3.4.3
-      description: Hoe wordt gegarandeerd dat in deze procedures wordt voldaan aan
-        de eisen van goed en behoorlijk bestuur en – waar nodig – rechtsbescherming?
-        Hebben burgers een effectieve mogelijkheid om een klacht in te dienen of bezwaar
-        te maken? Zo ja, op welke manier?
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 3.4.3
+        en: ''
+      description:
+        nl: Hoe wordt gegarandeerd dat in deze procedures wordt voldaan aan de eisen
+          van goed en behoorlijk bestuur en – waar nodig – rechtsbescherming? Hebben
+          burgers een effectieve mogelijkheid om een klacht in te dienen of bezwaar
+          te maken? Zo ja, op welke manier?
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
   - type: Section
-    title: '3.5'
-    subtitle: Context
+    title:
+      nl: '3.5'
+      en: ''
+    subtitle:
+      nl: Context
+      en: ''
     content:
     - type: Question
-      title: 3.5.1
-      description: "*Tijd/periode:* wanneer gaat het algoritme ingezet worden? Hoe
-        lang is de periode dat het ingezet wordt?"
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 3.5.1
+        en: ''
+      description:
+        nl: "*Tijd/periode:* wanneer gaat het algoritme ingezet worden? Hoe lang is
+          de periode dat het ingezet wordt?"
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
     - type: Question
-      title: 3.5.2
-      description: "*Plaats:* waar vindt inzet van het algoritme plaats? Is dat in
-        een bepaald geografisch gebied, is dat bij een bepaalde groep personen of
-        dossiers?"
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 3.5.2
+        en: ''
+      description:
+        nl: "*Plaats:* waar vindt inzet van het algoritme plaats? Is dat in een bepaald
+          geografisch gebied, is dat bij een bepaalde groep personen of dossiers?"
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
     - type: Question
-      title: 3.5.3
-      description: Kan het algoritme ook nog worden ingezet als contextfactoren veranderen
-        of als het algoritme gebruikt wordt in een andere context dan waarvoor het
-        is ontwikkeld?
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 3.5.3
+        en: ''
+      description:
+        nl: Kan het algoritme ook nog worden ingezet als contextfactoren veranderen
+          of als het algoritme gebruikt wordt in een andere context dan waarvoor het
+          is ontwikkeld?
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
   - type: Section
-    title: '3.6'
-    subtitle: Communicatie
+    title:
+      nl: '3.6'
+      en: ''
+    subtitle:
+      nl: Communicatie
+      en: ''
     content:
     - type: Question
-      title: 3.6.1
-      description: Hoe open kunt u zijn over de werking van het algoritme in het licht
-        van de doelstellingen en context van de inzet ervan?
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 3.6.1
+        en: ''
+      description:
+        nl: Hoe open kunt u zijn over de werking van het algoritme in het licht van
+          de doelstellingen en context van de inzet ervan?
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
     - type: Question
-      title: 3.6.2
-      description: Op welke manier beoogt u te communiceren over de inzet van het
-        algoritme?
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 3.6.2
+        en: ''
+      description:
+        nl: Op welke manier beoogt u te communiceren over de inzet van het algoritme?
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
     - type: Question
-      title: 3.6.3
-      description: 'Wordt de output van het algoritme gevisualiseerd, bijvoorbeeld
-        in een tabel, grafiek of dashboard? Zo ja: is de vorm van visualisatie of
-        weergave een correcte representatie van de output van het algoritme? Is de
-        visualisatie makkelijk te lezen voor verschillende gebruikersgroepen?'
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 3.6.3
+        en: ''
+      description:
+        nl: 'Wordt de output van het algoritme gevisualiseerd, bijvoorbeeld in een
+          tabel, grafiek of dashboard? Zo ja: is de vorm van visualisatie of weergave
+          een correcte representatie van de output van het algoritme? Is de visualisatie
+          makkelijk te lezen voor verschillende gebruikersgroepen?'
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
   - type: Section
-    title: '3.7'
-    subtitle: Evaluatie, auditing en borging
+    title:
+      nl: '3.7'
+      en: ''
+    subtitle:
+      nl: Evaluatie, auditing en borging
+      en: ''
     content:
     - type: Question
-      title: 3.7.1
-      description: Is voorzien in goede instrumenten voor evaluatie, auditing en borging
-        van het algoritme?
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 3.7.1
+        en: ''
+      description:
+        nl: Is voorzien in goede instrumenten voor evaluatie, auditing en borging
+          van het algoritme?
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
     - type: Question
-      title: 3.7.2
-      description: Zijn er voldoende mogelijkheden om rekenschap en verantwoording
-        af te leggen over het algoritme?
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 3.7.2
+        en: ''
+      description:
+        nl: Zijn er voldoende mogelijkheden om rekenschap en verantwoording af te
+          leggen over het algoritme?
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
     - type: Question
-      title: 3.7.3
-      description: Welke mogelijkheden zijn er voor auditors en toezichthouders om
-        (formele) consequenties te verbinden aan de inzet van een algoritme door de
-        overheid (bijv. terugkoppeling van bevindingen, doen van aanbevelingen, budgettaire
-        consequenties, ...)
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 3.7.3
+        en: ''
+      description:
+        nl: Welke mogelijkheden zijn er voor auditors en toezichthouders om (formele)
+          consequenties te verbinden aan de inzet van een algoritme door de overheid
+          (bijv. terugkoppeling van bevindingen, doen van aanbevelingen, budgettaire
+          consequenties, ...)
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
 - type: Chapter
-  title: 'Deel 4: Mensenrechten'
-  subtitle: Stappenplan grondrechten
+  title:
+    nl: 'Deel 4: Mensenrechten'
+    en: ''
+  subtitle:
+    nl: Stappenplan grondrechten
+    en: ''
   content:
   - type: Section
-    title: '4.1'
-    subtitle: Grondrecht
+    title:
+      nl: '4.1'
+      en: ''
+    subtitle:
+      nl: Grondrecht
+      en: ''
     content:
     - type: Question
-      title: 4.1.1
-      description: Wordt er een grondrecht geraakt door het in te zetten algoritme?
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 4.1.1
+        en: ''
+      description:
+        nl: Wordt er een grondrecht geraakt door het in te zetten algoritme?
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
   - type: Section
-    title: '4.2'
-    subtitle: Specifieke wetgeving en richtsnoeren
+    title:
+      nl: '4.2'
+      en: ''
+    subtitle:
+      nl: Specifieke wetgeving en richtsnoeren
+      en: ''
     content:
     - type: Question
-      title: 4.2.1
-      description: Zijn er specifieke wettelijke bepalingen of richtsnoeren van toepassing
-        op de grondrechteninbreuk?
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 4.2.1
+        en: ''
+      description:
+        nl: Zijn er specifieke wettelijke bepalingen of richtsnoeren van toepassing
+          op de grondrechteninbreuk?
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
   - type: Section
-    title: '4.3'
-    subtitle: Zwaartebepaling
+    title:
+      nl: '4.3'
+      en: ''
+    subtitle:
+      nl: Zwaartebepaling
+      en: ''
     content:
     - type: Question
-      title: 4.3.1
-      description: Hoe zwaar wordt een grondrecht geraakt door het algoritme?
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 4.3.1
+        en: ''
+      description:
+        nl: Hoe zwaar wordt een grondrecht geraakt door het algoritme?
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
   - type: Section
-    title: '4.4'
-    subtitle: Doelstellingen
+    title:
+      nl: '4.4'
+      en: ''
+    subtitle:
+      nl: Doelstellingen
+      en: ''
     content:
     - type: Question
-      title: 4.4.1
-      description: Welke doelen worden met inzet van het algoritme nagestreefd? Kijk
-        hierbij naar uw antwoord op vraag 1.2
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 4.4.1
+        en: ''
+      description:
+        nl: Welke doelen worden met inzet van het algoritme nagestreefd? Kijk hierbij
+          naar uw antwoord op vraag 1.2
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
   - type: Section
-    title: '4.5'
-    subtitle: Doeltreffendheid/effectiviteit/geschiktheid
+    title:
+      nl: '4.5'
+      en: ''
+    subtitle:
+      nl: Doeltreffendheid/effectiviteit/geschiktheid
+      en: ''
     content:
     - type: Question
-      title: 4.5.1
-      description: Vormt het in te zetten algoritme een doeltreffend middel om de
-        gestelde doelen te realiseren? Leg uit.
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 4.5.1
+        en: ''
+      description:
+        nl: Vormt het in te zetten algoritme een doeltreffend middel om de gestelde
+          doelen te realiseren? Leg uit.
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
   - type: Section
-    title: '4.6'
-    subtitle: Noodzakelijkheid/subsidiariteit
+    title:
+      nl: '4.6'
+      en: ''
+    subtitle:
+      nl: Noodzakelijkheid/subsidiariteit
+      en: ''
     content:
     - type: Question
-      title: 4.6.1
-      description: Is de inzet van dit specifieke algoritme noodzakelijk om dit doel
-        te bereiken en zijn er geen andere of mitigerende maatregelen beschikbaar
-        om dit te doen? Leg uit.
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 4.6.1
+        en: ''
+      description:
+        nl: Is de inzet van dit specifieke algoritme noodzakelijk om dit doel te bereiken
+          en zijn er geen andere of mitigerende maatregelen beschikbaar om dit te
+          doen? Leg uit.
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
   - type: Section
-    title: '4.7'
-    subtitle: Belangenafweging/proportionaliteit
+    title:
+      nl: '4.7'
+      en: ''
+    subtitle:
+      nl: Belangenafweging/proportionaliteit
+      en: ''
     content:
     - type: Question
-      title: 4.7.1
-      description: Levert inzet van het algoritme een redelijk evenwicht op tussen
-        de te realiseren doelen en de grondrechten die worden geraakt, en waarom is
-        dat zo?
-      hint: 'Antwoord:'
-      remark: ''
+      title:
+        nl: 4.7.1
+        en: ''
+      description:
+        nl: Levert inzet van het algoritme een redelijk evenwicht op tussen de te
+          realiseren doelen en de grondrechten die worden geraakt, en waarom is dat
+          zo?
+        en: ''
+      hint:
+        nl: 'Antwoord:'
+        en: ''
