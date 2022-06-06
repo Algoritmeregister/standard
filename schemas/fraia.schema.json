@@ -1,0 +1,27 @@
+---
+title: FRAIA schema json (EN)
+description: schema.json file for the FRAIA
+---
+{% assign iama-fraia = site.data.iama-fraia %}
+{
+    "$id": "https://standaard.algoritmeregister.org/schemas/fraia.schema.json",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "{{ iama-fraia.title.en }}",
+    "description": "{{ schema.description.en }}",
+    "type": "object",
+    "properties": {
+        {% for chapter in iama-fraia.content %}
+        {% for section in chapter.content %}
+        {% for question in section.content %}
+            "{{ question.title.en }}": {
+                "name": "{{ section.subtitle.en }}",
+				"category": "{{ chapter.subtitle.en }}",
+				"type": "string",
+				"description": "{{ question.description.en }}",
+				"required": {{ property.required | default: false }}
+            }{% if forloop.last == false %},{% endif %}
+        {% endfor %}{% if forloop.last == false %},{% endif %}
+        {% endfor %}{% if forloop.last == false %},{% endif %}
+        {% endfor %}
+    }
+}
