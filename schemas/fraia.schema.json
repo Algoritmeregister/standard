@@ -10,6 +10,48 @@ description: schema.json file for the FRAIA
     "description": "{{ schema.description.en }}",
     "type": "object",
     "properties": {
+        "name": {
+            "name": "Naam",
+            "category": "ALGEMENE INFORMATIE",
+            "type": "string",
+            "description": "Wat de naam die gebruikt wordt om dit algoritme aan te duiden? Voorbeeld: 'WMO voorspelling Rotterdam' of 'Crowd-monitoring Enschede'.",
+            "required": true
+        },
+        "organization": {
+            "name": "Organisatie",
+            "category": "ALGEMENE INFORMATIE",
+            "type": "string",
+            "description": "Wat is de volledige naam van de organisatie verantwoordelijk voor de inzet van het model, algoritme of AI? Voorbeeld: 'Gemeente Amsterdam' of 'Waterschap Limburg'.",
+            "required": true
+        },
+        "department": {
+            "name": "Afdeling",
+            "category": "ALGEMENE INFORMATIE",
+            "type": "string",
+            "description": "Wat is de volledige naam van de afdeling of divisie verantwoordelijk voor de inzet van het model, algoritme of AI? Voorbeeld: 'Stadsdeel Segbroek' of 'Verkeer en Transport'.",
+            "required": true
+        },
+        "description_short": {
+            "name": "Korte omschrijving",
+            "category": "ALGEMENE INFORMATIE",
+            "type": "string",
+            "description": "Geef een korte omschrijving van maximaal 150 karakters waarin hoog over omschreven wordt wat het doel is van het model, algoritme of AI. Voorbeeld: 'Algoritme dat bij stoplichten voorrang van verkeersmodaliteiten berekent op basis van wetgeving en lokale voorschriften.",
+            "required": true
+        },
+        "status": {
+            "name": "Status",
+            "category": "ALGEMENE INFORMATIE",
+            "type": "string",
+            "description": "Geef aan of het model, algoritme of AI in ontwikkeling is, in gebruik, of buiten gebruik.",
+            "required": false
+        },
+        "revision_date": {
+            "name": "Herzieningsdatum",
+            "category": "METADATA",
+            "type": "string",
+            "description": "Dit is de datum waarvoor deze registratie moet worden herzien.",
+            "required": true
+        },
         {% for chapter in iama-fraia.content %}
         {% for section in chapter.content %}
         {% for question in section.content %}
