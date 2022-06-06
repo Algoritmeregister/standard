@@ -11,45 +11,45 @@ description: schema.json file for the FRAIA
     "type": "object",
     "properties": {
         "name": {
-            "name": "Naam",
-            "category": "ALGEMENE INFORMATIE",
+            "name": "Name",
+            "category": "BASIC INFORMATION",
             "type": "string",
-            "description": "Wat de naam die gebruikt wordt om dit algoritme aan te duiden? Voorbeeld: 'WMO voorspelling Rotterdam' of 'Crowd-monitoring Enschede'.",
+            "description": "What is the colloquial name used to identify this algorithm? Example: 'WMO prediction Rotterdam' or 'Crowd-monitoring Enschede'.",
             "required": true
         },
         "organization": {
-            "name": "Organisatie",
-            "category": "ALGEMENE INFORMATIE",
+            "name": "Organization",
+            "category": "BASIC INFORMATION",
             "type": "string",
-            "description": "Wat is de volledige naam van de organisatie verantwoordelijk voor de inzet van het model, algoritme of AI? Voorbeeld: 'Gemeente Amsterdam' of 'Waterschap Limburg'.",
+            "description": "What is the full name of the organization used to identify responsibility for use of the model, algorithm or AI? Example: 'City of Amsterdam' or 'Water Authority Limburg '.",
             "required": true
         },
         "department": {
-            "name": "Afdeling",
-            "category": "ALGEMENE INFORMATIE",
+            "name": "Department",
+            "category": "BASIC INFORMATION",
             "type": "string",
-            "description": "Wat is de volledige naam van de afdeling of divisie verantwoordelijk voor de inzet van het model, algoritme of AI? Voorbeeld: 'Stadsdeel Segbroek' of 'Verkeer en Transport'.",
+            "description": "What is the full name of the department or division used to specify responsibility for use of the model, algorithm or AI? Example: 'District Segbroek' or 'Traffic and transport'.",
             "required": true
         },
         "description_short": {
-            "name": "Korte omschrijving",
-            "category": "ALGEMENE INFORMATIE",
+            "name": "Short description",
+            "category": "BASIC INFORMATION",
             "type": "string",
-            "description": "Geef een korte omschrijving van maximaal 150 karakters waarin hoog over omschreven wordt wat het doel is van het model, algoritme of AI. Voorbeeld: 'Algoritme dat bij stoplichten voorrang van verkeersmodaliteiten berekent op basis van wetgeving en lokale voorschriften.",
+            "description": "Please give a short description of maximum 150 chars in order to give a quick overview of the purpose of the model, algorithm or AI. Example: 'The traffic light priority algorithm prioritises traffic modalities based on applicable law and local regulations'.",
             "required": true
         },
         "status": {
             "name": "Status",
-            "category": "ALGEMENE INFORMATIE",
+            "category": "BASIC INFORMATION",
             "type": "string",
-            "description": "Geef aan of het model, algoritme of AI in ontwikkeling is, in gebruik, of buiten gebruik.",
+            "description": "Please indicate wether the model, algorithm or AI is in development, in use, or archived.",
             "required": false
         },
         "revision_date": {
-            "name": "Herzieningsdatum",
+            "name": "Revision date",
             "category": "METADATA",
             "type": "string",
-            "description": "Dit is de datum waarvoor deze registratie moet worden herzien.",
+            "description": "This is the date before which this entry has to be revisited.",
             "required": true
         },
         {% for chapter in iama-fraia.content %}
