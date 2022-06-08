@@ -1,0 +1,22 @@
+---
+title: UK schema json (EN)
+description: schema.json file for the UK Algorithmic Transparency Standard
+---
+{
+    "$id": "https://standaard.algoritmeregister.org/schemas/registration-uk.schema.json",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "UK Algorithmic Transparency Standard",
+    "description": "The Algorithmic Transparency Standard helps public sector organisations provide clear information about the algorithmic tools they use, and why they’re using them.",
+    "type": "object",
+    "properties": {
+        {% for property in site.data.Algorithmic_transparency_data_standard %}
+            "{{ property.attribute | replace: "*", "" }}": {
+                "name": "{{ property.name }}",
+				"category": "{{ property.category }}",
+				"type": "{{ property.type | replace: "UTF-8 string", "string" }}",
+				"description": "{{ property.description | strip_newlines }}",
+				"required": "{{ property.required | default: false }}"
+            }{% if forloop.last == false %},{% endif %}
+        {% endfor %}
+    }
+}
