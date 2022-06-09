@@ -1,0 +1,27 @@
+---
+title: Algoritmeregister Amsterdam schema json (NL)
+description: schema.json file voor het Amsterdamse algoritmeregister
+---
+{
+    "$id": "https://standaard.algoritmeregister.org/schemas/registration-amsterdam.schema.json",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Algoritmeregister Amsterdam",
+    "description": "{{ description }}",
+    "type": "object",
+    "properties": {
+        {% for property in site.data.Overzicht_van_velden_huidige_registers_Amsterdam_en_Utrecht %}
+            {% if property.Onderdeel %}
+            {% assign onderdeel = property.Onderdeel %}
+            {% endif %}
+            "{{ onderdeel | downcase }}_{{ property.Vraag | downcase }}": {
+                "name": "{{ property.Vraag }}",
+				"category": "{{ onderdeel }}",
+				"type": "{{ property.type | replace: "UTF-8 string", "string" }}",
+				"description": "{{ property.Toelichting | strip_newlines }}",
+				"required": "{{ property.required | default: false }}",
+                "show": "{% if property['Wordt nu getoond in front-end register Amsterdam'] %}true{% else %}false{% endif %}",
+                "remark": "{{ property['Opmerking voor consortium'] | strip_newlines }}"
+            }{% if forloop.last == false %},{% endif %}
+        {% endfor %}
+    }
+}

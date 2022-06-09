@@ -1,0 +1,61 @@
+"Onderdeel","Vraag","Toelichting","Wordt nu getoond in front-end register Amsterdam","Opmerking voor consortium"
+"Overzicht","Naam","Beschrijvende naam","x","Equivalent Utrecht: 1. Naam van het proces"
+,"Cluster","Bijvoorbeeld: Stadsbeheer","x","Niet essentieel/organisatie-afhankelijk"
+,"Type","Bijvoorbeeld: chatbot","x",
+,"Tags","Enter na elke tag","x","Niet essentieel, is voor functionaliteit van de website"
+,"Taal","Documentatietaal van het systeem",,"Niet essentieel, is voor functionaliteit van de website"
+,"Omschrijving","Omschrijving van doel en werking van het systeem, 100-200 woorden","x","Equivalent Utrecht: 2. Omschrijving van het proces + 3. Wat is de rol van het algoritme of voorspellend model binnen het proces?
+
+Geleerde les Amsterdam: aan omschrijving toevoegen dat het minimaal de volgende inhoud moet bevatten:
+1. Proces waar algoritme onderdeel van is toelichten; bijv waarom is er überhaupt parkeerbeleid
+2. Waarom algoritme nodig
+3. Wat doet het algoritme grofweg
+4. Welke impact of risico’s heeft het algoritme (en welke te verwachten juist niet, bijv geen persoonsgegevens verwerken)
+5. Wat doen we om het veilig/verantwoord te maken"
+"Accountability","Organisatie","Eigenaar van het systeem, bijvoorbeeld: Gemeente Amsterdam","x",
+,"Afdeling of team","Verantwoordelijk voor de uitkomsten van het systeem","x",
+,"Email","Emailadres voor vragen","x",
+,"Telefoonnummer","Telefoonnummer voor vragen","x",
+,"Contactpersoon voornaam","Naam wordt getoond als 'contactpersoon voor vragen'","x","Hier vullen we nu een team in ipv een contactpersoon"
+,"Contactpersoon achternaam","Naam wordt getoond als 'contactpersoon voor vragen'","x","Van dit hele blok is de vraag: hoe willen wij dit als consortium gebruiken (willen we deze informatie opvragen, zodat we voor audits e.d. zelf overzicht hebben). En hoe om te gaan met verschillende rollen (business/product owner, technical owner, developer, woordvoerder, directeur...."
+,"Emailadres contactpersoon","Emailadres contactpersoon",,
+,"Functietitel contactpersoon","Functietitel contactpersoon, bijvoorbeeld: data-analist",,
+,"Verantwoordelijke manager voornaam","Voornaam verantwoordelijke manager",,
+,"Verantwoordelijke manager achternaam","Achternaam verantwoordelijke manager",,
+,"Emailadres verantwoordelijke manager","Emailadres verantwoordelijke manager",,
+,"Functietitel verantwoordelijke manager","Functietitel verantwoordelijke manager, bijvoorbeeld: afdelingshoofd",,
+,"Technisch expert voornaam","Voornaam verantwoordelijk voor ontwikkeling of implementatie",,
+,"Technisch expert achternaam","Achternaam verantwoordelijk voor ontwikkeling of implementatie"," ",
+,"Emailadres technisch expert","E-mailadres verantwoordelijk voor ontwikkeling of implementatie"," ",
+,"Functietitel technisch expert","Functietitel verantwoordelijk voor ontwikkeling of implementatie"," ",
+,"Auditor","Naam van organisatie die onafhankelijke audit deed",,
+,"Leverancier","Naam van bedrijf dat (een deel van) het systeem leverde","x","Kan ook zijn 'ontwikkeld in eigen beheer'"
+"Data","Naam","Beschrijvende naam, bijv. klanttransacties","x",
+,"Omschrijving","Omschrijving van de dataset en hoe het door het systeem gebruikt wordt","x",
+,"Licentie","Bijvoorbeeld: publiek domein",,"Voor dit hele blok is de vraag: willen we deze en volgende info? Mooie vraag voor de technische sessie"
+,"Versie","Versienummer of -naam",,
+,"Bronnaam","Naam van bron, bijvoorbeeld CBS",,
+,"URL Bron","Link naar bron, bijvoorbeeld naar een opendataset",,
+,"Data Verzameld door","Naam van afdeling of bedrijf verantwoordelijk voor de data",,
+,"URL dataverzamelaar","Link naar website van dataverzamelaar",,
+,"Type data","Type attributen of variabelen in de dataset, bijvoorbeeld 'adressen' of 'kentekens'",,
+,"Persoonsgegevens","keuze is: geïdentificeerd; gepseudonymiseerd; geen persoonsgegevens",,"Hier nog goed over nadenken. Dekken deze drie antwoorden de lading? En wat zegt welk antwoord? Misschien liever in plaats hiervan: opgenomen in verwerkingsregister ja/nee. Maar misschien allebei"
+"Dataverwerking","Achitectuur van het model","Omschrijving van de manier waarop het systeem gegevens verwerkt","x","Equivalent Utrecht: 4. Geeft het algoritme of voorspellend model informatie of neemt het zelfstandig een besluit?"
+,"Upload images","Hier kan een afbeelding van het stroomschema geupload worden. De ontwikkelaar bouwt daar in de toekomst een tooltje voor",,"Stroomschema draagt bij aan de begrijpelijkheid. Maar vraagt ook dat iemand het ontwerpt… willen/kunnen we dat?"
+,"Prestatie","Omschrijving van de prestatie van het model en de meetmethodes daarvan, bijvoorbeeld de mate van nauwkerigheid en de foutmarge","x","Volgens mij kan deze vraag preciezer, en uiteenvallen in verschillende vragen, zodat er nauwkeuriger antwoord op gegeven kan worden"
+,"URL naar broncode","URL naar broncode",,
+,"URL naar output data","URL naar output data",,
+"Tegengaan van discriminatie","Omschrijving","Beschijf hoe gelijkheid wordt bevorderd en onterecte discriminatie wordt tegengegaan door het systeem","x",
+,"Use of protected attributes","Je kunt hier verschillende bijzondere persoonsgegevens selecteren (Geslacht, leeftijd, herkomst, nationaliteit, taal, religie, levensbeschouwelijke overtuiging, mening, politieke opvattingen, vakbondactiviteit, familierelaties, gezondheid, lichamelijke of andere beperking, geaardheid",,"Deze is voor ons (Amsterdam) op dit moment echt nog wat te onduidelijk om goed te gebruiken. Het is nu te onduidelijk wat het zegt als je een van de vakjes aanvinkt. Als je bijv. aanvinkt 'geslacht', omdat geslacht verwerkt wordt in de data, wat betekent dat dan? Volgens mij is het goed er transparant over te zijn, maar moet er per bijzonder persoonsgegeven een toelichting nodig waarom ie verwerkt wordt. Maar dan ligt een integratie met verwerkingsregister eerder voor de hand..."
+"Menselijk toezicht","Omschrijving","Beschrijf hoe mensen bestrokken zijn bij het beoordelen van de kwaliteit, uitkomst of impact van het algoritme","x",
+"Risico's","Omschrijving","Beschrijf in algemene zin waarom het systeem wel of niet risicovol is en welke waarborgen zijn genomen. Een beschrijving per risico volgt hierna.","x",
+"Referenties","Publieke taak","Officiële taak van de overheid waarvoor het systeem wordt gebruikt",,"Uit gesprek met Maranke Wieringa (UU) werd me duidelijk dat we hier eigenlijk ook zouden moeten linken naar de beleidsstukken (die naar de Raak/Staten/TK/etc. gaat) waarin het besluit staat om het algoritme te gebruiken of om de publieke taak uit te voeren"
+,"Privacybeleid","Link naar privacy policy (wordt getoond bij Data)","x",
+,"Data Protection Impact Assessment (URL)","Link naar DPIA",,"Equivalent Utrecht: 5. Is een Privacy Impact Assessment uitgevoerd?
+Wellicht combi doe: ja/nee antwoord + URL indien beschikbaar"
+,"Informatiesysteem governance","Link naar beschrijving van de governance van het systeem",,"Kan wat mij betreft openbaar, maar is in ieder geval relevant voor audit"
+,"Contractreferentie","Contractnummer of andere referentie naar contract met leverancier",,"Relevant voor audit"
+,"Overige referentie","Bijvoorbeeld: link naar verwerkingsregister of servicecatalogus",,"Dit is in ons register een soort vrij veld. Maar een link naar het verwerkingsregister lijkt me logisch"
+,"Website van product of dienst","URL naar meer informatie, bijvoorbeeld op amsterdam.nl","x",
+,"AI Impact Assessment","Nog niet in register wel op de planning: URL naar impact assessment",,"6. Is een Uthiek Assessment uitgevoerd?
+Wellicht combi doe: ja/nee antwoord + URL indien beschikbaar"
