@@ -10,48 +10,7 @@ description: schema.json file for the FRAIA
     "description": "{{ schema.description.en }}",
     "type": "object",
     "properties": {
-        "name": {
-            "name": "Name",
-            "category": "BASIC INFORMATION",
-            "type": "string",
-            "description": "What is the colloquial name used to identify this algorithm? Example: 'WMO prediction Rotterdam' or 'Crowd-monitoring Enschede'.",
-            "required": true
-        },
-        "organization": {
-            "name": "Organization",
-            "category": "BASIC INFORMATION",
-            "type": "string",
-            "description": "What is the full name of the organization used to identify responsibility for use of the model, algorithm or AI? Example: 'City of Amsterdam' or 'Water Authority Limburg '.",
-            "required": true
-        },
-        "department": {
-            "name": "Department",
-            "category": "BASIC INFORMATION",
-            "type": "string",
-            "description": "What is the full name of the department or division used to specify responsibility for use of the model, algorithm or AI? Example: 'District Segbroek' or 'Traffic and transport'.",
-            "required": true
-        },
-        "description_short": {
-            "name": "Short description",
-            "category": "BASIC INFORMATION",
-            "type": "string",
-            "description": "Please give a short description of maximum 150 chars in order to give a quick overview of the purpose of the model, algorithm or AI. Example: 'The traffic light priority algorithm prioritises traffic modalities based on applicable law and local regulations'.",
-            "required": true
-        },
-        "status": {
-            "name": "Status",
-            "category": "BASIC INFORMATION",
-            "type": "string",
-            "description": "Please indicate wether the model, algorithm or AI is in development, in use, or archived.",
-            "required": false
-        },
-        "revision_date": {
-            "name": "Revision date",
-            "category": "BASIC INFORMATION",
-            "type": "string",
-            "description": "This is the date before which this entry has to be revisited.",
-            "required": true
-        },
+        {% include catalog-fields.en.json %},
         {% for chapter in iama-fraia.content %}
         {% for section in chapter.content %}
         {% for question in section.content %}

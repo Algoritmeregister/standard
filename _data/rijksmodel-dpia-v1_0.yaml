@@ -1,0 +1,271 @@
+version: "1.0"
+title:
+  en: ""
+  nl: "Gegevensbeschermingseffectbeoordeling (PIA)"
+description:
+  en: ""
+  nl: ""
+source:
+  url: "https://www.avghelpdeskzorg.nl/documenten/brochures/2018/10/4/invulformat-rijksmodel-dpia"
+properties:
+- attribute: "organization"
+  name:
+    en: ""
+    nl: "Naam ministerie"
+  category:
+    en: "BASIC INFORMATION"
+    nl: "ALGEMENE INFORMATIE"
+  type: "string"
+  description:
+    en: ""
+    nl: ""
+  required: true
+- attribute: "department"
+  name:
+    en: ""
+    nl: "Naam directie"
+  category:
+    en: "BASIC INFORMATION"
+    nl: "ALGEMENE INFORMATIE"
+  type: "string"
+  description:
+    en: ""
+    nl: ""
+  required: true
+- attribute: "introduction"
+  name:
+    en: ""
+    nl: "Inleiding"
+  category:
+    en: "BASIC INFORMATION"
+    nl: "ALGEMENE INFORMATIE"
+  type: "string"
+  description:
+    en: ""
+    nl: "Voeg hier wanneer gewenst een openingsalinea of inleiding toe. Denk bijvoorbeeld aan: - Verwijzing naar het privacybeleid of motivatie achter de uitvoering van deze PIA; - Informatie over de manier van opstellen."
+  required: true
+- attribute: "proposal"
+  name:
+    en: "1. Proposal"
+    nl: "1. Voorstel"
+  category:
+    en: ""
+    nl: "A. Beschrijving kenmerken gegevensverwerkingen"
+  type: "string"
+  description:
+    en: ""
+    nl: "Beschrijf het voorstel waar de gegevensbeschermingseffectbeoordeling op ziet en context waarbinnen deze plaatsvindt op hoofdlijnen."
+  required: true
+- attribute: "personal_data"
+  name:
+    en: "2. Personal Data"
+    nl: "2. Persoonsgegevens"
+  category:
+    en: ""
+    nl: "A. Beschrijving kenmerken gegevensverwerkingen"
+  type: "string"
+  description:
+    en: ""
+    nl: "Som alle categorieën van persoonsgegevens op die worden verwerkt. Geef per categorie van persoonsgegevens tevens aan op wie die betrekking hebben. Deel deze persoonsgegevens in onder de typen: gewoon, bijzonder, strafrechtelijk en wettelijk identificerend."
+- attribute: "data_processing"
+  name:
+    en: "3. Data Processing"
+    nl: "3. Gegevensverwerkingen"
+  category:
+    en: ""
+    nl: "A. Beschrijving kenmerken gegevensverwerkingen"
+  type: "string"
+  description:
+    en: ""
+    nl: "Geef alle voorgenomen gegevensverwerkingen weer."
+  required: true
+- attribute: "processing_purposes"
+  name:
+    en: "4. Processing Purposes"
+    nl: "4. Verwerkingsdoeleinden"
+  category:
+    en: ""
+    nl: "A. Beschrijving kenmerken gegevensverwerkingen"
+  type: "string"
+  description:
+    en: ""
+    nl: "Beschrijf de doeleinden van de voorgenomen gegevensverwerkingen."
+  required: true
+- attribute: "involved_parties"
+  name:
+    en: "5. Involved Parties"
+    nl: "5. Betrokken Partijen"
+  category:
+    en: ""
+    nl: "A. Beschrijving kenmerken gegevensverwerkingen"
+  type: "string"
+  description:
+    en: ""
+    nl: "Benoem welke organisaties betrokken zijn bij welke gegevensverwerkingen. Deel deze organisaties per gegevensverwerking in onder de rollen: verwerkingsverantwoordelijke, verwerker, verstrekker en ontvanger. Benoem tevens welke functionarissen binnen deze organisaties toegang krijgen tot welke persoonsgegevens."
+  required: true
+- attribute: "interests"
+  name:
+    en: "6. Interests"
+    nl: "6. Belangen bij de gegevensverwerking"
+  category:
+    en: ""
+    nl: "A. Beschrijving kenmerken gegevensverwerkingen"
+  type: "string"
+  description:
+    en: ""
+    nl: "Beschrijf alle belangen die de verwerkingsverantwoordelijke en anderen hebben bij de voorgenomen gegevensverwerkingen"
+  required: true
+- attribute: "processing_locations"
+  name:
+    en: "7. Processing Locations"
+    nl: "7. Verwerkingslocaties"
+  category:
+    en: ""
+    nl: "A. Beschrijving kenmerken gegevensverwerkingen"
+  type: "string"
+  description:
+    en: ""
+    nl: "Benoem in welke landen de voorgenomen gegevensverwerkingen plaatsvinden."
+  required: true
+- attribute: "techniques_and_methods"
+  name:
+    en: "8. Technique and method of data processing"
+    nl: "8. Techniek en methode van gegevensverwerking"
+  category:
+    en: ""
+    nl: "A. Beschrijving kenmerken gegevensverwerkingen"
+  type: "string"
+  description:
+    en: ""
+    nl: "Beschrijf op welke wijze en met gebruikmaking van welke (technische) middelen en methoden de persoonsgegevens worden verwerkt. Benoem of sprake is van (semi-)geautomatiseerde besluitvorming, profilering of big data-verwerkingen en, zo ja, beschrijf waaruit een en ander bestaat."
+  required: true
+- attribute: "legal_and_policy_framework"
+  name:
+    en: "9. Legal and policy framework"
+    nl: "9. Juridisch en beleidsmatig kader"
+  category:
+    en: ""
+    nl: "A. Beschrijving kenmerken gegevensverwerkingen"
+  type: "string"
+  description:
+    en: ""
+    nl: "Benoem de wet- en regelgeving, met uitzondering van de AVG en de Richtlijn, en het beleid met mogelijke gevolgen voor de gegevensverwerkingen."
+  required: true
+- attribute: "retention_periods"
+  name:
+    en: "10. Retention Periods"
+    nl: "10. Bewaartermijnen"
+  category:
+    en: ""
+    nl: "A. Beschrijving kenmerken gegevensverwerkingen"
+  type: "string"
+  description:
+    en: ""
+    nl: "Bepaal en motiveer de bewaartermijnen van de persoonsgegevens aan de hand van de verwerkingsdoeleinden."
+  required: true
+- attribute: "legal_basis"
+  name:
+    en: "11. Legal Basis"
+    nl: "11. Rechtsgrond"
+  category:
+    en: ""
+    nl: "B. Beoordeling rechtmatigheid gegevensverwerkingen"
+  type: "string"
+  description:
+    en: ""
+    nl: "Bepaal op welke rechtsgronden de gegevensverwerkingen worden gebaseerd."
+  required: true
+- attribute: "sensitive_personal_data"
+  name:
+    en: "12. Sensitive Personal Data"
+    nl: "12. Bijzondere Persoonsgegevens"
+  category:
+    en: ""
+    nl: "B. Beoordeling rechtmatigheid gegevensverwerkingen"
+  type: "string"
+  description:
+    en: ""
+    nl: "Indien bijzondere of strafrechtelijke persoonsgegevens worden verwerkt, beoordeel of één van de wettelijke uitzonderingen op het verwerkingsverbod van toepassing is. Bij verwerking van een wettelijk identificatienummer beoordeel of dat is toegestaan.Indien bijzondere of strafrechtelijke persoonsgegevens worden verwerkt, beoordeel of één van de wettelijke uitzonderingen op het verwerkingsverbod van toepassing is. Bij verwerking van een wettelijk identificatienummer beoordeel of dat is toegestaan."
+  required: true
+- attribute: "purpose_limitation"
+  name:
+    en: "13. Purpose Limitation"
+    nl: "13. Doelbinding"
+  category:
+    en: ""
+    nl: "B. Beoordeling rechtmatigheid gegevensverwerkingen"
+  type: "string"
+  description:
+    en: ""
+    nl: "Indien de persoonsgegevens voor een ander doel worden verwerkt dat oorspronkelijk verzameld, beoordeel of deze verdere verwerking verenigbaar is met het doel waarvoor de persoonsgegevens oorspronkelijk zijn verzameld."
+  required: true
+- attribute: "necessity_and_proportionality"
+  name:
+    en: "14. Necessity and Proportionality"
+    nl: "14. Noodzaak en evenredigheid"
+  category:
+    en: ""
+    nl: "B. Beoordeling rechtmatigheid gegevensverwerkingen"
+  type: "string"
+  description:
+    en: ""
+    nl: "Beoordeel of de voorgenomen gegevensverwerkingen noodzakelijk zijn voor het verwezenlijken van de verwerkingsdoeleinden. Ga hierbij in ieder geval in op proportionaliteit en subsidiariteit."
+  information:
+    en: ""
+    nl: "a. Proportionaliteit: staat de inbreuk op de persoonlijke levenssfeer en de bescherming van de persoonsgegevens van de betrokkenen in evenredige verhouding tot de verwerkingsdoeleinden? b. Subsidiariteit: kunnen de verwerkingsdoeleinden in redelijkheid niet op een andere, voor de betrokkene minder nadelige wijze, worden verwezenlijkt?"
+  required: true
+- attribute: "rights"
+  name:
+    en: "15. Rights of the Data Subject"
+    nl: "15. Rechten van de betrokkene"
+  category:
+    en: ""
+    nl: "B. Beoordeling rechtmatigheid gegevensverwerkingen"
+  type: "string"
+  description:
+    en: ""
+    nl: "Geef aan hoe invulling wordt gegeven aan de rechten van betrokkenen. Indien de rechten van de betrokkene worden beperkt, bepaal op grond van welke wettelijke uitzonderingen dat is toegestaan."
+  required: true
+- attribute: "risks"
+  name:
+    en: "16. Risks"
+    nl: "16. Risico's"
+  category:
+    en: ""
+    nl: "C. Beschrijving en beoordeling risico's voor de betrokkenen"
+  type: "string"
+  description:
+    en: ""
+    nl: "Beschrijf en beoordeel de risico's van de gegevensverwerkingen voor de rechten en vrijheden van betrokkenen. Ga hierbij in ieder geval in op: a. welke negatieve gevolgen de gegevensverwerkingen kunnen hebben voor de rechten en vrijheden van de betrokkenen; b. de oorsprong van deze gevolgen; c. de waarschijnlijkheid (kans) dat deze gevolgen zullen intreden; d. de ernst (impact) van deze gevolgen voor de betrokkenen wanneer deze intreden."
+  required: true
+- attribute: "measures"
+  name:
+    en: "17. Measures"
+    nl: "17. Maatregelen"
+  category:
+    en: ""
+    nl: "D. Beschrijvin voorgenomen maatregelen"
+  type: "string"
+  description:
+    en: ""
+    nl: "Beoordeel welke technische, organisatorische en juridische maatregelen in redelijkheid kunnen worden getroffen om de hiervoor beschreven risico's te voorkomen of te verminderen. Beschrijf welke maatregel welk risico aanpakt en wat het restrisico is na uitvoeren van de maatregel. Indien de maatregel het risico niet volledig afdekt, motiveer waarom het restrisico acceptabel is."
+  required: true
+- attribute: "additions"
+  name:
+    en: "Additions"
+    nl: "Toevoegingen"
+  category:
+    en: ""
+    nl: ""
+  type: "string"
+  description:
+    en: ""
+    nl: "Hier kunt u aanvullende punten toevoegen. Denk bijvoorbeeld aan: - Lessen uit deze PIA; - Volgende stappen etc."
+  required: true
+todo:
+  - attribute: "Plaats/Datum"
+  - attribute: "Ministerie/Onderdeel/Afdeling/Proces"
+  - attribute: "Naam/functie verwerkingsverantwoordelijke"
+  - attribute: "Naam/functie functionaris voor gegevensbescherming"
+  - attribute: "Naam/functie CIO"
+  - attribute: "Contact"

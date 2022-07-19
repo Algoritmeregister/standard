@@ -1,0 +1,23 @@
+---
+title: DPIA schema json (NL)
+description: schema.json bestand voor DPIA
+---
+{% assign dpia = site.data.rijksmodel-dpia-v1_0 %}
+{
+    "$id": "https://standaard.algoritmeregister.org/schemas/dpia.schema.json",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "{{ dpia.title.nl }}",
+    "description": "{{ schema.description.nl }}",
+    "type": "object",
+    "properties": {
+        {% for property in dpia.properties %}
+            "{{ property.attribute }}": {
+                "name": "{{ property.name.nl }}",
+				"category": "{{ property.category.nl }}",
+				"type": "{{ property.type }}",
+				"description": "{{ property.description.nl }}",
+				"required": {{ property.required | default: false }}
+            }{% if forloop.last == false %},{% endif %}
+        {% endfor %}
+    }
+}
