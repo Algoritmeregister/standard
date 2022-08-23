@@ -39,4 +39,4 @@
     "type": "string",
     "description": "This is the date before which this entry has to be revisited.",
     "required": true
-},
+}
