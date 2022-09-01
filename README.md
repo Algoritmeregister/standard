@@ -10,11 +10,11 @@ description: Readme file on the code base
 
 In this code base we define the metadata standard: what do we register about the algorithms being used in government, why and how.
 
-[Attributes](index.md)
+[Attributes](https://standaard.algoritmeregister.org/standard)
 
-[Glossary](glossary.md)
+[Glossary](https://standaard.algoritmeregister.org/glossary)
 
-[User Stories](user-stories.md) (in Dutch)
+[User Stories](https://standaard.algoritmeregister.org/user-stories) (in Dutch)
 
 [Standard for Public Code compliance](#publiccode)
 
@@ -67,11 +67,11 @@ In het project Publieke Controle op Algoritmes werkt [een consortium van Nederla
 
 In deze code base leggen we de metadata standaard vast: wat leggen we vast over de algoritmes die gebruikt worden binnen de overheid, waarom, en hoe.
 
-[Woordenlijst](glossary.md)
+[Woordenlijst](https://standaard.algoritmeregister.org/glossary)
 
-[Attributen](index.md)
+[Attributen](https://standaard.algoritmeregister.org/standard)
 
-[User Stories](user-stories.md)
+[User Stories](https://standaard.algoritmeregister.org/user-stories)
 
 ## Inventarisaties
 
