@@ -40,22 +40,7 @@ It should be noted that while the motion has passed in the House, it has not bee
 
 ## Inventarisations
 
-All consortium organisations are working on a list of algorithms that they will be disclosing in the registry. Currently these are the lists of algorithms per organisation:
-
-- Rotterdam
-- Amsterdam
-- Utrecht
-- Den Haag
-- Haarlemmermeer
-- Zuid-Holland
-- Noord-Brabant
-- Limburg
-- Kadaster
-- Politie
-- [Rijkswaterstaat](https://www.rijkswaterstaat.nl/en/about-us)
-- the Association of Netherlands Municipalities (Vereniging van Nederlandse Gemeenten, VNG)
-- UWV (Employee Insurance Agency)
-- Ministry of Interior Affairs and Kingdom Relations
+All consortium organisations are working on a list of algorithms that they will be disclosing in the registry: https://www.algoritmeregister.nl/
 
 <h2>Nederlandse vertaling</h2>
 
@@ -75,22 +60,7 @@ In deze code base leggen we de metadata standaard vast: wat leggen we vast over 
 
 ## Inventarisaties
 
-Alle organisaties binnen het consortium werken momenteel aan een inventarisatie van de algoritmes die ze willen ontsluiten middels het algoritmeregister. Hieronder een overzicht van voorlopige inventarisaties per organisatie (links volgen):
-
-- Rotterdam
-- Amsterdam
-- Utrecht
-- Den Haag
-- Haarlemmermeer
-- Zuid-Holland
-- Noord-Brabant
-- Limburg
-- Kadaster
-- Politie
-- Rijkswaterstaat
-- VNG
-- UWV
-- Ministerie van BZK
+Alle organisaties binnen het consortium werken momenteel aan een inventarisatie van de algoritmes die ze willen ontsluiten middels het algoritmeregister: https://www.algoritmeregister.nl/
 
 ## Bijdragen
 
