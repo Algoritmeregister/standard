@@ -1,4 +1,5 @@
 version: "0.2"
+status: "beta"
 title:
   en: "Algorithm and AI Registration Standard NL"
   nl: "NL Standaard voor Registratie van Algoritmes en AI"
@@ -16,7 +17,7 @@ properties:
   type: "string"
   description:
     en: "What is the colloquial name used to identify this algorithm? Example: 'WMO prediction Rotterdam' or 'Crowd-monitoring Enschede'."
-    nl: "Wat de naam die gebruikt wordt om dit algoritme aan te duiden? Voorbeeld: 'WMO voorspelling Rotterdam' of 'Crowd-monitoring Enschede'."
+    nl: "Wat is de naam die gebruikt wordt om dit algoritme aan te duiden? Voorbeeld: 'WMO voorspelling Rotterdam' of 'Crowd-monitoring Enschede'."
   required: true
 - attribute: "organization"
   name:
