@@ -213,6 +213,21 @@ properties:
     en: "https://algoritmeregister.amsterdam.nl/vroeg-eropaf/"
     nl: "https://algoritmeregister.amsterdam.nl/vroeg-eropaf/"
 
+- attribute: "remark"
+  name:
+    en: "Remark"
+    nl: "Opmerking"
+  category:
+    en: "BASIC INFORMATION"
+    nl: "ALGEMENE INFORMATIE"
+  type: "string"
+  description:
+    en: "Add a remark to this registration"
+    nl: "Voeg een opmerking toe aan deze registratie"
+  examples:
+    en: "This project was ended because of ..."
+    nl: "Dit project is beëindigd vanwege ..."
+
 # USE CASE
 
 - attribute: "decision_making_process"
@@ -493,18 +508,6 @@ properties:
 
 # OVERSIGHT
 
-- attribute: "human_intervention"
-  name:
-    en: "Human intervention"
-    nl: "Menselijke tussenkomst"
-  category:
-    en: "OVERSIGHT"
-    nl: "TOEZICHT"
-  type: "string"
-  description:
-    en: "Please describe how the outcomes of the algorithm can be intervened by humans. It should detail how the responsibility for possible human intervention is secured, so it's clear who can and may act."
-    nl: "Geef aan hoe de uitkomsten van het algoritme door een mens gecontroleerd en bijgesteld worden. Dit moet inzicht geven in hoe menselijke interventie is verzekerd om misstanden te voorkomen."
-
 - attribute: "performance"
   name:
     en: "Performance monitoring"
@@ -520,6 +523,18 @@ properties:
     en: "which criteria are used, how frequently is the performance monitored"
     nl: "welke criteria worden gebruikt, met welke regelmaat wordt er gemonitord"
 
+- attribute: "human_intervention"
+  name:
+    en: "Human intervention"
+    nl: "Menselijke tussenkomst"
+  category:
+    en: "OVERSIGHT"
+    nl: "TOEZICHT"
+  type: "string"
+  description:
+    en: "Please describe how the outcomes of the algorithm can be intervened by humans. It should detail how the responsibility for possible human intervention is secured, so it's clear who can and may act."
+    nl: "Geef aan hoe de uitkomsten van het algoritme door een mens gecontroleerd en bijgesteld worden. Dit moet inzicht geven in hoe menselijke interventie is verzekerd om misstanden te voorkomen."
+
 - attribute: "objection_procedure"
   name:
     en: "Objection procedure"
@@ -531,6 +546,18 @@ properties:
   description:
     en: "Please describe in what way can citizens object against the use or outcome of the algorithm."
     nl: "Omschrijf op welke manier burgers bezwaar kunnen maken tegen de uitkomsten van het algoritme."
+
+- attribute: "rollback"
+  name:
+    en: "Rollback"
+    nl: "Terugdraaien"
+  category:
+    en: "OVERSIGHT"
+    nl: "TOEZICHT"
+  type: "string"
+  description:
+    en: "Is it possible to roll back the effects of the algorithm? What does that take?"
+    nl: "Is het mogelijk om de effecten van het algoritme terug te draaien? Wat is daarvoor nodig?"
 
 # RISKS
 
@@ -642,8 +669,23 @@ properties:
   type: "date"
   description:
     en: "Date before which this registration has to be revisited"
-    nl: "Datum   deze registratie moet worden herzien"
+    nl: "Datum waarvoor deze registratie moet worden herzien"
   required: true
+
+- attribute: "revision_note"
+  name:
+    en: "Revision date note"
+    nl: "Aantekening bij herzieningsdatum"
+  category:
+    en: "METADATA"
+    nl: "METADATA"
+  type: "string"
+  description:
+    en: "Why is the revision planned?"
+    nl: "Waarom moet deze revisie plaatsvinden?"
+  examples:
+    en: "start of pilot, end of pilot, yearly"
+    nl: "start van pilot, einde van pilot, jaarlijks"
 
 - attribute: "last_change_date"
   name:
