@@ -159,11 +159,11 @@ properties:
     nl: "ALGEMENE INFORMATIE"
   type: enum
   enum:
-    en: ["minimal or no risk", "specific obligations and/or high risk", "unacceptable risk"]
-    nl: ["minimaal of geen risico", "specifieke verplichtingen en/of hoog risico", "unacceptabel risico"]
+    en: ["minimal risk", "limited risk", "high risk", "unacceptable"]
+    nl: ["minimaal risico", "beperkt risico", "hoog risico", "onaanvaardbaar"]
   description:
-    en: "Classification of the AI Act risk category for this use of the algorithm" 
-    nl: "Classificatie van de AI Act risicocategorie van deze inzet van het algoritme"
+    en: "Classification of the risk category for this use of the algorithm. Check for more information: https://ec.europa.eu/info/strategy/priorities-2019-2024/europe-fit-digital-age/excellence-trust-artificial-intelligence_en" 
+    nl: "Classificatie van de risicocategorie van deze inzet van het algoritme. Bekijk voor meer informatie: https://ec.europa.eu/info/strategy/priorities-2019-2024/europe-fit-digital-age/excellence-trust-artificial-intelligence_nl"
   required: true
 
 - attribute: "status"
