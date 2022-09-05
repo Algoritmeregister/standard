@@ -1,6 +1,8 @@
 ---
 layout: null
 permalink: overview
+title: v0.3 overview
+description: Overview of all fields in the Algorithmic Transparency Standard v0.3 currently being developed
 ---
 <html>
 <head>
