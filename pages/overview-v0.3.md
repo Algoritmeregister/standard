@@ -1,4 +1,5 @@
 ---
+layout: null
 permalink: overview
 ---
 <html>
@@ -43,8 +44,8 @@ permalink: overview
             <code style="margin-left: 2.4em">{{ value }}</code><br>
         {% endfor %}
     {% endif %}
-    <p>
 {% endfor %}
+
 </main>
 </body>
 </html>

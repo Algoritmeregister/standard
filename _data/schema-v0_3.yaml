@@ -196,7 +196,22 @@ properties:
   description:
     en: "Status of the use of algorithm"
     nl: "Status van het gebruik van het algoritme"
-  required: true 
+  required: true
+
+- attribute: "website"
+  name:
+    en: "Website"
+    nl: "Website"
+  category:
+    en: "BASIC INFORMATION"
+    nl: "ALGEMENE INFORMATIE"
+  type: "url"
+  description:
+    en: "URL of a human readable web page for this registration"
+    nl: "URL van een web pagina voor deze registratie"
+  examples:
+    en: "https://algoritmeregister.amsterdam.nl/vroeg-eropaf/"
+    nl: "https://algoritmeregister.amsterdam.nl/vroeg-eropaf/"
 
 # USE CASE
 
