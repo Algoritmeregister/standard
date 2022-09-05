@@ -14,10 +14,23 @@ description: schema.json file voor de v0.3 versie van de standaard in het Nederl
             "{{ property.attribute }}": {
                 "name": "{{ property.name.nl }}",
 				"category": "{{ property.category.nl }}",
-                {% if property.const %}
+                {% if property.type == "const" %}
                 "const": "{{ property.const }}",
-                {% elsif property.enum %}
+                {% elsif property.type == "enum" %}
                 "enum": ["{{ property.enum.nl | join: '","' }}"],
+                {% elsif property.type == "url" %}
+                    "type": "string",
+                    "format": "uri",
+                    "pattern": "^https?://",
+                {% elsif property.type == "uuid" %}
+                    "type": "string",
+                    "format": "uuid",
+                {% elsif property.type == "email" %}
+                    "type": "string",
+                    "format": "email",
+                {% elsif property.type == "date" %}
+                    "type": "string",
+                    "format": "date",
                 {% else %}
 				"type": "{{ property.type }}",
 				{% if property.format %}"format": "{{ property.format }}",{% endif %}

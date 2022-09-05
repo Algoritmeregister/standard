@@ -14,10 +14,23 @@ description: schema.json file for the v0.3 version of the standard
         "{{ property.attribute }}": {
             "name": "{{ property.name.en }}",
             "category": "{{ property.category.en }}",
-            {% if property.const %}
+            {% if property.type == "const" %}
             "const": "{{ property.const }}",
-            {% elsif property.enum %}
+            {% elsif property.type == "enum" %}
             "enum": ["{{ property.enum.en | join: '","' }}"],
+            {% elsif property.type == "url" %}
+                "type": "string",
+                "format": "uri",
+                "pattern": "^https?://",
+            {% elsif property.type == "uuid" %}
+                "type": "string",
+                "format": "uuid",
+            {% elsif property.type == "email" %}
+                "type": "string",
+                "format": "email",
+            {% elsif property.type == "date" %}
+                "type": "string",
+                "format": "date",
             {% else %}
             "type": "{{ property.type }}",
             {% if property.format %}"format": "{{ property.format }}",{% endif %}

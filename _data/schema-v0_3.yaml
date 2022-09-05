@@ -58,6 +58,18 @@ properties:
     nl: "'Stadsdeel Segbroek', 'Verkeer en Transport', 'Openbare Orde en Veiligheid'"
   required: true
 
+- attribute: "area"
+  name:
+    en: "Geographical area"
+    nl: "Geografisch gebied"
+  category:
+    en: "BASIC INFORMATION"
+    nl: "ALGEMENE INFORMATIE"
+  type: "string"
+  description:
+    en: "Official name of the geographical area in which the algorithm is being used"
+    nl: "Officiële naam van geografische gebied waarin het algoritme wordt gebruikt"
+  required: true
 
 - attribute: "domain"
   name:
@@ -66,6 +78,7 @@ properties:
   category:
     en: "BASIC INFORMATION"
     nl: "ALGEMENE INFORMATIE"
+  type: "enum"
   enum: 
     en: [
       "taxes", 
@@ -119,18 +132,6 @@ properties:
   examples:
     en: "justice, finance, 'travel, living and working abroad' (the full list of domains is available at https://...)"
     nl: "rechtspraak, financiën, 'reizen, wonen en werken in het buitenland' (de volledige lijst is beschikbaar op https://..."
-
-- attribute: "area"
-  name:
-    en: "Geographical area"
-    nl: "Geografisch gebied"
-  category:
-    en: "BASIC INFORMATION"
-    nl: "ALGEMENE INFORMATIE"
-  type: "string"
-  description:
-    en: "Official name of the geographical area in which the algorithm is being used"
-    nl: "Officiële naam van geografische gebied waarin het algoritme wordt gebruikt"
   required: true
   
 - attribute: "description_short"
@@ -149,6 +150,22 @@ properties:
     nl: "'Algoritme dat bij stoplichten voorrang van verkeersmodaliteiten berekent op basis van wetgeving en lokale voorschriften'."
   required: true
 
+- attribute: "risk_category"
+  name:
+    en: "Risk category"
+    nl: "Risicocategorie"
+  category:
+    en: "BASIC INFORMATION"
+    nl: "ALGEMENE INFORMATIE"
+  type: enum
+  enum:
+    en: ["minimal or no risk", "specific obligations and/or high risk", "unacceptable risk"]
+    nl: ["minimaal of geen risico", "specifieke verplichtingen en/of hoog risico", "unacceptabel risico"]
+  description:
+    en: "Classification of the AI Act risk category for this use of the algorithm" 
+    nl: "Classificatie van de AI Act risicocategorie van deze inzet van het algoritme"
+  required: true
+
 - attribute: "status"
   name:
     en: "Status"
@@ -156,6 +173,7 @@ properties:
   category:
     en: "BASIC INFORMATION"
     nl: "ALGEMENE INFORMATIE"
+  type: enum
   enum:
     en: [
       "planned",
@@ -254,7 +272,7 @@ properties:
   category:
     en: "USE CASE"
     nl: "INZET"
-  type: "string"
+  type: "url"
   description:
     en: "Please provide a URL reference to any extended information about the use of the algorithm within this specific use case."
     nl: "Wat is de URL naar aanvullende documentatie over dit specifieke gebruik van het algoritme?"
@@ -263,16 +281,16 @@ properties:
 
 # ALGORITHM
 
-- attribute: "description" #explanation
+- attribute: "description"
   name:
-    en: "Long description"
-    nl: "Lange omschrijving"
+    en: "Explanation"
+    nl: "Uitleg"
   category:
     en: "ALGORITHM"
     nl: "ALGORITME"
   type: "string"
   description:
-    en: "Please provide an extensive description between 500 and 10000 chars in which the inner workings of the algorithm are explained. It should detail all relevant aspects that are needed to understand how the algorithm processes data and feeds decision making."
+    en: "Please provide an extensive description between 500 and 10000 chars explaining the inner workings of the algorithm. It should detail all relevant aspects that are needed to understand how the algorithm processes data and feeds decision making."
     nl: "Geef een uitgebreide uitleg tussen de 500 en 10000 karakters lang van de manier van werken van het algoritme. Dit moet alle relevante aspecten bevatten om te kunnen snappen hoe het algoritme data verwerkt en een beslissing maakt of beinvloed."
 
 - attribute: "type"
@@ -282,6 +300,7 @@ properties:
   category:
     en: "ALGORITHM"
     nl: "ALGORITME"
+  type: enum
   enum:
     en: ["descriptive", "diagnostic", "predictive", "prescriptive"]
     nl: ["descriptief", "diagnostisch", "voorspellend", "prescriptief"]
@@ -311,7 +330,7 @@ properties:
   category:
     en: "ALGORITHM"
     nl: "ALGORITME"
-  type: "boolean"
+  type: "string"
   description:
     en: "Were there any other options considered? Why is this algorithm the best fit for the given goal?"
     nl: "Zijn er alternatieve opties overwogen? Waarom past dit algoritme het beste bij het beoogde doel?"
@@ -323,9 +342,7 @@ properties:
   category:
     en: "ALGORITHM"
     nl: "ALGORITME"
-  type: "string"
-  format: "uri"
-  pattern: "^https?://"
+  type: "url"
   description:
     en: "Please provide the URL for the public information on this algorithmic application."
     nl: "Wat is, indien beschikbaar, de URL van het publiccode.yml bestand?"
@@ -340,9 +357,7 @@ properties:
   category:
     en: "ALGORITHM"
     nl: "ALGORITME"
-  type: "string"
-  format: "uri"
-  pattern: "^https?://"
+  type: "url"
   description:
     en: "Please provide the URL reference to the algorithmic application or code base."
     nl: "Wat is de URL van de algoritmische applicatie of broncode."
@@ -357,9 +372,7 @@ properties:
   category:
     en: "ALGORITHM"
     nl: "ALGORITME"
-  type: "string"
-  format: "uri"
-  pattern: "^https?://"
+  type: "url"
   description:
     en: "What is the URL reference to the landing page with further information about the algorithm and its use? This facilitates users searching more in-depth information about the practical use or technical details."
     nl: "Wat is de URL van de pagina waarom meer informatie te vinden is over het algoritme en de inzet daarvan? Dit is interessant voor gebruikers die meer willen weten over de praktische inzet en technische details."
@@ -383,10 +396,13 @@ properties:
   category:
     en: "ALGORITHM"
     nl: "ALGORITME"
-  type: "boolean"
+  type: "string"
   description:
-    en: "Please indicate which algorithm impact assessment (like FRAIA, AIIA, capAI, ...) was used and give an overview of the key points."
-    nl: "Geef aan welke algoritme impact assessment (IAMA, AIIA, capAI, ...) is gebruiken en geef een overzicht van de belangrijkste punten die naar voren kwamen."
+    en: "Please indicate which algorithm impact assessment was used and give an overview of the key points."
+    nl: "Geef aan welke algoritme impact assessment is gebruiken en geef een overzicht van de belangrijkste punten die naar voren kwamen."
+  examples:
+    en: "impact assessments such as FRAIA, AIIA, capAI"
+    nl: "impact assessments zoals IAMA, AIIA, capAI"
 
 # DATA
 
@@ -481,18 +497,6 @@ properties:
 
 # RISKS
 
-- attribute: "risks_category"
-  name:
-    en: "Risk category"
-    nl: "Risicocategorie"
-  category:
-    en: "RISKS"
-    nl: "RISICO'S"
-  enum: ["minimal or no risk", "specific obligations", "high risk", "unacceptable risk"]
-  description:
-    en: "Classification of the AI Act risk category for this use of the algorithm" 
-    nl: "Classificatie van de AI Act risicocategorie van deze inzet van het algoritme"
-
 - attribute: "risks"
   name:
     en: "Risks"
@@ -502,9 +506,11 @@ properties:
     nl: "RISICO'S"
   type: "string"
   description:
-    en: "Please provide an overview of the outcome of the internal risk analysis. It can also refer to available online documentation. We currently refer to the assessment framework for algorithms by the Netherlands Court of Audit and the Regulation on a European Approach for Artificial Intelligence."
-    nl: "Geef een overzicht van de voorziene risico's. Dit mag ook verwijzen naar online documentatie. Aanbevelingen assesment instrumenten: ..."
-
+    en: "Please indicate which risk assessment was used and give an overview of the key points."
+    nl: "Geef aan welke risico assessment is gebruikt en geef een overzicht van de belangrijkste punten die naar voren kwamen."
+  examples:
+    en: "risk assessments such as the audit framework 'understanding algorithms' by the Netherlands Court of Audit, and the regulation on a European approach for artificial intelligence"
+    nl: "risico assessments zijn bijvoorbeeld het toetsingskader 'Aandacht voor algoritmes' van de Algemene Rekenkamer"
 
 # METADATA
 
@@ -515,6 +521,7 @@ properties:
   category:
     en: "METADATA"
     nl: "METADATA"
+  type: "const"
   const: "0.3"
   description:
     en: "Version of the standard used for this registration"
@@ -528,8 +535,7 @@ properties:
   category:
     en: "METADATA"
     nl: "METADATA"
-  type: "string"
-  format: "uuid"
+  type: "uuid"
   description:
     en: "Universally unique identifier for this registration"
     nl: "Universeel unieke identificatie voor deze registratie"
@@ -554,8 +560,7 @@ properties:
   category:
     en: "METADATA"
     nl: "METADATA"
-  type: "string"
-  format: "email"
+  type: "email"
   description:
     en: "E-mail address of the contact person for this registration"
     nl: "E-mailadres van de contactpersoon voor deze registratie"
@@ -597,8 +602,7 @@ properties:
   category:
     en: "METADATA"
     nl: "METADATA"
-  type: "string"
-  format: "date"
+  type: "date"
   description:
     en: "Date before which this registration has to be revisited"
     nl: "Datum   deze registratie moet worden herzien"
@@ -611,8 +615,7 @@ properties:
   category:
     en: "METADATA"
     nl: "METADATA"
-  type: "string"
-  format: "date"
+  type: "date"
   description:
     en: "Date of the last change to this registration"
     nl: "Datum van de laatste wijziging van deze registratie"

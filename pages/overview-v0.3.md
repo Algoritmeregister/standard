@@ -34,8 +34,16 @@ permalink: overview
     <a name="{{ property.category.en }}"></a>
     <h2>{{ property.category.en }}</h2>
 {% endif %}
-{% assign tmp = property.category. en %}
+{% assign tmp = property.category.en %}
     <p><b>► {{ property.name.en }}</b> <code {% if property.required %}class="required"{% endif %}>{{ property.attribute }}</code><br><i>{{ property.description.en }}{% if property.examples.en %}<br><span class="examples">Examples: {{ property.examples.en }}</span>{% endif %}</i></p>
+    <p>type: <b>{{ property.type }}</b></p>
+    {% if property.enum.en %}
+        Possible values:<br><br>
+        {% for value in property.enum.en %}
+            <code style="margin-left: 2.4em">{{ value }}</code><br>
+        {% endfor %}
+    {% endif %}
+    <p>
 {% endfor %}
 </main>
 </body>
