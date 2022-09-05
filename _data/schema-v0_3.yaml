@@ -1,0 +1,619 @@
+version: "0.3"
+status: "pre-alpha"
+title:
+  en: "Standard for Algorithmic Transparency"
+  nl: "Standaard voor Algoritmische Transparantie"
+description:
+  en: "Standard for registration of the use of models, algorithms or AI in policy or decision making processes by governmental organisations."
+  nl: "Standaard voor de registratie van de inzet van modellen, algoritmes en AI in beleid en besluitvormingsprocessen in overheidsorganisaties."
+properties:
+
+# BASIC INFORMATION
+
+- attribute: "name"
+  name:
+    en: "Name"
+    nl: "Naam"
+  category:
+    en: "BASIC INFORMATION"
+    nl: "ALGEMENE INFORMATIE"
+  type: "string"
+  description:
+    en: "What is the colloquial name used to identify this use of the algorithm?"
+    nl: "Wat is de naam die gebruikt wordt om deze inzet van het algoritme aan te duiden?"
+  examples:
+    en: "'WMO prediction Rotterdam', 'Crowd-monitoring Enschede', 'Top 400/ 600'"
+    nl: "'WMO voorspelling Rotterdam', 'Crowd-monitoring Enschede', 'Top 400/ 600'"
+  required: true
+  
+- attribute: "organization"
+  name:
+    en: "Responsible organization"
+    nl: "Responsible organisatie"
+  category:
+    en: "BASIC INFORMATION"
+    nl: "ALGEMENE INFORMATIE"
+  type: "string"
+  description:
+    en: "What is the official name of the organization responsible for the use of the algorithm?"
+    nl: "Wat is de officiële naam van de organisatie verantwoordelijk voor de inzet van het algoritme?"
+  examples:
+    en: "'City of Amsterdam', 'Water Authority Limburg '"
+    nl: "'Gemeente Amsterdam', 'Waterschap Limburg'"
+  required: true
+  
+- attribute: "department"
+  name:
+    en: "Department"
+    nl: "Afdeling"
+  category:
+    en: "BASIC INFORMATION"
+    nl: "ALGEMENE INFORMATIE"
+  type: "string"
+  description:
+    en: "What is the name of the department, division, programme, team, ... using the algorithm?"
+    nl: "Wat is de naam van de afdeling, divisie, programma, team, ... dat gebruik maakt van het algoritme?"
+  examples:
+    en: "'District Segbroek', 'Traffic and transport', 'Public safety'"
+    nl: "'Stadsdeel Segbroek', 'Verkeer en Transport', 'Openbare Orde en Veiligheid'"
+  required: true
+
+
+- attribute: "domain"
+  name:
+    en: "Domain"
+    nl: "Domein"
+  category:
+    en: "BASIC INFORMATION"
+    nl: "ALGEMENE INFORMATIE"
+  enum: 
+    en: [
+      "taxes", 
+      "housing, living and living environment",
+      "culture, sports and leasure",
+      "defence",
+      "economy and entrepreneurship",
+      "family, youth and households",
+      "finance",
+      "generic",
+      "health and health care",
+      "immigration and integration",
+      "international collaboration and development aid",
+      "agriculture, nature and food",
+      "environment, spacial planning and water",
+      "education and science",
+      "public safety",
+      "government",
+      "justice",
+      "travel, living and working abroad",
+      "subsidies, benefits and allowances",
+      "traffic and transportation",
+      "work and carreer"
+    ]
+    nl: [
+      "belastingen", 
+      "bouwen, wonen en leefomgeving",
+      "cultuur, sport en vrije tijd",
+      "defensie",
+      "economie en ondernemen",
+      "familie, jeugd en gezin",
+      "financiën",
+      "generiek",
+      "gezondheid en zorg",
+      "immigratie, integratie en inburgering",
+      "internationale- en ontwikkelingssamenwerking",
+      "landbouw, natuur en voedsel",
+      "milieu, ruimte en water",
+      "onderwijs en wetenschap",
+      "openbare orde en veiligheid",
+      "overheid, bestuur en koninkrijk",
+      "rechtspraak",
+      "reizen, wonen en werken in het buitenland",
+      "subsidies, uitkeringen en toeslagen",
+      "verkeer en vervoer",
+      "werk en loopbaan"
+    ]
+  description:
+    en: "In which domain will the algorithm be deployed?"
+    nl: "In welk domein wordt het algoritme ingezet?"
+  examples:
+    en: "justice, finance, 'travel, living and working abroad' (the full list of domains is available at https://...)"
+    nl: "rechtspraak, financiën, 'reizen, wonen en werken in het buitenland' (de volledige lijst is beschikbaar op https://..."
+
+- attribute: "area"
+  name:
+    en: "Geographical area"
+    nl: "Geografisch gebied"
+  category:
+    en: "BASIC INFORMATION"
+    nl: "ALGEMENE INFORMATIE"
+  type: "string"
+  description:
+    en: "Official name of the geographical area in which the algorithm is being used"
+    nl: "Officiële naam van geografische gebied waarin het algoritme wordt gebruikt"
+  required: true
+  
+- attribute: "description_short"
+  name:
+    en: "Short summary"
+    nl: "Korte samenvatting"
+  category:
+    en: "BASIC INFORMATION"
+    nl: "ALGEMENE INFORMATIE"
+  type: "string"
+  description:
+    en: "Please give a short summary of maximum 150 chars in order to give a quick overview of the purpose of the algorithm."
+    nl: "Geef een korte samenvatting van maximaal 150 karakters waarin hoog over omschreven wordt wat het doel is van het algoritme."
+  examples:
+    en: "'The traffic light priority algorithm prioritises traffic modalities based on applicable law and local regulations'"
+    nl: "'Algoritme dat bij stoplichten voorrang van verkeersmodaliteiten berekent op basis van wetgeving en lokale voorschriften'."
+  required: true
+
+- attribute: "status"
+  name:
+    en: "Status"
+    nl: "Status"
+  category:
+    en: "BASIC INFORMATION"
+    nl: "ALGEMENE INFORMATIE"
+  enum:
+    en: [
+      "planned",
+      "design",
+      "development",
+      "pilot",
+      "evaluation",
+      "operational",
+      "retired"
+    ]
+    nl: [
+      "gepland",
+      "ontwerp",
+      "ontwikkeling",
+      "pilot",
+      "evaluatie",
+      "operationeel",
+      "beëindigd"
+    ]
+  description:
+    en: "Status of the use of algorithm"
+    nl: "Status van het gebruik van het algoritme"
+  required: true 
+
+# USE CASE
+
+- attribute: "decision_making_process"
+  name:
+    en: "Decision-making process"
+    nl: "Besluitvormingsproces"
+  category:
+    en: "USE CASE"
+    nl: "INZET"
+  type: "string"
+  description:
+    en: "What is the formal process in the organisation in which the algorithm will be/is involved?"
+    nl: "Binnen welk proces in de organisatie wordt het algoritme ingezet?"
+  examples:
+    en: "refer to concrete laws, regulation or policy, as published in publicly available sources"
+    nl: "link aan concrete wetgeving, voorschriften of beleid zoals vastgelegd in publiek beschikbare bronnen"
+
+- attribute: "goal"
+  name:
+    en: "Goals"
+    nl: "Doelen"
+  category:
+    en: "USE CASE"
+    nl: "INZET"
+  type: "string"
+  description:
+    en: "What are the goals of the policy for which the algorithm is being/was developed and how will technology expectedly contribute to reaching these goals?"
+    nl: "Wat zijn de doelen waarvoor het algoritme ontwikkeld is en hoe draagt de inzet van technologyie bij aan het behalen van die doelen?"
+
+# stakeholders?
+
+- attribute: "impact"
+  name:
+    en: "Impact"
+    nl: "Impact"
+  category:
+    en: "USE CASE"
+    nl: "INZET"
+  type: "string"
+  description:
+    en: "Please describe in what way citizens come into contact with the effects of the algorithm. It should become clear under what specific circumstances this happens and what the expected consequences are on an individual and/or societal level."
+    nl: "Omschrijf hoe burgers te maken krijgen met de effecten van het algoritme. Onder welke omstandigheden gebeurt dit en wat zijn de verwachte consequenties daarvan voor het individu en/of de samenleving?"
+
+- attribute: "proportionality"
+  name:
+    en: "Proportionality"
+    nl: "Proportionaliteit"
+  category:
+    en: "USE CASE"
+    nl: "INZET"
+  type: "string"
+  description:
+    en: "Please describe why the authority by which the algorithm is used is reasonably necessary. It should explain why the expected benefit outweighs any potential expected harm."
+    nl: "Omschrijf waarom de inzet van het algoritme redelijk gerechtvaardigd is. Hieruit moet blijken waarom de verwachte baten groter zijn dan de negatieve effecten en risico's."
+
+- attribute: "lawful_basis"
+  name:
+    en: "Lawful basis"
+    nl: "Wettelijke grondslag"
+  category:
+    en: "USE CASE"
+    nl: "INZET"
+  type: "string"
+  description:
+    en: "Please provide a link to the administrative act that makes the use of the algorithm legitimate."
+    nl: "Geef een verwijzing naar het formele besluit waarin de inzet van het algoritme is goedgekeurd."
+
+- attribute: "documentation"
+  name:
+    en: "More information"
+    nl: "Meer informatie"
+  category:
+    en: "USE CASE"
+    nl: "INZET"
+  type: "string"
+  description:
+    en: "Please provide a URL reference to any extended information about the use of the algorithm within this specific use case."
+    nl: "Wat is de URL naar aanvullende documentatie over dit specifieke gebruik van het algoritme?"
+
+# keywords
+
+# ALGORITHM
+
+- attribute: "description" #explanation
+  name:
+    en: "Long description"
+    nl: "Lange omschrijving"
+  category:
+    en: "ALGORITHM"
+    nl: "ALGORITME"
+  type: "string"
+  description:
+    en: "Please provide an extensive description between 500 and 10000 chars in which the inner workings of the algorithm are explained. It should detail all relevant aspects that are needed to understand how the algorithm processes data and feeds decision making."
+    nl: "Geef een uitgebreide uitleg tussen de 500 en 10000 karakters lang van de manier van werken van het algoritme. Dit moet alle relevante aspecten bevatten om te kunnen snappen hoe het algoritme data verwerkt en een beslissing maakt of beinvloed."
+
+- attribute: "type"
+  name:
+    en: "Type of algorithm"
+    nl: "Type algoritme"
+  category:
+    en: "ALGORITHM"
+    nl: "ALGORITME"
+  enum:
+    en: ["descriptive", "diagnostic", "predictive", "prescriptive"]
+    nl: ["descriptief", "diagnostisch", "voorspellend", "prescriptief"]
+  description:
+    en: "Please indicate wether the algorithm is descriptive, diagnostic, predictive or prescriptive. This information can be used as a possible risk indicator."
+    nl: "Geef aan of het algoritme descriptief, diagnostisch, voorspellend of prescriptief is. Deze information kan gebruikt worden als risico-indicator."
+
+- attribute: "methods_and_models"
+  name:
+    en: "Methods and models"
+    nl: "Methoden en modellen"
+  category:
+    en: "ALGORITHM"
+    nl: "ALGORITME"
+  type: "string" #enum?
+  description:
+    en: "Please indicate which type of methods or models the algorithm is using."
+    nl: "Geef aan welk type methoden of modellen het algoritme gebruikt."
+  examples:
+    en: "ROC-curve, confusion matrix, expert system, neural network"
+    nl: "ROC-curve, confusion matrix, expert system, neuraal netwerk"
+
+- attribute: "alternatives_considered"
+  name:
+    en: "Considered alternatives"
+    nl: "Overwogen alternatieven"
+  category:
+    en: "ALGORITHM"
+    nl: "ALGORITME"
+  type: "boolean"
+  description:
+    en: "Were there any other options considered? Why is this algorithm the best fit for the given goal?"
+    nl: "Zijn er alternatieve opties overwogen? Waarom past dit algoritme het beste bij het beoogde doel?"
+
+- attribute: "publiccode_url"
+  name:
+    en: "Central registration URL"
+    nl: "URL van de centrale registratie"
+  category:
+    en: "ALGORITHM"
+    nl: "ALGORITME"
+  type: "string"
+  format: "uri"
+  pattern: "^https?://"
+  description:
+    en: "Please provide the URL for the public information on this algorithmic application."
+    nl: "Wat is, indien beschikbaar, de URL van het publiccode.yml bestand?"
+  exmaples:
+    en: 
+    nl: "online publiccode.yml file, European database of AI applications"
+
+- attribute: "sourcecode_url" #code_base_url
+  name:
+    en: "Source code URL"
+    nl: "URL van de broncode"
+  category:
+    en: "ALGORITHM"
+    nl: "ALGORITME"
+  type: "string"
+  format: "uri"
+  pattern: "^https?://"
+  description:
+    en: "Please provide the URL reference to the algorithmic application or code base."
+    nl: "Wat is de URL van de algoritmische applicatie of broncode."
+  examples:
+    en: "link to a Github repository, the Common Ground Component Catalogue, supplier website."
+    nl: "link naar Github, de Common Ground componentencatalogus, webpagina van de aanbieder"
+
+- attribute: "langding_url" #landing_page_url
+  name:
+    en: "Landing page URL"
+    nl: "URL van de Landingspagina"
+  category:
+    en: "ALGORITHM"
+    nl: "ALGORITME"
+  type: "string"
+  format: "uri"
+  pattern: "^https?://"
+  description:
+    en: "What is the URL reference to the landing page with further information about the algorithm and its use? This facilitates users searching more in-depth information about the practical use or technical details."
+    nl: "Wat is de URL van de pagina waarom meer informatie te vinden is over het algoritme en de inzet daarvan? Dit is interessant voor gebruikers die meer willen weten over de praktische inzet en technische details."
+
+- attribute: "MPRD"
+  name:
+    en: "Connection to Municipal Personal Records Database"
+    nl: "Koppelingen met basisregistraties"
+  category:
+    en: "ALGORITHM"
+    nl: "ALGORITME"
+  type: "boolean"
+  description:
+    en: "Please indicate wether a connection is being made to the Municipal Personal Records Database."
+    nl: "Geef aan of er gebruik wordt gemaakt van koppeling met de BRP."
+
+- attribute: "AIA_description"
+  name:
+    en: "Algorithm impact assessment"
+    nl: "Algoritme impact assessment"
+  category:
+    en: "ALGORITHM"
+    nl: "ALGORITME"
+  type: "boolean"
+  description:
+    en: "Please indicate which algorithm impact assessment (like FRAIA, AIIA, capAI, ...) was used and give an overview of the key points."
+    nl: "Geef aan welke algoritme impact assessment (IAMA, AIIA, capAI, ...) is gebruiken en geef een overzicht van de belangrijkste punten die naar voren kwamen."
+
+# DATA
+
+- attribute: "source_data"
+  name:
+    en: "Source data"
+    nl: "Brondata"
+  category:
+    en: "DATA"
+    nl: "DATA"
+  type: "string"
+  description:
+    en: "Please give an overview of the data that is being processed by the algorithm. It should describe the pupose with which each data source is added and possible dependencies that resulting from this."
+    nl: "Geen een overzicht van de databronnen die gebruikt worden door of bij het maken of trainen van het algoritme. Dit moet inzicht geven in met welk doel welke data is toegevoegd en mogelijke afhankelijkheden die daaruit voortvloeien."
+
+- attribute: "training_data"
+  name:
+    en: "Training data"
+    nl: "Training data"
+  category:
+    en: "DATA"
+    nl: "DATA"
+  type: "string"
+  description:
+    en: "Please give an overview of the data that was used for training the algorithm. It should describe the pupose with which each data source was added."
+    nl: "Geen een overzicht van de databronnen die gebruikt zijn voor het trainen van het algoritme. Dit moet inzicht geven in met welk doel welke data is toegevoegd."
+
+- attribute: "data_bias"
+  name:
+    en: "Data bias"
+    nl: "Data bias"
+  category:
+    en: "DATA"
+    nl: "DATA"
+  type: "string"
+  description:
+    en: "Does the source data contain a certain bias? (How is this compensated?)"
+    nl: "Bevat de brondata een bepaalde bias? (Hoe wordt hiervoor gecompenseerd?)"
+
+- attribute: "DPIA_description"
+  name:
+    en: "Description of the DPIA"
+    nl: "Omschrijving van de DPIA"
+  category:
+    en: "DATA"
+    nl: "DATA"
+  type: "string"
+  description:
+    en: "Please give an overview of the key points from the data protection impact assessment. It should explain how discrimination is prevented when (proxies of) ethnicity, sex or zipcode are being used. If available it can reference the URL to the full DPIA documentation. "
+    nl: "Geef een overzicht van de belangrijkste zaken die uit de data protection impact assessment (DPIA) naar voren kwamen. Dit moet beschrijven hoe discriminatie wordt tegengegaan bij gebruik van (proxies van) etniciteit, sexe, of postcode. Indien beschikbaar kan dit verwijzen naar de URL van de volledige DPIA documentatie."
+
+# OVERSIGHT
+
+- attribute: "human_intervention"
+  name:
+    en: "Human intervention"
+    nl: "Menselijke tussenkomst"
+  category:
+    en: "OVERSIGHT"
+    nl: "TOEZICHT"
+  type: "string"
+  description:
+    en: "Please describe how the outcomes of the algorithm can be intervened by humans. It should detail how the responsibility for possible human intervention is secured, so it's clear who can and may act."
+    nl: "Geef aan hoe de uitkomsten van het algoritme door een mens gecontroleerd en bijgesteld worden. Dit moet inzicht geven in hoe menselijke interventie is verzekerd om misstanden te voorkomen."
+
+- attribute: "performance"
+  name:
+    en: "Performance monitoring"
+    nl: "Prestatiemonitoring"
+  category:
+    en: "OVERSIGHT"
+    nl: "TOEZICHT"
+  type: "string"
+  description:
+    en: "Please describe what the expected performance of the algorithm is and how this monitored."
+    nl: "Geef aan wat de verwachte prestaties van het algoritme zijn en hoe die worden gemonitord."
+  examples:
+    en: "which criteria are used, how frequently is the performance monitored"
+    nl: "welke criteria worden gebruikt, met welke regelmaat wordt er gemonitord"
+
+- attribute: "objection_procedure"
+  name:
+    en: "Objection procedure"
+    nl: "Bezwaarprocedure"
+  category:
+    en: "OVERSIGHT"
+    nl: "TOEZICHT"
+  type: "string"
+  description:
+    en: "Please describe in what way can citizens object against the use or outcome of the algorithm."
+    nl: "Omschrijf op welke manier burgers bezwaar kunnen maken tegen de uitkomsten van het algoritme."
+
+# RISKS
+
+- attribute: "risks_category"
+  name:
+    en: "Risk category"
+    nl: "Risicocategorie"
+  category:
+    en: "RISKS"
+    nl: "RISICO'S"
+  enum: ["minimal or no risk", "specific obligations", "high risk", "unacceptable risk"]
+  description:
+    en: "Classification of the AI Act risk category for this use of the algorithm" 
+    nl: "Classificatie van de AI Act risicocategorie van deze inzet van het algoritme"
+
+- attribute: "risks"
+  name:
+    en: "Risks"
+    nl: "Risico's"
+  category:
+    en: "RISKS"
+    nl: "RISICO'S"
+  type: "string"
+  description:
+    en: "Please provide an overview of the outcome of the internal risk analysis. It can also refer to available online documentation. We currently refer to the assessment framework for algorithms by the Netherlands Court of Audit and the Regulation on a European Approach for Artificial Intelligence."
+    nl: "Geef een overzicht van de voorziene risico's. Dit mag ook verwijzen naar online documentatie. Aanbevelingen assesment instrumenten: ..."
+
+
+# METADATA
+
+- attribute: "standard_version"
+  name:
+    en: "Version of the standard used"
+    nl: "Gebruikte versie van de standaard"
+  category:
+    en: "METADATA"
+    nl: "METADATA"
+  const: "0.3"
+  description:
+    en: "Version of the standard used for this registration"
+    nl: "Versie van de standaard gebruikt voor deze registratie"
+  required: true
+
+- attribute: "uuid"
+  name:
+    en: "Unique identifier"
+    nl: "Unieke identificatie"
+  category:
+    en: "METADATA"
+    nl: "METADATA"
+  type: "string"
+  format: "uuid"
+  description:
+    en: "Universally unique identifier for this registration"
+    nl: "Universeel unieke identificatie voor deze registratie"
+
+- attribute: "contact_name"
+  name:
+    en: "Contact person name"
+    nl: "Naam van de contactpersoon"
+  category:
+    en: "METADATA"
+    nl: "METADATA"
+  type: "string"
+  description:
+    en: "Name of the contact person for this registration"
+    nl: "Naam van de contactpersoon voor deze registratie"
+  required: true
+
+- attribute: "contact_email"
+  name:
+    en: "Contact person e-mail"
+    nl: "E-mailadres van de contactpersoon"
+  category:
+    en: "METADATA"
+    nl: "METADATA"
+  type: "string"
+  format: "email"
+  description:
+    en: "E-mail address of the contact person for this registration"
+    nl: "E-mailadres van de contactpersoon voor deze registratie"
+  required: true
+
+- attribute: "contact_phone"
+  name:
+    en: "Contact person phone number"
+    nl: "Telefoonnummer van de contactpersoon"
+  category:
+    en: "METADATA"
+    nl: "METADATA"
+  type: "string"
+  description:
+    en: "Phone number of the contact person for this registration"
+    nl: "Telefoonnummer van de contactpersoon voor deze registratie"
+  required: true
+
+- attribute: "lang"
+  name:
+    en: "Language"
+    nl: "Taal"
+  category:
+    en: "METADATA"
+    nl: "METADATA"
+  type: "string"
+  description:
+    en: "ISO 639-1 for the language in which this registration was filled in"
+    nl: "ISO 639-1 voor de taal waarin deze registratie is ingevoerd"
+  examples:
+    en: "'en', 'nl'"
+    nl: "'en', 'nl'"
+  required: true
+
+- attribute: "revision_date"
+  name:
+    en: "Revision date"
+    nl: "Herzieningsdatum"
+  category:
+    en: "METADATA"
+    nl: "METADATA"
+  type: "string"
+  format: "date"
+  description:
+    en: "Date before which this registration has to be revisited"
+    nl: "Datum   deze registratie moet worden herzien"
+  required: true
+
+- attribute: "last_change_date"
+  name:
+    en: "Last change date"
+    nl: "Datum laatste wijziging"
+  category:
+    en: "METADATA"
+    nl: "METADATA"
+  type: "string"
+  format: "date"
+  description:
+    en: "Date of the last change to this registration"
+    nl: "Datum van de laatste wijziging van deze registratie"
+  required: true
