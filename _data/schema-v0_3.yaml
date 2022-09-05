@@ -38,7 +38,7 @@ properties:
     en: "What is the official name of the organization responsible for the use of the algorithm?"
     nl: "Wat is de officiële naam van de organisatie verantwoordelijk voor de inzet van het algoritme?"
   examples:
-    en: "'City of Amsterdam', 'Water Authority Limburg '"
+    en: "'City of Amsterdam', 'Water Authority Limburg'"
     nl: "'Gemeente Amsterdam', 'Waterschap Limburg'"
   required: true
   
@@ -207,8 +207,8 @@ properties:
     nl: "ALGEMENE INFORMATIE"
   type: "url"
   description:
-    en: "URL of a human readable web page for this registration"
-    nl: "URL van een web pagina voor deze registratie"
+    en: "URL of a human readable web page for this registration, for example on the organization web page or public algorithm register"
+    nl: "URL van een web pagina voor deze registratie, bijvoorbeeld op de organisatie's web pagine of publieke algoritmeregister"
   examples:
     en: "https://algoritmeregister.amsterdam.nl/vroeg-eropaf/"
     nl: "https://algoritmeregister.amsterdam.nl/vroeg-eropaf/"
@@ -239,8 +239,8 @@ properties:
     nl: "INZET"
   type: "string"
   description:
-    en: "What are the goals of the policy for which the algorithm is being/was developed and how will technology expectedly contribute to reaching these goals?"
-    nl: "Wat zijn de doelen waarvoor het algoritme ontwikkeld is en hoe draagt de inzet van technologyie bij aan het behalen van die doelen?"
+    en: "What are the goals of the policy for which the algorithm is being/was put in place and how will the application expectedly contribute to reaching these goals?"
+    nl: "Wat zijn de doelen waarvoor het algoritme ingezet wordt/is en hoe draagt deze inzet bij aan het behalen van die doelen?"
 
 # stakeholders?
 
@@ -253,8 +253,8 @@ properties:
     nl: "INZET"
   type: "string"
   description:
-    en: "Please describe in what way citizens come into contact with the effects of the algorithm. It should become clear under what specific circumstances this happens and what the expected consequences are on an individual and/or societal level."
-    nl: "Omschrijf hoe burgers te maken krijgen met de effecten van het algoritme. Onder welke omstandigheden gebeurt dit en wat zijn de verwachte consequenties daarvan voor het individu en/of de samenleving?"
+    en: "In what way will citizens come into contact with the effects of the algorithm. Under what specific circumstances will this happen and what are the expected consequences on the individual level and/or societal level?"
+    nl: "Hoe krijgen burgers te maken met de effecten van het algoritme. Onder welke omstandigheden gebeurt dit en wat zijn de verwachte consequenties daarbij voor het individu en/of voor de samenleving?"
 
 - attribute: "proportionality"
   name:
@@ -265,8 +265,8 @@ properties:
     nl: "INZET"
   type: "string"
   description:
-    en: "Please describe why the authority by which the algorithm is used is reasonably necessary. It should explain why the expected benefit outweighs any potential expected harm."
-    nl: "Omschrijf waarom de inzet van het algoritme redelijk gerechtvaardigd is. Hieruit moet blijken waarom de verwachte baten groter zijn dan de negatieve effecten en risico's."
+    en: "Explain why use of the algorithm is reasonably necessary. Explain why the expected benefits outweigh any potential expected harm."
+    nl: "Omschrijf waarom gebruik van het algoritme redelijk gerechtvaardigd is. Leg uit waarom de verwachte baten groter zijn dan mogelijke negatieve effecten."
 
 - attribute: "lawful_basis"
   name:
@@ -277,8 +277,8 @@ properties:
     nl: "INZET"
   type: "string"
   description:
-    en: "Please provide a link to the administrative act that makes the use of the algorithm legitimate."
-    nl: "Geef een verwijzing naar het formele besluit waarin de inzet van het algoritme is goedgekeurd."
+    en: "Which administrative act makes the use of the algorithm legitimate?"
+    nl: "In welk formele besluit is de inzet van het algoritme goedgekeurd?"
 
 - attribute: "documentation"
   name:
@@ -289,10 +289,70 @@ properties:
     nl: "INZET"
   type: "url"
   description:
-    en: "Please provide a URL reference to any extended information about the use of the algorithm within this specific use case."
-    nl: "Wat is de URL naar aanvullende documentatie over dit specifieke gebruik van het algoritme?"
+    en: "URL reference to any extended information about the use of the algorithm within this specific use case"
+    nl: "URL naar aanvullende documentatie over deze specifieke inzet van het algoritme"
 
-# keywords
+# DATA
+
+- attribute: "source_data"
+  name:
+    en: "Source data"
+    nl: "Brondata"
+  category:
+    en: "DATA"
+    nl: "DATA"
+  type: "string"
+  description:
+    en: "Please give an overview of the data that is being processed by the algorithm. It should describe the pupose with which each data source is added and possible dependencies that result from this."
+    nl: "Geen een overzicht van de databronnen die gebruikt worden door of bij het maken of trainen van het algoritme. Dit moet inzicht geven in met welk doel welke data is toegevoegd en mogelijke afhankelijkheden die daaruit voortvloeien."
+
+- attribute: "training_data"
+  name:
+    en: "Training data"
+    nl: "Training data"
+  category:
+    en: "DATA"
+    nl: "DATA"
+  type: "string"
+  description:
+    en: "Please give an overview of the data that was used for training the algorithm. It should describe the pupose with which each data source was added."
+    nl: "Geen een overzicht van de databronnen die gebruikt zijn voor het trainen van het algoritme. Dit moet inzicht geven in met welk doel welke data is toegevoegd."
+
+- attribute: "data_bias"
+  name:
+    en: "Data bias"
+    nl: "Data bias"
+  category:
+    en: "DATA"
+    nl: "DATA"
+  type: "string"
+  description:
+    en: "Does the source data contain a certain bias? (How is this compensated?)"
+    nl: "Bevat de brondata een bepaalde bias? (Hoe wordt hiervoor gecompenseerd?)"
+
+- attribute: "DPIA_description"
+  name:
+    en: "Description of the DPIA"
+    nl: "Omschrijving van de DPIA"
+  category:
+    en: "DATA"
+    nl: "DATA"
+  type: "string"
+  description:
+    en: "Please give an overview of the key points from the data protection impact assessment. It should explain how discrimination is prevented when (proxies of) ethnicity, sex or zipcode are being used."
+    nl: "Geef een overzicht van de belangrijkste zaken die uit de data protection impact assessment (DPIA) naar voren kwamen. Dit moet beschrijven hoe discriminatie wordt tegengegaan bij gebruik van (proxies van) etniciteit, sexe, of postcode."
+  
+- attribute: "DPIA_url"
+  name:
+    en: "DPIA URL"
+    nl: "URL van de DPIA"
+  category:
+    en: "DATA"
+    nl: "DATA"
+  type: "url"
+  description:
+    en: "URL to the full DPIA documentation"
+    nl: "URL van de volledige DPIA documentatie"
 
 # ALGORITHM
 
@@ -330,10 +390,10 @@ properties:
   category:
     en: "ALGORITHM"
     nl: "ALGORITME"
-  type: "string" #enum?
+  type: "string"
   description:
-    en: "Please indicate which type of methods or models the algorithm is using."
-    nl: "Geef aan welk type methoden of modellen het algoritme gebruikt."
+    en: "Please indicate which known methods or models the algorithm is using."
+    nl: "Geef aan welke bekende methoden of modellen het algoritme gebruikt."
   examples:
     en: "ROC-curve, confusion matrix, expert system, neural network"
     nl: "ROC-curve, confusion matrix, expert system, neuraal netwerk"
@@ -359,13 +419,13 @@ properties:
     nl: "ALGORITME"
   type: "url"
   description:
-    en: "Please provide the URL for the public information on this algorithmic application."
-    nl: "Wat is, indien beschikbaar, de URL van het publiccode.yml bestand?"
+    en: "URL for the central public information on this algorithmic application or publiccode.yml file"
+    nl: "URL voor de centrale publieke infomatie over deze algoritmische toepassing of publiccode.yml file"
   exmaples:
-    en: 
-    nl: "online publiccode.yml file, European database of AI applications"
+    en: "publiccode.yml file in github repository, European database of AI applications"
+    nl: "publiccode.yml file in github repository, Europese database van AI applicaties"
 
-- attribute: "sourcecode_url" #code_base_url
+- attribute: "application_url"
   name:
     en: "Source code URL"
     nl: "URL van de broncode"
@@ -374,35 +434,35 @@ properties:
     nl: "ALGORITME"
   type: "url"
   description:
-    en: "Please provide the URL reference to the algorithmic application or code base."
-    nl: "Wat is de URL van de algoritmische applicatie of broncode."
+    en: "URL reference to the code base of the algorithmic application"
+    nl: "URL naar de broncode van de algoritmische applicatie"
   examples:
     en: "link to a Github repository, the Common Ground Component Catalogue, supplier website."
     nl: "link naar Github, de Common Ground componentencatalogus, webpagina van de aanbieder"
 
-- attribute: "langding_url" #landing_page_url
+- attribute: "langding_url"
   name:
     en: "Landing page URL"
-    nl: "URL van de Landingspagina"
+    nl: "URL van de productpagina"
   category:
     en: "ALGORITHM"
     nl: "ALGORITME"
   type: "url"
   description:
-    en: "What is the URL reference to the landing page with further information about the algorithm and its use? This facilitates users searching more in-depth information about the practical use or technical details."
-    nl: "Wat is de URL van de pagina waarom meer informatie te vinden is over het algoritme en de inzet daarvan? Dit is interessant voor gebruikers die meer willen weten over de praktische inzet en technische details."
+    en: "URL reference of the landing page/product page with further information about the algorithmic application? This facilitates users searching more in-depth information about the practical use or technical details."
+    nl: "URL van de productpagina waarop meer informatie te vinden is over de algoritmische toepassing? Dit is interessant voor gebruikers die meer willen weten over de praktische inzet en technische details."
 
 - attribute: "MPRD"
   name:
-    en: "Connection to Municipal Personal Records Database"
-    nl: "Koppelingen met basisregistraties"
+    en: "Connections to data sources"
+    nl: "Aangesloten databronnen"
   category:
     en: "ALGORITHM"
     nl: "ALGORITME"
-  type: "boolean"
+  type: "string"
   description:
-    en: "Please indicate wether a connection is being made to the Municipal Personal Records Database."
-    nl: "Geef aan of er gebruik wordt gemaakt van koppeling met de BRP."
+    en: "Please indicate wether a connection is being made to the Municipal Personal Records Database and specify other relevant connections."
+    nl: "Geef aan of er gebruik wordt gemaakt van koppeling met de BRP en beschrijf andere relevante connecties."
 
 - attribute: "AIA_description"
   name:
@@ -419,55 +479,17 @@ properties:
     en: "impact assessments such as FRAIA, AIIA, capAI"
     nl: "impact assessments zoals IAMA, AIIA, capAI"
 
-# DATA
-
-- attribute: "source_data"
+- attribute: "AIA_url"
   name:
-    en: "Source data"
-    nl: "Brondata"
+    en: "Algorithm impact assessment URL"
+    nl: "URL van de algoritme impact assessment"
   category:
-    en: "DATA"
-    nl: "DATA"
-  type: "string"
+    en: "ALGORITHM"
+    nl: "ALGORITME"
+  type: "url"
   description:
-    en: "Please give an overview of the data that is being processed by the algorithm. It should describe the pupose with which each data source is added and possible dependencies that resulting from this."
-    nl: "Geen een overzicht van de databronnen die gebruikt worden door of bij het maken of trainen van het algoritme. Dit moet inzicht geven in met welk doel welke data is toegevoegd en mogelijke afhankelijkheden die daaruit voortvloeien."
-
-- attribute: "training_data"
-  name:
-    en: "Training data"
-    nl: "Training data"
-  category:
-    en: "DATA"
-    nl: "DATA"
-  type: "string"
-  description:
-    en: "Please give an overview of the data that was used for training the algorithm. It should describe the pupose with which each data source was added."
-    nl: "Geen een overzicht van de databronnen die gebruikt zijn voor het trainen van het algoritme. Dit moet inzicht geven in met welk doel welke data is toegevoegd."
-
-- attribute: "data_bias"
-  name:
-    en: "Data bias"
-    nl: "Data bias"
-  category:
-    en: "DATA"
-    nl: "DATA"
-  type: "string"
-  description:
-    en: "Does the source data contain a certain bias? (How is this compensated?)"
-    nl: "Bevat de brondata een bepaalde bias? (Hoe wordt hiervoor gecompenseerd?)"
-
-- attribute: "DPIA_description"
-  name:
-    en: "Description of the DPIA"
-    nl: "Omschrijving van de DPIA"
-  category:
-    en: "DATA"
-    nl: "DATA"
-  type: "string"
-  description:
-    en: "Please give an overview of the key points from the data protection impact assessment. It should explain how discrimination is prevented when (proxies of) ethnicity, sex or zipcode are being used. If available it can reference the URL to the full DPIA documentation. "
-    nl: "Geef een overzicht van de belangrijkste zaken die uit de data protection impact assessment (DPIA) naar voren kwamen. Dit moet beschrijven hoe discriminatie wordt tegengegaan bij gebruik van (proxies van) etniciteit, sexe, of postcode. Indien beschikbaar kan dit verwijzen naar de URL van de volledige DPIA documentatie."
+    en: "URL to the full AIA documentation"
+    nl: "URL van de volledige AIA documentatie"
 
 # OVERSIGHT
 
@@ -521,8 +543,8 @@ properties:
     nl: "RISICO'S"
   type: "string"
   description:
-    en: "Please indicate which risk assessment was used and give an overview of the key points."
-    nl: "Geef aan welke risico assessment is gebruikt en geef een overzicht van de belangrijkste punten die naar voren kwamen."
+    en: "Please indicate which risk assessment was used and give an overview of the risks and mitigation measures."
+    nl: "Geef aan welke risico assessment is gebruikt en geef een overzicht van de risico's en mitigerende maatregelen."
   examples:
     en: "risk assessments such as the audit framework 'understanding algorithms' by the Netherlands Court of Audit, and the regulation on a European approach for artificial intelligence"
     nl: "risico assessments zijn bijvoorbeeld het toetsingskader 'Aandacht voor algoritmes' van de Algemene Rekenkamer"
@@ -635,3 +657,15 @@ properties:
     en: "Date of the last change to this registration"
     nl: "Datum van de laatste wijziging van deze registratie"
   required: true
+
+- attribute: "keywords"
+  name:
+    en: "Keywords"
+    nl: "Kernwoorden"
+  category:
+    en: "METADATA"
+    nl: "METADATA"
+  type: "string"
+  description:
+    en: "Keywords that might help finding this information"
+    nl: "Zoekwoorden helpen bij het vinden van deze informatie"
