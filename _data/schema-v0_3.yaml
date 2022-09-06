@@ -150,6 +150,21 @@ properties:
     nl: "'Algoritme dat bij stoplichten voorrang van verkeersmodaliteiten berekent op basis van wetgeving en lokale voorschriften'."
   required: true
 
+- attribute: "website"
+  name:
+    en: "Website"
+    nl: "Website"
+  category:
+    en: "BASIC INFORMATION"
+    nl: "ALGEMENE INFORMATIE"
+  type: "url"
+  description:
+    en: "URL of a human readable web page for this registration, for example on the organization web page or public algorithm register"
+    nl: "URL van een web pagina voor deze registratie, bijvoorbeeld op de organisatie's web pagine of publieke algoritmeregister"
+  examples:
+    en: "https://algoritmeregister.amsterdam.nl/vroeg-eropaf/"
+    nl: "https://algoritmeregister.amsterdam.nl/vroeg-eropaf/"
+
 - attribute: "risk_category"
   name:
     en: "Risk category"
@@ -197,21 +212,6 @@ properties:
     en: "Status of the use of algorithm"
     nl: "Status van het gebruik van het algoritme"
   required: true
-
-- attribute: "website"
-  name:
-    en: "Website"
-    nl: "Website"
-  category:
-    en: "BASIC INFORMATION"
-    nl: "ALGEMENE INFORMATIE"
-  type: "url"
-  description:
-    en: "URL of a human readable web page for this registration, for example on the organization web page or public algorithm register"
-    nl: "URL van een web pagina voor deze registratie, bijvoorbeeld op de organisatie's web pagine of publieke algoritmeregister"
-  examples:
-    en: "https://algoritmeregister.amsterdam.nl/vroeg-eropaf/"
-    nl: "https://algoritmeregister.amsterdam.nl/vroeg-eropaf/"
 
 - attribute: "remark"
   name:
