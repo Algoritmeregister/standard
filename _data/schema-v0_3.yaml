@@ -271,6 +271,21 @@ properties:
     en: "In what way will citizens come into contact with the effects of the algorithm. Under what specific circumstances will this happen and what are the expected consequences on the individual level and/or societal level?"
     nl: "Hoe krijgen burgers te maken met de effecten van het algoritme. Onder welke omstandigheden gebeurt dit en wat zijn de verwachte consequenties daarbij voor het individu en/of voor de samenleving?"
 
+- attribute: "risks"
+  name:
+    en: "Risks"
+    nl: "Risico's"
+  category:
+    en: "USE CASE"
+    nl: "INZET"
+  type: "string"
+  description:
+    en: "Please indicate which risk assessment was used and give an overview of the risks and mitigation measures."
+    nl: "Geef aan welke risico assessment is gebruikt en geef een overzicht van de risico's en mitigerende maatregelen."
+  examples:
+    en: "risk assessments such as the audit framework 'understanding algorithms' by the Netherlands Court of Audit, and the regulation on a European approach for artificial intelligence"
+    nl: "risico assessments zijn bijvoorbeeld het toetsingskader 'Aandacht voor algoritmes' van de Algemene Rekenkamer"
+
 - attribute: "proportionality"
   name:
     en: "Proportionality"
@@ -558,23 +573,6 @@ properties:
   description:
     en: "Is it possible to roll back the effects of the algorithm? What does that take?"
     nl: "Is het mogelijk om de effecten van het algoritme terug te draaien? Wat is daarvoor nodig?"
-
-# RISKS
-
-- attribute: "risks"
-  name:
-    en: "Risks"
-    nl: "Risico's"
-  category:
-    en: "RISKS"
-    nl: "RISICO'S"
-  type: "string"
-  description:
-    en: "Please indicate which risk assessment was used and give an overview of the risks and mitigation measures."
-    nl: "Geef aan welke risico assessment is gebruikt en geef een overzicht van de risico's en mitigerende maatregelen."
-  examples:
-    en: "risk assessments such as the audit framework 'understanding algorithms' by the Netherlands Court of Audit, and the regulation on a European approach for artificial intelligence"
-    nl: "risico assessments zijn bijvoorbeeld het toetsingskader 'Aandacht voor algoritmes' van de Algemene Rekenkamer"
 
 # METADATA
 
