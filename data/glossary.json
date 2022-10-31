@@ -1,0 +1,13 @@
+---
+title: Glossary json (NL)
+description: glossary.json bestand
+---
+{% assign glossary = site.data.glossary %}
+{
+    {% for x in glossary %}
+        "{{ x[0] }}": {
+            "name": "{{ x[1].translations.nl.name }}",
+            "description": "{{ x[1].translations.nl.description }}"
+        }{% if forloop.last == false %},{% endif %}
+    {% endfor %}
+}

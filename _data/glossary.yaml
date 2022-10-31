@@ -1,47 +1,15 @@
-AlgorithmicApplication:
-  name: algorithmic application
-  description: software making automated predications, decisions and suggestions using data analysis, statistics and/or self learning logic
+Algorithm:
+  name: algorithm
+  description: Set of rules and instructions that a computer follows making calculations to solve a problem or answer a question automatically.
   translations:
     nl:
-      name: algoritmische toepassing
-      description: software waarmee op geautomatiseerde wijze voorspellingen worden gedaan, besluiten worden genomen en/of adviezen worden gegeven door gebruik te maken van data-analyse, statistiek en/of zelflerende logica
+      name: algoritme
+      description: Set van regels en instructies die een computer geautomatiseerd volgt bij het maken van berekeningen om een probleem op te lossen of een vraag te beantwoorden.
 
-AlgorithmRegistration:
-  name: algorithm registration
-  description: registration of the use of an algorithmic application by a government organization
-  translations:
-    nl:
-      name: algoritmeregistratie
-      description: registratie van de inzet van een algoritmische toepassing door een overheid
-
-MetadataStandard:
-  name: metadata standard
-  description: shared metadata standard for algorithm registrations
-  translations:
-    nl:
-      name: metadatastandaard
-      description: gedeelde metadatastandaard ten behoeve van algoritmeregistraties
-      
-AlgorithmDatabank:
-  name: algorithm databank
-  description: organization specific database containing algorithm registrations for the organization, available through an API
-  translations:
-    nl:
-      name: algoritmedatabank
-      description: decentrale databank van algoritmeregistraties van de betreffende organisatie, beschikbaar middels een API
-  
 AlgorithmRegister:
   name: algorithm register
-  description: organization specific application for creating and maintaining algorithm registrations in the algorithm databank, and for making algorithm registration details available to the general public
+  description: 
   translations:
     nl:
       name: algoritmeregister
-      description: decentrale applicatie voor het maken en bijhouden van algorithmischeregistraties in de algoritmedatabank, en voor het beschikbaar stellen van algoritmeregistratie-details aan het grote publiek
-      
-AlgorithmCatalog:
-  name: algorithm catalog
-  description: central application for searching or browsing the basic information on algorithm registrations of all government organizations that links to the containing algorithm register for more information
-  translations:
-    nl:
-      name: algoritmecatalogus
-      description: centrale applicatie voor het doorzoeken en doorbladeren van basisinformatie over algoritmeregistraties van alle overheden die doorverwijst naar het betreffende algoritmeregister voor meer informatie
+      description:
