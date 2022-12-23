@@ -1,0 +1,8 @@
+---
+permalink: registration-v0.3.description.csv
+title: registration v0.3 .csv description
+description: .csv description of the v0.3 standard (download)
+---
+{% assign schema = site.data.schema-v0_3 %}"name","Label","category","const","type","description","required"
+{% for property in schema.properties %}"{{ property.attribute }}","{{ property.name.en }}","{{ property.category.en }}","{{ property.const }}","{{ property.type }}","{{ property.description.en }}","{{ property.examples.en }}","{{ property.required | default: false }}"
+{% endfor %}
