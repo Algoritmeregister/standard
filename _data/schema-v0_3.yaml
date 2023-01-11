@@ -1,7 +1,7 @@
 version: "0.3"
-status: "pre-alpha"
+status: "beta"
 title:
-  en: "Standard for Algorithmic Transparency"
+  en: "Algorithmic Transparency Standard"
   nl: "Standaard voor Algoritmische Transparantie"
 description:
   en: "Standard for registration of the use of models, algorithms or AI in policy or decision making processes by governmental organisations."
@@ -130,7 +130,7 @@ properties:
     en: "In which domain will the algorithm be deployed?"
     nl: "In welk domein wordt het algoritme ingezet?"
   examples:
-    en: "justice, finance, 'travel, living and working abroad' (the full list of domains is available at https://...)"
+    en: "justice, finance, 'travel, living and working abroad'"
     nl: "rechtspraak, financiën, 'reizen, wonen en werken in het buitenland' (de volledige lijst is beschikbaar op https://..."
   required: true
   
