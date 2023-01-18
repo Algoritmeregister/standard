@@ -719,8 +719,8 @@ properties:
     en: "Type of use of the algorithm"
     nl: "Type gebruik van het algoritme"
   category:
-    en: "ALGORITHM"
-    nl: "ALGORITME"
+    en: "OVERSIGHT"
+    nl: "TOEZICHT"
   type: enum
   enum:
     en: ["descriptive", "diagnostic", "predictive", "prescriptive"]
