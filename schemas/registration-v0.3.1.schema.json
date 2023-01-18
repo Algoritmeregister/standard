@@ -1,8 +1,8 @@
 ---
-title: v0.3 schema json (EN)
-description: schema.json file for the v0.3 version of the standard
+title: v0.3.1 schema json (EN)
+description: schema.json file for the v0.3.1 version of the standard
 ---
-{% assign schema = site.data.schema-v0_3 %}
+{% assign schema = site.data.schema-v0_3_1 %}
 {
     "$id": "https://standaard.algoritmeregister.org/schemas/registration-v{{ schema.version }}.schema.json",
     "$schema": "https://json-schema.org/draft/2020-12/schema",
