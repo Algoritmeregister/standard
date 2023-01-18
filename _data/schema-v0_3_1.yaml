@@ -525,8 +525,8 @@ properties:
     nl: "ALGORITME"
   type: "url"
   description:
-    en: "URL for the central public information on the algorithm or publiccode.yml file."
-    nl: "URL voor de centrale publieke infomatie over het algoritme of publiccode.yml file."
+    en: "URL for the central product information on the algorithm or publiccode.yml file."
+    nl: "URL voor de centrale productinfomatie over het algoritme of publiccode.yml file."
   exmaples:
     en: "publiccode.yml file in github repository, European database of AI applications"
     nl: "publiccode.yml file in github repository, Europese database van AI applicaties"
