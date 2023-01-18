@@ -188,41 +188,41 @@ properties:
 
 - attribute: "contact_email"
   name:
-    en: "Contact person e-mail"
-    nl: "E-mailadres van de contactpersoon"
+    en: "Contact e-mail"
+    nl: "Contact e-mailadres"
   category:
     en: "BASIC INFORMATION"
     nl: "ALGEMENE INFORMATIE"
   type: "email"
   description:
-    en: "E-mail address of the contact person for this registration."
-    nl: "E-mailadres van de contactpersoon voor deze registratie."
+    en: "Contact e-mail address for this registration."
+    nl: "Contact e-mailadres voor deze registratie."
   required: true
 
 - attribute: "contact_phone"
   name:
-    en: "Contact person phone number"
-    nl: "Telefoonnummer van de contactpersoon"
+    en: "Contact phone number"
+    nl: "Contact telefoonnummer"
   category:
     en: "BASIC INFORMATION"
     nl: "ALGEMENE INFORMATIE"
   type: "string"
   description:
-    en: "Phone number of the contact person for this registration."
-    nl: "Telefoonnummer van de contactpersoon voor deze registratie."
+    en: "Contact phone number for this registration."
+    nl: "Contact telefoonnummer voor deze registratie."
   required: false
 
 - attribute: "contact_name"
   name:
-    en: "Contact person name"
-    nl: "Naam van de contactpersoon"
+    en: "Contact name"
+    nl: "Contact naam"
   category:
     en: "BASIC INFORMATION"
     nl: "ALGEMENE INFORMATIE"
   type: "string"
   description:
-    en: "Name of the contact person for this registration."
-    nl: "Naam van de contactpersoon voor deze registratie."
+    en: "Contact name for this registration."
+    nl: "Contact naam voor deze registratie."
   required: false
   
 - attribute: "description_short"
