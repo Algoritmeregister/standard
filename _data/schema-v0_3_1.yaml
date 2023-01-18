@@ -325,7 +325,7 @@ properties:
     en: ["minimal risk", "limited risk", "high risk", "unacceptable"]
     nl: ["minimaal risico", "beperkt risico", "hoog risico", "onaanvaardbaar"]
   description:
-    en: "Classification of the risk category for this use of the algorithm. Check for more information: https://ec.europa.eu/info/strategy/priorities-2019-2024/europe-fit-digital-age/excellence-trust-artificial-intelligence_en." 
+    en: "Classification of the risk category for this use of the algorithm. Check for more information: https://ec.europa.eu/info/strategy/priorities-2019-2024/europe-fit-digital-age/excellence-trust-artificial-intelligence_en ." 
     nl: "Classificatie van de risicocategorie van deze inzet van het algoritme. Bekijk voor meer informatie: https://ec.europa.eu/info/strategy/priorities-2019-2024/europe-fit-digital-age/excellence-trust-artificial-intelligence_nl."
   required: true
 
