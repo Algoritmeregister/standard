@@ -405,8 +405,8 @@ properties:
     nl: "DATA"
   type: "string"
   description:
-    en: "Does the source data contain a certain bias? How is this compensated for?"
-    nl: "Bevat de brondata een bepaalde bias? Hoe wordt hiervoor gecompenseerd?"
+    en: "Does the data contain a certain bias? How is this compensated for?"
+    nl: "Bevat de data een bepaalde bias? Hoe wordt hiervoor gecompenseerd?"
 
 - attribute: "connected_data_sources"
   name:
@@ -417,8 +417,8 @@ properties:
     nl: "DATA"
   type: "string"
   description:
-    en: "Please indicate wether a connection is being made to, for example, a Personal Records Database and specify other relevant connections."
-    nl: "Geef aan of er gebruik wordt gemaakt van koppeling met bijvoorbeeld de BRP en beschrijf andere relevante connecties."
+    en: "Please indicate wether a connection is being made to a Personal Records Database or other data sources."
+    nl: "Geef aan of er gebruik wordt gemaakt van koppeling met de BRP of andere databronnen."
   required: true
 
 - attribute: "DPIA_description"
