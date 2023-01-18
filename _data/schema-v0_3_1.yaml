@@ -59,20 +59,17 @@ properties:
     nl: "'Stadsdeel Segbroek', 'Verkeer en Transport', 'Openbare Orde en Veiligheid'"
   required: true
 
-- attribute: "country"
+- attribute: "area"
   name:
-    en: "Country"
-    nl: "Land"
+    en: "Geographical area"
+    nl: "Geografisch gebied"
   category:
     en: "BASIC INFORMATION"
     nl: "ALGEMENE INFORMATIE"
   type: "string"
   description:
-    en: "To what country does the organization belong?"
-    nl: "Tot welk land behoort de organisatie?"
-  examples:
-    en: "'The Netherlands', 'Spain'"
-    nl: "'Nederland', 'Spanje'"
+    en: "Official name of the geographical area in which the algorithm is being used."
+    nl: "Officiële naam van geografische gebied waarin het algoritme wordt gebruikt."
   required: true
 
 - attribute: "contact_email"
@@ -272,19 +269,6 @@ properties:
   examples:
     en: "refer to concrete laws, regulation or policy, as published in publicly available sources"
     nl: "link aan concrete wetgeving, voorschriften of beleid zoals vastgelegd in publiek beschikbare bronnen"
-  required: true
-
-- attribute: "area"
-  name:
-    en: "Geographical area"
-    nl: "Geografisch gebied"
-  category:
-    en: "USE CASE"
-    nl: "INZET"
-  type: "string"
-  description:
-    en: "Official name of the geographical area in which the algorithm is being used."
-    nl: "Officiële naam van geografische gebied waarin het algoritme wordt gebruikt."
   required: true
 
 - attribute: "goal"
