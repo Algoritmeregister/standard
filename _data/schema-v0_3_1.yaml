@@ -603,22 +603,6 @@ properties:
 # OVERSIGHT
 # information on processes for monitoring and restoring
 
-- attribute: "type"
-  name:
-    en: "Type of use of the algorithm"
-    nl: "Type gebruik van het algoritme"
-  category:
-    en: "OVERSIGHT"
-    nl: "TOEZICHT"
-  type: enum
-  enum:
-    en: ["descriptive", "diagnostic", "predictive", "prescriptive"]
-    nl: ["descriptief", "diagnostisch", "voorspellend", "prescriptief"]
-  description:
-    en: "Please indicate wether the algorithm is being used descriptive, diagnostic, predictive or prescriptive. This information can be used as a possible risk indicator."
-    nl: "Geef aan of het algoritme descriptief, diagnostisch, voorspellend of prescriptief wordt gebruikt. Deze information kan gebruikt worden als risico-indicator."
-  required: true
-
 - attribute: "monitoring"
   name:
     en: "Performance monitoring"
@@ -633,6 +617,22 @@ properties:
   examples:
     en: "which criteria are used, how frequently is the performance monitored"
     nl: "welke criteria worden gebruikt, met welke regelmaat wordt er gemonitord"
+  required: true
+
+- attribute: "type"
+  name:
+    en: "Type of use of the algorithm"
+    nl: "Type gebruik van het algoritme"
+  category:
+    en: "OVERSIGHT"
+    nl: "TOEZICHT"
+  type: enum
+  enum:
+    en: ["descriptive", "diagnostic", "predictive", "prescriptive"]
+    nl: ["descriptief", "diagnostisch", "voorspellend", "prescriptief"]
+  description:
+    en: "Please indicate wether the algorithm is being used descriptive, diagnostic, predictive or prescriptive. This information can be used as a possible risk indicator."
+    nl: "Geef aan of het algoritme descriptief, diagnostisch, voorspellend of prescriptief wordt gebruikt. Deze information kan gebruikt worden als risico-indicator."
   required: true
 
 - attribute: "human_intervention"
