@@ -367,8 +367,8 @@ properties:
     nl: "INZET"
   type: "string"
   description:
-    en: "Which administrative act makes the use of the algorithm legitimate?"
-    nl: "In welk formele besluit is de inzet van het algoritme goedgekeurd?"
+    en: "What is the lawful basis for the use of the algorithm?"
+    nl: "Wat is de wettelijke grondslag voor de inzet van het algoritme?"
   required: true
 
 - attribute: "documentation"
@@ -491,6 +491,7 @@ properties:
   description:
     en: "Please provide an extensive description between 500 and 10000 chars explaining the inner workings of the algorithm. It should detail all relevant aspects that are needed to understand how the algorithm processes data and feeds decision making."
     nl: "Geef een uitgebreide uitleg tussen de 500 en 10000 karakters lang van de manier van werken van het algoritme. Dit moet alle relevante aspecten bevatten om te kunnen snappen hoe het algoritme data verwerkt en een beslissing maakt of beinvloed."
+  required: true
 
 - attribute: "methods_and_models"
   name:
