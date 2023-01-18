@@ -8,117 +8,6 @@ description:
   nl: "Standaard voor de registratie van de inzet van modellen, algoritmes en AI in beleid en besluitvormingsprocessen in overheidsorganisaties."
 properties:
 
-# METADATA
-# information on the registration information itself
-
-- attribute: "standard_version"
-  name:
-    en: "Version of the standard used"
-    nl: "Gebruikte versie van de standaard"
-  category:
-    en: "METADATA"
-    nl: "METADATA"
-  type: "const"
-  const: "0.3.1"
-  description:
-    en: "Version of the standard used for this registration."
-    nl: "Versie van de standaard gebruikt voor deze registratie."
-  required: true
-
-- attribute: "uuid"
-  name:
-    en: "Unique identifier"
-    nl: "Unieke identificatie"
-  category:
-    en: "METADATA"
-    nl: "METADATA"
-  type: "uuid"
-  description:
-    en: "Universally unique identifier for this registration."
-    nl: "Universeel unieke identificatie voor deze registratie."
-
-- attribute: "lang"
-  name:
-    en: "Language"
-    nl: "Taal"
-  category:
-    en: "METADATA"
-    nl: "METADATA"
-  type: "string"
-  description:
-    en: "ISO 639-1 for the language in which this registration was filled in."
-    nl: "ISO 639-1 voor de taal waarin deze registratie is ingevoerd."
-  examples:
-    en: "'en', 'nl'"
-    nl: "'en', 'nl'"
-  required: true
-
-- attribute: "publication_date"
-  name:
-    en: "Publication date"
-    nl: "Publicatiedatum"
-  category:
-    en: "METADATA"
-    nl: "METADATA"
-  type: "date"
-  description:
-    en: "Date at which this registration was first published."
-    nl: "Datum waarop deze registratie voor de eerste keer is gepubliceerd."
-  required: true
-
-- attribute: "last_change_date"
-  name:
-    en: "Last change date"
-    nl: "Datum laatste wijziging"
-  category:
-    en: "METADATA"
-    nl: "METADATA"
-  type: "date"
-  description:
-    en: "Date of the last change to this registration."
-    nl: "Datum van de laatste wijziging van deze registratie."
-  required: true
-
-- attribute: "revision_date"
-  name:
-    en: "Revision date"
-    nl: "Herzieningsdatum"
-  category:
-    en: "METADATA"
-    nl: "METADATA"
-  type: "date"
-  description:
-    en: "Date before which this registration has to be revisited."
-    nl: "Datum waarvoor deze registratie moet worden herzien."
-  required: true
-
-- attribute: "revision_note"
-  name:
-    en: "Revision date note"
-    nl: "Aantekening bij herzieningsdatum"
-  category:
-    en: "METADATA"
-    nl: "METADATA"
-  type: "string"
-  description:
-    en: "Why is the revision planned?"
-    nl: "Waarom moet deze revisie plaatsvinden?"
-  examples:
-    en: "start of pilot, end of pilot, yearly"
-    nl: "start van pilot, einde van pilot, jaarlijks"
-
-- attribute: "keywords"
-  name:
-    en: "Keywords"
-    nl: "Kernwoorden"
-  category:
-    en: "METADATA"
-    nl: "METADATA"
-  type: "string"
-  description:
-    en: "Keywords that might help finding this information."
-    nl: "Zoekwoorden helpen bij het vinden van deze informatie."
-
 # BASIC INFORMATION
 # index card for this registration
 
@@ -783,3 +672,114 @@ properties:
   description:
     en: "Is it possible to completely roll back the effects of the algorithm if needed? What does that take?"
     nl: "Is het mogelijk om de effecten van het algoritme volledig terug te draaien indien nodig? Wat is daarvoor nodig?"
+
+# METADATA
+# information on the registration information itself
+
+- attribute: "standard_version"
+  name:
+    en: "Version of the standard used"
+    nl: "Gebruikte versie van de standaard"
+  category:
+    en: "METADATA"
+    nl: "METADATA"
+  type: "const"
+  const: "0.3.1"
+  description:
+    en: "Version of the standard used for this registration."
+    nl: "Versie van de standaard gebruikt voor deze registratie."
+  required: true
+
+- attribute: "uuid"
+  name:
+    en: "Unique identifier"
+    nl: "Unieke identificatie"
+  category:
+    en: "METADATA"
+    nl: "METADATA"
+  type: "uuid"
+  description:
+    en: "Universally unique identifier for this registration."
+    nl: "Universeel unieke identificatie voor deze registratie."
+
+- attribute: "lang"
+  name:
+    en: "Language"
+    nl: "Taal"
+  category:
+    en: "METADATA"
+    nl: "METADATA"
+  type: "string"
+  description:
+    en: "ISO 639-1 for the language in which this registration was filled in."
+    nl: "ISO 639-1 voor de taal waarin deze registratie is ingevoerd."
+  examples:
+    en: "'en', 'nl'"
+    nl: "'en', 'nl'"
+  required: true
+
+- attribute: "publication_date"
+  name:
+    en: "Publication date"
+    nl: "Publicatiedatum"
+  category:
+    en: "METADATA"
+    nl: "METADATA"
+  type: "date"
+  description:
+    en: "Date at which this registration was first published."
+    nl: "Datum waarop deze registratie voor de eerste keer is gepubliceerd."
+  required: true
+
+- attribute: "last_change_date"
+  name:
+    en: "Last change date"
+    nl: "Datum laatste wijziging"
+  category:
+    en: "METADATA"
+    nl: "METADATA"
+  type: "date"
+  description:
+    en: "Date of the last change to this registration."
+    nl: "Datum van de laatste wijziging van deze registratie."
+  required: true
+
+- attribute: "revision_date"
+  name:
+    en: "Revision date"
+    nl: "Herzieningsdatum"
+  category:
+    en: "METADATA"
+    nl: "METADATA"
+  type: "date"
+  description:
+    en: "Date before which this registration has to be revisited."
+    nl: "Datum waarvoor deze registratie moet worden herzien."
+  required: true
+
+- attribute: "revision_note"
+  name:
+    en: "Revision date note"
+    nl: "Aantekening bij herzieningsdatum"
+  category:
+    en: "METADATA"
+    nl: "METADATA"
+  type: "string"
+  description:
+    en: "Why is the revision planned?"
+    nl: "Waarom moet deze revisie plaatsvinden?"
+  examples:
+    en: "start of pilot, end of pilot, yearly"
+    nl: "start van pilot, einde van pilot, jaarlijks"
+
+- attribute: "keywords"
+  name:
+    en: "Keywords"
+    nl: "Kernwoorden"
+  category:
+    en: "METADATA"
+    nl: "METADATA"
+  type: "string"
+  description:
+    en: "Keywords that might help finding this information."
+    nl: "Zoekwoorden helpen bij het vinden van deze informatie."
