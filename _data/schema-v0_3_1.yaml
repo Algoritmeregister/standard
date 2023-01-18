@@ -613,8 +613,8 @@ properties:
     nl: "TOEZICHT"
   type: "string"
   description:
-    en: "Please describe what the expected performance of the algorithm is and how this monitored."
-    nl: "Geef aan wat de verwachte prestaties van het algoritme zijn en hoe die worden gemonitord."
+    en: "Please describe what the expected performance of the algorithm is, how this monitored and by whom."
+    nl: "Geef aan wat de verwachte prestaties van het algoritme zijn, hoe die worden gemonitord en door wie."
   examples:
     en: "which criteria are used, how frequently is the performance monitored"
     nl: "welke criteria worden gebruikt, met welke regelmaat wordt er gemonitord"
@@ -770,8 +770,8 @@ properties:
     en: "Why is the revision planned?"
     nl: "Waarom moet deze revisie plaatsvinden?"
   examples:
-    en: "start of pilot, end of pilot, yearly"
-    nl: "start van pilot, einde van pilot, jaarlijks"
+    en: "start of pilot, end of pilot, yearly revision, expected changes in law"
+    nl: "start van pilot, einde van pilot, jaarlijkse herziening, verwachte wetswijzigingen"
 
 - attribute: "keywords"
   name:
