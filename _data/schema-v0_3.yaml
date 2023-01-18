@@ -67,7 +67,7 @@ properties:
     nl: "ALGEMENE INFORMATIE"
   type: "string"
   description:
-    en: "Official name of the geographical area in which the algorithm is being used"
+    en: "Official name of the geographical area in which the algorithm is being used."
     nl: "Officiële naam van geografische gebied waarin het algoritme wordt gebruikt"
   required: true
 
@@ -83,7 +83,7 @@ properties:
     en: [
       "taxes", 
       "housing, living and living environment",
-      "culture, sports and leasure",
+      "culture, sports and leisure",
       "defence",
       "economy and entrepreneurship",
       "family, youth and households",
@@ -101,7 +101,7 @@ properties:
       "travel, living and working abroad",
       "subsidies, benefits and allowances",
       "traffic and transportation",
-      "work and carreer"
+      "work and career"
     ]
     nl: [
       "belastingen", 
@@ -159,7 +159,7 @@ properties:
     nl: "ALGEMENE INFORMATIE"
   type: "url"
   description:
-    en: "URL of a human readable web page for this registration, for example on the organization web page or public algorithm register"
+    en: "URL of a human readable web page for this registration, for example on the organization web page or public algorithm register."
     nl: "URL van een web pagina voor deze registratie, bijvoorbeeld op de organisatie's web pagine of publieke algoritmeregister"
   examples:
     en: "https://algoritmeregister.amsterdam.nl/vroeg-eropaf/"
@@ -177,7 +177,7 @@ properties:
     en: ["minimal risk", "limited risk", "high risk", "unacceptable"]
     nl: ["minimaal risico", "beperkt risico", "hoog risico", "onaanvaardbaar"]
   description:
-    en: "Classification of the risk category for this use of the algorithm. Check for more information: https://ec.europa.eu/info/strategy/priorities-2019-2024/europe-fit-digital-age/excellence-trust-artificial-intelligence_en" 
+    en: "Classification of the risk category for this use of the algorithm. Check for more information: https://ec.europa.eu/info/strategy/priorities-2019-2024/europe-fit-digital-age/excellence-trust-artificial-intelligence_en." 
     nl: "Classificatie van de risicocategorie van deze inzet van het algoritme. Bekijk voor meer informatie: https://ec.europa.eu/info/strategy/priorities-2019-2024/europe-fit-digital-age/excellence-trust-artificial-intelligence_nl"
   required: true
 
@@ -209,7 +209,7 @@ properties:
       "beëindigd"
     ]
   description:
-    en: "Status of the use of algorithm"
+    en: "Status of the use of algorithm."
     nl: "Status van het gebruik van het algoritme"
   required: true
 
@@ -222,7 +222,7 @@ properties:
     nl: "ALGEMENE INFORMATIE"
   type: "string"
   description:
-    en: "Add a remark to this registration"
+    en: "Add a remark to this registration."
     nl: "Voeg een opmerking toe aan deze registratie"
   examples:
     en: "This project was ended because of ..."
@@ -268,8 +268,8 @@ properties:
     nl: "INZET"
   type: "string"
   description:
-    en: "In what way will citizens come into contact with the effects of the algorithm. Under what specific circumstances will this happen and what are the expected consequences on the individual level and/or societal level?"
-    nl: "Hoe krijgen burgers te maken met de effecten van het algoritme. Onder welke omstandigheden gebeurt dit en wat zijn de verwachte consequenties daarbij voor het individu en/of voor de samenleving?"
+    en: "In what way will people come into contact with the effects of the algorithm. Under what specific circumstances will this happen and what are the expected consequences on the individual level and/or societal level?"
+    nl: "Hoe krijgen mensen te maken met de effecten van het algoritme. Onder welke omstandigheden gebeurt dit en wat zijn de verwachte consequenties daarbij voor het individu en/of voor de samenleving?"
 
 - attribute: "risks"
   name:
@@ -319,7 +319,7 @@ properties:
     nl: "INZET"
   type: "url"
   description:
-    en: "URL reference to any extended information about the use of the algorithm within this specific use case"
+    en: "URL reference to any extended information about the use of the algorithm 0within this specific use case."
     nl: "URL naar aanvullende documentatie over deze specifieke inzet van het algoritme"
 
 # DATA
@@ -357,8 +357,8 @@ properties:
     nl: "DATA"
   type: "string"
   description:
-    en: "Does the source data contain a certain bias? (How is this compensated?)"
-    nl: "Bevat de brondata een bepaalde bias? (Hoe wordt hiervoor gecompenseerd?)"
+    en: "Does the source data contain a certain bias? How is this compensated for?"
+    nl: "Bevat de brondata een bepaalde bias? Hoe wordt hiervoor gecompenseerd?"
 
 - attribute: "DPIA_description"
   name:
@@ -381,7 +381,7 @@ properties:
     nl: "DATA"
   type: "url"
   description:
-    en: "URL to the full DPIA documentation"
+    en: "URL to the full DPIA documentation."
     nl: "URL van de volledige DPIA documentatie"
 
 # ALGORITHM
@@ -449,7 +449,7 @@ properties:
     nl: "ALGORITME"
   type: "url"
   description:
-    en: "URL for the central public information on this algorithmic application or publiccode.yml file"
+    en: "URL for the central public information on this algorithmic application or publiccode.yml file."
     nl: "URL voor de centrale publieke infomatie over deze algoritmische toepassing of publiccode.yml file"
   exmaples:
     en: "publiccode.yml file in github repository, European database of AI applications"
@@ -464,7 +464,7 @@ properties:
     nl: "ALGORITME"
   type: "url"
   description:
-    en: "URL reference to the code base of the algorithmic application"
+    en: "URL reference to the code base of the algorithmic application."
     nl: "URL naar de broncode van de algoritmische applicatie"
   examples:
     en: "link to a Github repository, the Common Ground Component Catalogue, supplier website."
@@ -518,7 +518,7 @@ properties:
     nl: "ALGORITME"
   type: "url"
   description:
-    en: "URL to the full AIA documentation"
+    en: "URL to the full AIA documentation."
     nl: "URL van de volledige AIA documentatie"
 
 # OVERSIGHT
@@ -547,7 +547,7 @@ properties:
     nl: "TOEZICHT"
   type: "string"
   description:
-    en: "Please describe how the outcomes of the algorithm can be intervened by humans. It should detail how the responsibility for possible human intervention is secured, so it's clear who can and may act."
+    en: "Please describe how the outcomes of the algorithm can be intervened with by humans. It should detail how the responsibility for possible human intervention is secured, so it's clear who can and may act."
     nl: "Geef aan hoe de uitkomsten van het algoritme door een mens gecontroleerd en bijgesteld worden. Dit moet inzicht geven in hoe menselijke interventie is verzekerd om misstanden te voorkomen."
 
 - attribute: "objection_procedure"
@@ -559,8 +559,8 @@ properties:
     nl: "TOEZICHT"
   type: "string"
   description:
-    en: "Please describe in what way can citizens object against the use or outcome of the algorithm."
-    nl: "Omschrijf op welke manier burgers bezwaar kunnen maken tegen de uitkomsten van het algoritme."
+    en: "Please describe in what way can people object against the use or outcome of the algorithm."
+    nl: "Omschrijf op welke manier mensen bezwaar kunnen maken tegen de uitkomsten van het algoritme."
 
 - attribute: "rollback"
   name:
@@ -586,7 +586,7 @@ properties:
   type: "const"
   const: "0.3"
   description:
-    en: "Version of the standard used for this registration"
+    en: "Version of the standard used for this registration."
     nl: "Versie van de standaard gebruikt voor deze registratie"
   required: true
 
@@ -599,7 +599,7 @@ properties:
     nl: "METADATA"
   type: "uuid"
   description:
-    en: "Universally unique identifier for this registration"
+    en: "Universally unique identifier for this registration."
     nl: "Universeel unieke identificatie voor deze registratie"
 
 - attribute: "contact_name"
@@ -611,7 +611,7 @@ properties:
     nl: "METADATA"
   type: "string"
   description:
-    en: "Name of the contact person for this registration"
+    en: "Name of the contact person for this registration."
     nl: "Naam van de contactpersoon voor deze registratie"
   required: true
 
@@ -624,7 +624,7 @@ properties:
     nl: "METADATA"
   type: "email"
   description:
-    en: "E-mail address of the contact person for this registration"
+    en: "E-mail address of the contact person for this registration."
     nl: "E-mailadres van de contactpersoon voor deze registratie"
   required: true
 
@@ -637,7 +637,7 @@ properties:
     nl: "METADATA"
   type: "string"
   description:
-    en: "Phone number of the contact person for this registration"
+    en: "Phone number of the contact person for this registration."
     nl: "Telefoonnummer van de contactpersoon voor deze registratie"
   required: true
 
@@ -650,7 +650,7 @@ properties:
     nl: "METADATA"
   type: "string"
   description:
-    en: "ISO 639-1 for the language in which this registration was filled in"
+    en: "ISO 639-1 for the language in which this registration was filled in."
     nl: "ISO 639-1 voor de taal waarin deze registratie is ingevoerd"
   examples:
     en: "'en', 'nl'"
@@ -666,7 +666,7 @@ properties:
     nl: "METADATA"
   type: "date"
   description:
-    en: "Date before which this registration has to be revisited"
+    en: "Date before which this registration has to be revisited."
     nl: "Datum waarvoor deze registratie moet worden herzien"
   required: true
 
@@ -694,7 +694,7 @@ properties:
     nl: "METADATA"
   type: "date"
   description:
-    en: "Date of the last change to this registration"
+    en: "Date of the last change to this registration."
     nl: "Datum van de laatste wijziging van deze registratie"
   required: true
 
@@ -707,5 +707,5 @@ properties:
     nl: "METADATA"
   type: "string"
   description:
-    en: "Keywords that might help finding this information"
+    en: "Keywords that might help finding this information."
     nl: "Zoekwoorden helpen bij het vinden van deze informatie"
