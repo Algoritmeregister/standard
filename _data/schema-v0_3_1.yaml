@@ -130,6 +130,69 @@ properties:
     nl: "'Bij stoplichten voorrang van verkeersmodaliteiten berekenen op basis van wetgeving en lokale voorschriften'."
   required: true
 
+- attribute: "domain"
+  name:
+    en: "Domain"
+    nl: "Domein"
+  category:
+    en: "BASIC INFORMATION"
+    nl: "ALGEMENE INFORMATIE"
+  type: "enum"
+  enum: 
+    en: [
+      "taxes", 
+      "housing, living and living environment",
+      "culture, sports and leisure",
+      "defence",
+      "economy and entrepreneurship",
+      "family, youth and households",
+      "finance",
+      "generic",
+      "health and health care",
+      "immigration and integration",
+      "international collaboration and development aid",
+      "agriculture, nature and food",
+      "environment, spacial planning and water",
+      "education and science",
+      "public safety",
+      "government",
+      "justice",
+      "travel, living and working abroad",
+      "subsidies, benefits and allowances",
+      "traffic and transportation",
+      "work and career"
+    ]
+    nl: [
+      "belastingen", 
+      "bouwen, wonen en leefomgeving",
+      "cultuur, sport en vrije tijd",
+      "defensie",
+      "economie en ondernemen",
+      "familie, jeugd en gezin",
+      "financiën",
+      "generiek",
+      "gezondheid en zorg",
+      "immigratie, integratie en inburgering",
+      "internationale- en ontwikkelingssamenwerking",
+      "landbouw, natuur en voedsel",
+      "milieu, ruimte en water",
+      "onderwijs en wetenschap",
+      "openbare orde en veiligheid",
+      "overheid, bestuur en koninkrijk",
+      "rechtspraak",
+      "reizen, wonen en werken in het buitenland",
+      "subsidies, uitkeringen en toeslagen",
+      "verkeer en vervoer",
+      "werk en loopbaan"
+    ]
+  description:
+    en: "In which domain will the algorithm be deployed?"
+    nl: "In welk domein wordt het algoritme ingezet?"
+  examples:
+    en: "justice, finance, 'travel, living and working abroad'"
+    nl: "rechtspraak, financiën, 'reizen, wonen en werken in het buitenland' (de volledige lijst is beschikbaar op https://..."
+  required: true
+
 - attribute: "website"
   name:
     en: "Website"
@@ -209,69 +272,6 @@ properties:
   examples:
     en: "refer to concrete laws, regulation or policy, as published in publicly available sources"
     nl: "link aan concrete wetgeving, voorschriften of beleid zoals vastgelegd in publiek beschikbare bronnen"
-  required: true
-
-- attribute: "domain"
-  name:
-    en: "Domain"
-    nl: "Domein"
-  category:
-    en: "USE CASE"
-    nl: "INZET"
-  type: "enum"
-  enum: 
-    en: [
-      "taxes", 
-      "housing, living and living environment",
-      "culture, sports and leisure",
-      "defence",
-      "economy and entrepreneurship",
-      "family, youth and households",
-      "finance",
-      "generic",
-      "health and health care",
-      "immigration and integration",
-      "international collaboration and development aid",
-      "agriculture, nature and food",
-      "environment, spacial planning and water",
-      "education and science",
-      "public safety",
-      "government",
-      "justice",
-      "travel, living and working abroad",
-      "subsidies, benefits and allowances",
-      "traffic and transportation",
-      "work and career"
-    ]
-    nl: [
-      "belastingen", 
-      "bouwen, wonen en leefomgeving",
-      "cultuur, sport en vrije tijd",
-      "defensie",
-      "economie en ondernemen",
-      "familie, jeugd en gezin",
-      "financiën",
-      "generiek",
-      "gezondheid en zorg",
-      "immigratie, integratie en inburgering",
-      "internationale- en ontwikkelingssamenwerking",
-      "landbouw, natuur en voedsel",
-      "milieu, ruimte en water",
-      "onderwijs en wetenschap",
-      "openbare orde en veiligheid",
-      "overheid, bestuur en koninkrijk",
-      "rechtspraak",
-      "reizen, wonen en werken in het buitenland",
-      "subsidies, uitkeringen en toeslagen",
-      "verkeer en vervoer",
-      "werk en loopbaan"
-    ]
-  description:
-    en: "In which domain will the algorithm be deployed?"
-    nl: "In welk domein wordt het algoritme ingezet?"
-  examples:
-    en: "justice, finance, 'travel, living and working abroad'"
-    nl: "rechtspraak, financiën, 'reizen, wonen en werken in het buitenland' (de volledige lijst is beschikbaar op https://..."
   required: true
 
 - attribute: "area"
