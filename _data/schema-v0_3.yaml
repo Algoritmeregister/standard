@@ -470,7 +470,7 @@ properties:
     en: "link to a Github repository, the Common Ground Component Catalogue, supplier website."
     nl: "link naar Github, de Common Ground componentencatalogus, webpagina van de aanbieder"
 
-- attribute: "langding_url"
+- attribute: "landing_url"
   name:
     en: "Landing page URL"
     nl: "URL van de productpagina"
