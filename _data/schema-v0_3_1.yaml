@@ -284,7 +284,7 @@ properties:
       "beëindigd"
     ]
   description:
-    en: "Status of the use of algorithm."
+    en: "Status of the use of this algorithm."
     nl: "Status van het gebruik van het algoritme."
   required: true
 
