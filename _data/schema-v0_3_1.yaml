@@ -575,18 +575,6 @@ properties:
 # ALGORITHM
 # information on the workings of the chosen algorithm
 
-- attribute: "description"
-  name:
-    en: "Explanation"
-    nl: "Uitleg"
-  category:
-    en: "ALGORITHM"
-    nl: "ALGORITME"
-  type: "string"
-  description:
-    en: "Please provide an extensive description between 500 and 10000 chars explaining the inner workings of the algorithm. It should detail all relevant aspects that are needed to understand how the algorithm processes data and feeds decision making."
-    nl: "Geef een uitgebreide uitleg tussen de 500 en 10000 karakters lang van de manier van werken van het algoritme. Dit moet alle relevante aspecten bevatten om te kunnen snappen hoe het algoritme data verwerkt en een beslissing maakt of beinvloed."
-
 - attribute: "algorithm_type"
   name:
     en: "Type of algorithm"
@@ -602,6 +590,18 @@ properties:
     en: "Please indicate wether the algorithm is self-learning, rule-based or hybrid. This information can be used as a possible risk indicator."
     nl: "Geef aan of het algoritme zelflerend, regelgebaseerd of hybride is. Deze information kan gebruikt worden als risico-indicator."
   required: true
+
+- attribute: "description"
+  name:
+    en: "Explanation"
+    nl: "Uitleg"
+  category:
+    en: "ALGORITHM"
+    nl: "ALGORITME"
+  type: "string"
+  description:
+    en: "Please provide an extensive description between 500 and 10000 chars explaining the inner workings of the algorithm. It should detail all relevant aspects that are needed to understand how the algorithm processes data and feeds decision making."
+    nl: "Geef een uitgebreide uitleg tussen de 500 en 10000 karakters lang van de manier van werken van het algoritme. Dit moet alle relevante aspecten bevatten om te kunnen snappen hoe het algoritme data verwerkt en een beslissing maakt of beinvloed."
 
 - attribute: "methods_and_models"
   name:
