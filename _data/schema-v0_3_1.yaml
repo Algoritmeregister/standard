@@ -540,8 +540,8 @@ properties:
     en: "Connections to data sources"
     nl: "Aangesloten databronnen"
   category:
-    en: "ALGORITHM"
-    nl: "ALGORITME"
+    en: "DATA"
+    nl: "DATA"
   type: "string"
   description:
     en: "Please indicate wether a connection is being made to, for example, a Personal Records Database and specify other relevant connections."
