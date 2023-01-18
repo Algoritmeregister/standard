@@ -42,38 +42,6 @@ properties:
     en: "'Prioritising traffic modalities based on applicable law and local regulations'"
     nl: "'Bij stoplichten voorrang van verkeersmodaliteiten berekenen op basis van wetgeving en lokale voorschriften'."
   required: true
-
-- attribute: "status"
-  name:
-    en: "Status"
-    nl: "Status"
-  category:
-    en: "BASIC INFORMATION"
-    nl: "ALGEMENE INFORMATIE"
-  type: enum
-  enum:
-    en: [
-      "planned",
-      "design",
-      "development",
-      "pilot",
-      "evaluation",
-      "operational",
-      "retired"
-    ]
-    nl: [
-      "gepland",
-      "ontwerp",
-      "ontwikkeling",
-      "pilot",
-      "evaluatie",
-      "operationeel",
-      "beëindigd"
-    ]
-  description:
-    en: "Status of the use of this algorithm."
-    nl: "Status van het gebruik van het algoritme."
-  required: true
   
 - attribute: "organization"
   name:
@@ -236,6 +204,38 @@ properties:
   examples:
     en: "https://algoritmeregister.amsterdam.nl/vroeg-eropaf/"
     nl: "https://algoritmeregister.amsterdam.nl/vroeg-eropaf/"
+
+- attribute: "status"
+  name:
+    en: "Status"
+    nl: "Status"
+  category:
+    en: "BASIC INFORMATION"
+    nl: "ALGEMENE INFORMATIE"
+  type: enum
+  enum:
+    en: [
+      "planned",
+      "design",
+      "development",
+      "pilot",
+      "evaluation",
+      "operational",
+      "retired"
+    ]
+    nl: [
+      "gepland",
+      "ontwerp",
+      "ontwikkeling",
+      "pilot",
+      "evaluatie",
+      "operationeel",
+      "beëindigd"
+    ]
+  description:
+    en: "Status of the use of the algorithm."
+    nl: "Status van het gebruik van het algoritme."
+  required: true
 
 - attribute: "remark"
   name:
@@ -525,8 +525,8 @@ properties:
     nl: "ALGORITME"
   type: "url"
   description:
-    en: "URL for the central public information on this algorithmic application or publiccode.yml file."
-    nl: "URL voor de centrale publieke infomatie over deze algoritmische toepassing of publiccode.yml file."
+    en: "URL for the central public information on the algorithm or publiccode.yml file."
+    nl: "URL voor de centrale publieke infomatie over het algoritme of publiccode.yml file."
   exmaples:
     en: "publiccode.yml file in github repository, European database of AI applications"
     nl: "publiccode.yml file in github repository, Europese database van AI applicaties"
@@ -540,8 +540,8 @@ properties:
     nl: "ALGORITME"
   type: "url"
   description:
-    en: "URL reference to the codebase of the algorithmic application."
-    nl: "URL naar de broncode van de algoritmische applicatie."
+    en: "URL reference to the codebase of the algorithm."
+    nl: "URL naar de broncode van het algoritme."
   examples:
     en: "link to a Github repository, the Common Ground Component Catalogue, supplier website."
     nl: "link naar Github, de Common Ground componentencatalogus, webpagina van de aanbieder"
@@ -555,8 +555,8 @@ properties:
     nl: "ALGORITME"
   type: "url"
   description:
-    en: "URL reference of the product page with further information about the algorithmic application? This facilitates users searching more in-depth information about the practical use or technical details."
-    nl: "URL van de productpagina waarop meer informatie te vinden is over de algoritmische toepassing? Dit is interessant voor gebruikers die meer willen weten over de praktische inzet en technische details."
+    en: "URL reference of the product page with further information about the algorithm? This facilitates users searching more in-depth information about the practical use or technical details."
+    nl: "URL van de productpagina waarop meer informatie te vinden is over het algoritme? Dit is interessant voor gebruikers die meer willen weten over de praktische inzet en technische details."
 
 - attribute: "AIA_description"
   name:
