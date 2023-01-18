@@ -26,6 +26,54 @@ properties:
     en: "'WMO prediction Rotterdam', 'Crowd-monitoring Enschede', 'Top 400/ 600'"
     nl: "'WMO voorspelling Rotterdam', 'Crowd-monitoring Enschede', 'Top 400/ 600'"
   required: true
+
+- attribute: "description_short"
+  name:
+    en: "Short description"
+    nl: "Korte omschrijving"
+  category:
+    en: "BASIC INFORMATION"
+    nl: "ALGEMENE INFORMATIE"
+  type: "string"
+  description:
+    en: "Please give a short description of maximum 150 chars in order to give a quick overview of what this registration is about."
+    nl: "Geef een korte omschrijving van maximaal 150 karakters waarin hoog over omschreven wordt waar deze registratie over gaat."
+  examples:
+    en: "'Prioritising traffic modalities based on applicable law and local regulations'"
+    nl: "'Bij stoplichten voorrang van verkeersmodaliteiten berekenen op basis van wetgeving en lokale voorschriften'."
+  required: true
+
+- attribute: "status"
+  name:
+    en: "Status"
+    nl: "Status"
+  category:
+    en: "BASIC INFORMATION"
+    nl: "ALGEMENE INFORMATIE"
+  type: enum
+  enum:
+    en: [
+      "planned",
+      "design",
+      "development",
+      "pilot",
+      "evaluation",
+      "operational",
+      "retired"
+    ]
+    nl: [
+      "gepland",
+      "ontwerp",
+      "ontwikkeling",
+      "pilot",
+      "evaluatie",
+      "operationeel",
+      "beëindigd"
+    ]
+  description:
+    en: "Status of the use of this algorithm."
+    nl: "Status van het gebruik van het algoritme."
+  required: true
   
 - attribute: "organization"
   name:
@@ -57,19 +105,6 @@ properties:
   examples:
     en: "'District Segbroek', 'Traffic and transport', 'Public safety'"
     nl: "'Stadsdeel Segbroek', 'Verkeer en Transport', 'Openbare Orde en Veiligheid'"
-  required: true
-
-- attribute: "area"
-  name:
-    en: "Geographical area"
-    nl: "Geografisch gebied"
-  category:
-    en: "BASIC INFORMATION"
-    nl: "ALGEMENE INFORMATIE"
-  type: "string"
-  description:
-    en: "Official name of the geographical area in which the algorithm is being used."
-    nl: "Officiële naam van geografische gebied waarin het algoritme wordt gebruikt."
   required: true
 
 - attribute: "contact_email"
@@ -110,21 +145,18 @@ properties:
     en: "Contact name for this registration."
     nl: "Contact naam voor deze registratie."
   required: false
-  
-- attribute: "description_short"
+
+- attribute: "area"
   name:
-    en: "Short description"
-    nl: "Korte omschrijving"
+    en: "Geographical area"
+    nl: "Geografisch gebied"
   category:
     en: "BASIC INFORMATION"
     nl: "ALGEMENE INFORMATIE"
   type: "string"
   description:
-    en: "Please give a short description of maximum 150 chars in order to give a quick overview of what this registration is about."
-    nl: "Geef een korte omschrijving van maximaal 150 karakters waarin hoog over omschreven wordt waar deze registratie over gaat."
-  examples:
-    en: "'Prioritising traffic modalities based on applicable law and local regulations'"
-    nl: "'Bij stoplichten voorrang van verkeersmodaliteiten berekenen op basis van wetgeving en lokale voorschriften'."
+    en: "Official name of the geographical area in which the algorithm is being used."
+    nl: "Officiële naam van geografische gebied waarin het algoritme wordt gebruikt."
   required: true
 
 - attribute: "domain"
@@ -204,38 +236,6 @@ properties:
   examples:
     en: "https://algoritmeregister.amsterdam.nl/vroeg-eropaf/"
     nl: "https://algoritmeregister.amsterdam.nl/vroeg-eropaf/"
-
-- attribute: "status"
-  name:
-    en: "Status"
-    nl: "Status"
-  category:
-    en: "BASIC INFORMATION"
-    nl: "ALGEMENE INFORMATIE"
-  type: enum
-  enum:
-    en: [
-      "planned",
-      "design",
-      "development",
-      "pilot",
-      "evaluation",
-      "operational",
-      "retired"
-    ]
-    nl: [
-      "gepland",
-      "ontwerp",
-      "ontwikkeling",
-      "pilot",
-      "evaluatie",
-      "operationeel",
-      "beëindigd"
-    ]
-  description:
-    en: "Status of the use of this algorithm."
-    nl: "Status van het gebruik van het algoritme."
-  required: true
 
 - attribute: "remark"
   name:
