@@ -6,6 +6,9 @@ description: Readme file on the code base
 
 # Algorithm Register Metadata Standard
 
+The Algorithm Register Metadata Standard specifies the format and content of the meta data recorded about algorithms so that algorithm registries can be aligned with each other.
+This standard enables aggregation of content across multiple implementations, for example a municipality may provide a registry to its residents and also provide that same data to a national registry.
+
 ## Objectives
 
 In this code base we define the metadata standard: what do we register about the algorithms being used in government, why and how.
